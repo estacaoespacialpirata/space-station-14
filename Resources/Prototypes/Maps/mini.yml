@@ -1,0 +1,31 @@
+- type: gameMap
+  id: mini
+  mapName: 'Mini'
+  mapPath: /Maps/mini.yml
+  minPlayers: 0
+  votable: false
+  stations:
+    Station: #TODO: Mapper, add a BecomesStation component to the primary grid of the map.
+      mapNameTemplate: '{0} Mini {1}'
+      nameGenerator:
+        !type:NanotrasenNameGenerator
+        prefixCreator: '14'
+      overflowJobs:
+        - Passenger
+      availableJobs:
+        CargoTechnician: [ 1, 1 ]
+        Passenger: [ -1, -1 ]
+        Bartender: [ 1, 1 ]
+        Botanist: [ 1, 1 ]
+        Chef: [ 1, 1 ]
+        Clown: [ 1, 1 ]
+        Janitor: [ 1, 1 ]
+        Captain: [ 1, 1 ]
+        HeadOfPersonnel: [ 1, 1 ]
+        StationEngineer: [ 2, 2 ]
+        AtmosphericTechnician: [ 2, 2 ]
+        MedicalDoctor: [ 2, 2 ]
+        Chemist: [ 1, 1 ]
+        Scientist: [ 2, 2 ]
+        SecurityOfficer: [ 2, 2 ]
+        SalvageSpecialist: [ 1, 2 ]

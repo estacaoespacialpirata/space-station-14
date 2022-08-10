@@ -1,0 +1,20 @@
+- type: entity
+  name: mail bag
+  id: MailBag
+  parent: BaseStorageItem
+  description: Here's the mail, it never fails...
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Clothing/Belt/mailbag.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Belt/mailbag.rsi
+    quickEquip: false
+    slots: [belt]
+    size: 120
+  - type: Storage
+    capacity: 120
+    whitelist:
+      components:
+        - Mail

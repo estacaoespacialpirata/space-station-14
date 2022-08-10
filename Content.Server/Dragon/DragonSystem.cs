@@ -130,7 +130,7 @@ namespace Content.Server.Dragon
                     comp.State = DragonRiftState.Finished;
                     Dirty(comp);
                 }
-                else if (comp.State != DragonRiftState.Finished)
+                else
                 {
                     comp.Accumulator += frameTime;
                 }

@@ -1,0 +1,1588 @@
+meta:
+  format: 2
+  name: DemoStation
+  author: Space-Wizards
+  postmapinit: false
+tilemap:
+  0: space
+  1: FloorArcadeBlue
+  2: FloorArcadeBlue2
+  3: FloorArcadeRed
+  4: FloorAsteroidIronsand1
+  5: FloorAsteroidIronsand2
+  6: FloorAsteroidIronsand3
+  7: FloorAsteroidIronsand4
+  8: FloorBoxing
+  9: FloorCarpetClown
+  10: FloorCarpetOffice
+  11: FloorEighties
+  12: FloorGrassJungle
+  13: FloorGym
+  14: FloorMetalDiamond
+  15: FloorShuttleBlue
+  16: FloorShuttleOrange
+  17: FloorShuttlePurple
+  18: FloorShuttleRed
+  19: FloorShuttleWhite
+  20: floor_asteroid_coarse_sand0
+  21: floor_asteroid_coarse_sand1
+  22: floor_asteroid_coarse_sand2
+  23: floor_asteroid_coarse_sand_dug
+  24: floor_asteroid_sand
+  25: floor_asteroid_tile
+  26: floor_bar
+  27: floor_blue
+  28: floor_blue_circuit
+  29: floor_clown
+  30: floor_dark
+  31: floor_elevator_shaft
+  32: floor_freezer
+  33: floor_glass
+  34: floor_gold
+  35: floor_grass
+  36: floor_green_circuit
+  37: floor_hydro
+  38: floor_kitchen
+  39: floor_laundry
+  40: floor_lino
+  41: floor_mime
+  42: floor_mono
+  43: floor_reinforced
+  44: floor_rglass
+  45: floor_rock_vault
+  46: floor_showroom
+  47: floor_silver
+  48: floor_snow
+  49: floor_steel
+  50: floor_steel_dirty
+  51: floor_techmaint
+  52: floor_white
+  53: floor_wood
+  54: lattice
+  55: plating
+grids:
+- settings:
+    chunksize: 16
+    tilesize: 1
+  chunks:
+  - ind: -1,-1
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2AAAANgAAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAADcAAAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAA3AAAANwAAAA==
+  - ind: 0,-1
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYAAAA2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: -1,0
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAA3AAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AAAAEgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAABIAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAASAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AAAAEgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAABMAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAA3AAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2AAAANwAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: 0,0
+    tiles: NwAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAA2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+entities:
+- uid: 0
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -1.5,6.5
+    parent: 58
+    type: Transform
+- uid: 1
+  type: CableApcExtension
+  components:
+  - pos: -1.5,5.5
+    parent: 58
+    type: Transform
+- uid: 2
+  type: Grille
+  components:
+  - pos: -2.5,6.5
+    parent: 58
+    type: Transform
+- uid: 3
+  type: WallReinforced
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,0.5
+    parent: 58
+    type: Transform
+- uid: 4
+  type: AtmosDeviceFanTiny
+  components:
+  - anchored: True
+    rot: -1.5707963267948966 rad
+    pos: 1.5,2.5
+    parent: 58
+    type: Transform
+- uid: 5
+  type: GeneratorWallmountAPU
+  components:
+  - pos: 0.5,-1.5
+    parent: 58
+    type: Transform
+  - supplyRampPosition: 6000
+    type: PowerSupplier
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 6
+  type: WallReinforced
+  components:
+  - pos: 1.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 7
+  type: WallReinforced
+  components:
+  - pos: 1.5,0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 8
+  type: WallReinforced
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,3.5
+    parent: 58
+    type: Transform
+- uid: 9
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 10
+  type: Grille
+  components:
+  - pos: -1.5,7.5
+    parent: 58
+    type: Transform
+- uid: 11
+  type: APCBasic
+  components:
+  - pos: 1.5,0.5
+    parent: 58
+    type: Transform
+  - loadingNetworkDemand: 11270
+    currentReceiving: 11269.967
+    currentSupply: 11270
+    supplyRampPosition: 0.033203125
+    type: PowerNetworkBattery
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 12
+  type: CableMV
+  components:
+  - pos: 1.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 13
+  type: WallReinforced
+  components:
+  - pos: 0.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 14
+  type: CableApcExtension
+  components:
+  - pos: 0.5,4.5
+    parent: 58
+    type: Transform
+- uid: 15
+  type: CableApcExtension
+  components:
+  - pos: 1.5,0.5
+    parent: 58
+    type: Transform
+- uid: 16
+  type: WallReinforced
+  components:
+  - pos: -2.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 17
+  type: AirlockExternalGlassLocked
+  components:
+  - pos: -0.5,-1.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 18
+  type: WindoorCommandLocked
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -0.5,4.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 19
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -1.5,4.5
+    parent: 58
+    type: Transform
+- uid: 20
+  type: AtmosDeviceFanTiny
+  components:
+  - anchored: True
+    pos: -0.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 21
+  type: Poweredlight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,3.5
+    parent: 58
+    type: Transform
+  - softness: 0.5
+    energy: 4.5
+    radius: 12
+    color: '#B4FCF0FF'
+    type: PointLight
+  - containers:
+      light_bulb: !type:ContainerSlot
+        ent: 77
+    type: ContainerContainer
+  - powerLoad: 100
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 22
+  type: Gyroscope
+  components:
+  - pos: -1.5,-0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 23
+  type: Grille
+  components:
+  - pos: -2.5,5.5
+    parent: 58
+    type: Transform
+- uid: 24
+  type: Grille
+  components:
+  - pos: -0.5,7.5
+    parent: 58
+    type: Transform
+- uid: 25
+  type: WindowTintedDirectional
+  components:
+  - pos: 0.5,1.5
+    parent: 58
+    type: Transform
+- uid: 26
+  type: CableHV
+  components:
+  - pos: 1.5,-0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 27
+  type: WindowTintedDirectional
+  components:
+  - pos: -1.5,1.5
+    parent: 58
+    type: Transform
+- uid: 28
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,4.5
+    parent: 58
+    type: Transform
+- uid: 29
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,4.5
+    parent: 58
+    type: Transform
+- uid: 30
+  type: CableApcExtension
+  components:
+  - pos: -0.5,5.5
+    parent: 58
+    type: Transform
+- uid: 31
+  type: CableMVStack
+  components:
+  - rot: 1.1391854286193848 rad
+    pos: 70.09413,12.428624
+    parent: 98
+    type: Transform
+  - count: 26
+    type: Stack
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 32
+  type: CableHV
+  components:
+  - pos: 1.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 33
+  type: Grille
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,1.5
+    parent: 58
+    type: Transform
+- uid: 34
+  type: CableApcStack
+  components:
+  - rot: 1.1391854286193848 rad
+    pos: 68.23035,7.2226295
+    parent: 98
+    type: Transform
+  - count: 18
+    type: Stack
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 35
+  type: Thruster
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -1.5,-2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+- uid: 36
+  type: CableApcExtension
+  components:
+  - pos: -1.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 37
+  type: WallReinforced
+  components:
+  - pos: -2.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 38
+  type: CableApcExtension
+  components:
+  - pos: 0.5,5.5
+    parent: 58
+    type: Transform
+- uid: 39
+  type: CableMV
+  components:
+  - pos: 1.5,0.5
+    parent: 58
+    type: Transform
+- uid: 40
+  type: Thruster
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,-2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+- uid: 41
+  type: WallReinforced
+  components:
+  - pos: 1.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 42
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,4.5
+    parent: 58
+    type: Transform
+- uid: 43
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,1.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 44
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -1.5,1.5
+    parent: 58
+    type: Transform
+- uid: 45
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -1.5,3.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 46
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 0.5,5.5
+    parent: 58
+    type: Transform
+- uid: 47
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -0.5,5.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 48
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -1.5,5.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 49
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -1.5,4.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 50
+  type: WallReinforced
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,3.5
+    parent: 58
+    type: Transform
+- uid: 51
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,4.5
+    parent: 58
+    type: Transform
+- uid: 52
+  type: WindoorEngineeringLocked
+  components:
+  - pos: -0.5,1.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 53
+  type: AirlockExternalGlassShuttleLocked
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.49,-0.49
+        - 0.49,0.49
+        - -0.49,0.49
+        - -0.49,-0.49
+      mask:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      layer:
+      - MidImpassable
+      - HighImpassable
+      - BulletImpassable
+      - InteractImpassable
+      - Opaque
+      mass: 100
+    - shape: !type:PhysShapeCircle
+        position: 0,-0.5
+        radius: 0.2
+      hard: False
+      id: docking
+    type: Fixtures
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 54
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,4.5
+    parent: 58
+    type: Transform
+- uid: 55
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,5.5
+    parent: 58
+    type: Transform
+- uid: 56
+  type: ReinforcedWindow
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,1.5
+    parent: 58
+    type: Transform
+- uid: 57
+  type: Grille
+  components:
+  - pos: 1.5,6.5
+    parent: 58
+    type: Transform
+- uid: 58
+  components:
+  - name: shuttle 3
+    type: MetaData
+  - rot: 2.983415126800537 rad
+    pos: -64.33653,-502.64282
+    parent: 98
+    type: Transform
+  - index: 0
+    type: MapGrid
+  - angularDamping: 0.05
+    linearDamping: 0.05
+    fixedRotation: False
+    bodyType: Dynamic
+    type: Physics
+  - fixtures: []
+    type: Fixtures
+  - gravityShakeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    enabled: True
+    type: Gravity
+  - chunkCollection: {}
+    type: DecalGrid
+  - tiles:
+      -2,-3: 0
+      -2,-1: 1
+      -1,-3: 0
+      -1,-2: 2
+      -1,-1: 3
+      0,-3: 0
+      0,-1: 4
+      1,-3: 0
+      -2,0: 5
+      -1,0: 6
+      0,0: 7
+      0,1: 8
+      -1,1: 9
+      -2,1: 10
+      -3,2: 11
+      -2,2: 12
+      -1,2: 13
+      0,2: 14
+      1,2: 15
+      0,3: 16
+      -1,3: 17
+      -2,3: 18
+      -2,4: 19
+      -1,4: 20
+      0,4: 19
+      0,5: 21
+      -1,5: 22
+      -2,5: 23
+      -1,6: 24
+      -3,-3: 0
+      -4,-3: 0
+      -4,-2: 0
+      -4,-1: 0
+      -4,0: 0
+      2,-2: 0
+      2,-1: 0
+      -3,7: 0
+      1,7: 0
+    uniqueMixes:
+    - volume: 2500
+      immutable: True
+      moles:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.01746
+      moles:
+      - 21.543684
+      - 81.24111
+      - 0.051745776
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.26013
+      moles:
+      - 6.982591E-07
+      - 0.012981123
+      - 0.0034499199
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 290.5921
+      moles:
+      - 21.564327
+      - 81.22473
+      - 0.026915256
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.01758
+      moles:
+      - 21.543684
+      - 81.24111
+      - 0.051745653
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.89023
+      moles:
+      - 21.552938
+      - 81.241066
+      - 0.042530864
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 291.5534
+      moles:
+      - 21.557085
+      - 81.2247
+      - 0.034189194
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.89014
+      moles:
+      - 21.552938
+      - 81.241066
+      - 0.042531744
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11877
+      moles:
+      - 21.581238
+      - 81.24092
+      - 0.014379781
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 291.9773
+      moles:
+      - 21.563843
+      - 81.24093
+      - 0.031768877
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11877
+      moles:
+      - 21.581984
+      - 81.24092
+      - 0.013636576
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 276.63437
+      moles:
+      - 5.3734927
+      - 20.278137
+      - 0.016637517
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.1179
+      moles:
+      - 21.564821
+      - 81.212494
+      - 0.023241343
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.1182
+      moles:
+      - 21.505089
+      - 81.25654
+      - 0.0946821
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11874
+      moles:
+      - 21.573568
+      - 81.24091
+      - 0.022051979
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 276.6218
+      moles:
+      - 5.376721
+      - 20.26595
+      - 0.010169608
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11868
+      moles:
+      - 21.528133
+      - 81.25513
+      - 0.07126438
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.1182
+      moles:
+      - 21.503542
+      - 81.266945
+      - 0.09899491
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11868
+      moles:
+      - 21.525043
+      - 81.25005
+      - 0.07300383
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 292.11877
+      moles:
+      - 21.58222
+      - 81.24091
+      - 0.013399948
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 291.89465
+      moles:
+      - 21.543232
+      - 81.24499
+      - 0.053460237
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.26883
+      moles:
+      - 21.538437
+      - 81.241104
+      - 0.057000574
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 291.2225
+      moles:
+      - 21.53883
+      - 81.2247
+      - 0.052439816
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.26813
+      moles:
+      - 21.534039
+      - 81.22452
+      - 0.056994252
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 288.26822
+      moles:
+      - 21.542742
+      - 81.241104
+      - 0.05269549
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    type: GridAtmosphere
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 59
+  type: ComputerShuttle
+  components:
+  - pos: -0.5,6.5
+    parent: 58
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 60
+  type: WallReinforced
+  components:
+  - pos: -1.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 61
+  type: ReinforcedWindow
+  components:
+  - pos: 1.5,6.5
+    parent: 58
+    type: Transform
+- uid: 62
+  type: ReinforcedWindow
+  components:
+  - pos: 0.5,7.5
+    parent: 58
+    type: Transform
+- uid: 63
+  type: AirlockExternalGlassShuttleLocked
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.49,-0.49
+        - 0.49,0.49
+        - -0.49,0.49
+        - -0.49,-0.49
+      mask:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      layer:
+      - MidImpassable
+      - HighImpassable
+      - BulletImpassable
+      - InteractImpassable
+      - Opaque
+      mass: 100
+    - shape: !type:PhysShapeCircle
+        position: 0,-0.5
+        radius: 0.2
+      hard: False
+      id: docking
+    type: Fixtures
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 64
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,3.5
+    parent: 58
+    type: Transform
+- uid: 65
+  type: Thruster
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,-2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+- uid: 66
+  type: CableHVStack
+  components:
+  - rot: 1.1391854286193848 rad
+    pos: 70.318924,14.293784
+    parent: 98
+    type: Transform
+  - count: 23
+    type: Stack
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 67
+  type: GravityGeneratorMini
+  components:
+  - pos: -1.5,0.5
+    parent: 58
+    type: Transform
+  - powerLoad: 500
+    type: ApcPowerReceiver
+  - radius: 2.5
+    type: PointLight
+- uid: 68
+  type: CableApcExtension
+  components:
+  - pos: 0.5,3.5
+    parent: 58
+    type: Transform
+- uid: 69
+  type: CableApcExtension
+  components:
+  - pos: 0.5,2.5
+    parent: 58
+    type: Transform
+- uid: 70
+  type: CableApcExtension
+  components:
+  - pos: 0.5,1.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 71
+  type: CableApcExtension
+  components:
+  - pos: 0.5,-0.5
+    parent: 58
+    type: Transform
+- uid: 72
+  type: CableApcExtension
+  components:
+  - pos: 0.5,0.5
+    parent: 58
+    type: Transform
+- uid: 73
+  type: SubstationWallBasic
+  components:
+  - pos: 1.5,-0.5
+    parent: 58
+    type: Transform
+  - startingCharge: 1313072.6
+    type: Battery
+  - loadingNetworkDemand: 11269.967
+    currentReceiving: 12000
+    currentSupply: 11269.967
+    type: PowerNetworkBattery
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 74
+  type: AirCanister
+  components:
+  - pos: 0.5,-0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 75
+  type: Grille
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,1.5
+    parent: 58
+    type: Transform
+- uid: 76
+  type: Poweredlight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -1.5,4.5
+    parent: 58
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 77
+  type: ExteriorLightTube
+  components:
+  - parent: 21
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 78
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -1.5,6.5
+    parent: 58
+    type: Transform
+- uid: 79
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,6.5
+    parent: 58
+    type: Transform
+- uid: 80
+  type: Grille
+  components:
+  - pos: 1.5,5.5
+    parent: 58
+    type: Transform
+- uid: 81
+  type: Thruster
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 0.5,-2.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 82
+  type: Thruster
+  components:
+  - pos: 1.5,7.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+- uid: 83
+  type: GeneratorWallmountAPU
+  components:
+  - pos: 1.5,-1.5
+    parent: 58
+    type: Transform
+  - supplyRampPosition: 6000
+    type: PowerSupplier
+- uid: 84
+  type: Thruster
+  components:
+  - pos: -2.5,7.5
+    parent: 58
+    type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.45,-0.45
+        - 0.45,0.45
+        - -0.45,0.45
+        - -0.45,-0.45
+      mask:
+      - Impassable
+      - MidImpassable
+      - LowImpassable
+      layer:
+      - MidImpassable
+      - LowImpassable
+      mass: 50
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.4,0.5
+        - 0.1,1.2
+        - -0.1,1.2
+        - -0.4,0.5
+      layer:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      hard: False
+      id: thruster-burn
+    type: Fixtures
+- uid: 85
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,6.5
+    parent: 58
+    type: Transform
+- uid: 86
+  type: Catwalk
+  components:
+  - pos: -0.5,0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 87
+  type: ReinforcedWindow
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,7.5
+    parent: 58
+    type: Transform
+- uid: 88
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,5.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 89
+  type: AtmosDeviceFanTiny
+  components:
+  - anchored: True
+    rot: -1.5707963267948966 rad
+    pos: -2.5,2.5
+    parent: 58
+    type: Transform
+- uid: 90
+  type: ReinforcedWindow
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,1.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 91
+  type: CableHV
+  components:
+  - pos: 0.5,-1.5
+    parent: 58
+    type: Transform
+- uid: 92
+  type: PortableScrubber
+  components:
+  - pos: 0.5,0.5
+    parent: 58
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - gasMixture:
+      volume: 1250
+      temperature: 288.87146
+      moles:
+      - 0
+      - 0
+      - 0.010515477
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    type: PortableScrubber
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 93
+  type: Grille
+  components:
+  - pos: 0.5,7.5
+    parent: 58
+    type: Transform
+- uid: 94
+  type: ReinforcedWindow
+  components:
+  - pos: -2.5,6.5
+    parent: 58
+    type: Transform
+- uid: 95
+  type: Catwalk
+  components:
+  - pos: -0.5,-0.5
+    parent: 58
+    type: Transform
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+- uid: 96
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 0.5,4.5
+    parent: 58
+    type: Transform
+- uid: 97
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,7.5
+    parent: 58
+    type: Transform
+- uid: 98
+  components:
+  - name: shuttle 3
+    type: MetaData
+  - index: 5000
+    type: Map
+  - fibers: []
+    fingerprints:
+    - F5CDD9615CAB935657ED2609584EBE93
+    type: Forensics
+...

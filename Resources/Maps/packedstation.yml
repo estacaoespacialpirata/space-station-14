@@ -99192,6 +99192,10 @@ entities:
     type: Transform
   - canCollide: False
     type: Physics
+  - containers:
+      storagebase: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 12104
   type: CigarGold
   components:

@@ -498,3 +498,18 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/soymilk.rsi
+
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkCachacaBottleFull
+  name: cachaça bottle
+  description: Aah, cachaça.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Cachaca
+          Quantity: 100
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/cachacabottle.rsi

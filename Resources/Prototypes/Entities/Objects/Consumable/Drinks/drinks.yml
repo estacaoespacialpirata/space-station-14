@@ -1914,6 +1914,23 @@
 
 - type: entity
   parent: DrinkGlassBase
+  id: DrinkCaipirinhaGlass
+  name: caipirinha glass
+  description: For when you can't drink pure cachaça anymore.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 50
+        reagents:
+        - ReagentId: Caipirinha
+          Quantity: 50
+  - type: Drink
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/caipirinhaglass.rsi
+
+- type: entity
+  parent: DrinkGlassBase
   id: DrinkWaterJug
   name: water jug
   description: Stay hydrated

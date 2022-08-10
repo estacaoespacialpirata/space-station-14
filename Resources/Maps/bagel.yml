@@ -307,9 +307,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -62.5,9.5
+  - pos: -62.5,8.5
     parent: 60
     type: Transform
 - uid: 5
@@ -23845,6 +23845,17 @@ entities:
     - volume: 2500
       temperature: 293.15
       moles:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
       - 6666.982
       - 0
       - 0
@@ -29311,7 +29322,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 757
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: -14.5,-27.5
     parent: 60
@@ -32982,19 +32993,17 @@ entities:
     parent: 60
     type: Transform
 - uid: 1181
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: -18.5,-29.5
     parent: 60
     type: Transform
 - uid: 1182
-  type: WeaponLaserCarbine
+  type: WallSolid
   components:
-  - pos: -28.425081,0.9612086
+  - pos: -18.5,-30.5
     parent: 60
     type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 1183
   type: WallSolid
   components:
@@ -34191,9 +34200,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 1333
-  type: ShuttleWindow
+  type: WindowReinforcedDirectional
   components:
-  - pos: -26.5,-63.5
+  - rot: -1.5707963267948966 rad
+    pos: -25.5,-62.5
     parent: 60
     type: Transform
 - uid: 1334
@@ -35422,13 +35432,13 @@ entities:
     parent: 60
     type: Transform
 - uid: 1493
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: -14.5,-28.5
     parent: 60
     type: Transform
 - uid: 1494
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: -14.5,-30.5
     parent: 60
@@ -35671,9 +35681,9 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 1525
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -60.5,-14.5
+  - pos: -59.5,-15.5
     parent: 60
     type: Transform
 - uid: 1526
@@ -40014,7 +40024,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 2073
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 8.5,-38.5
     parent: 60
@@ -45251,9 +45261,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 2690
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -12.5,-47.5
+  - rot: 1.5707963267948966 rad
+    pos: -13.5,-47.5
     parent: 60
     type: Transform
 - uid: 2691
@@ -49100,9 +49111,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3174
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 42.5,-39.5
+  - rot: 1.5707963267948966 rad
+    pos: 43.5,-38.5
     parent: 60
     type: Transform
 - uid: 3175
@@ -49113,9 +49125,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3176
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 43.5,-38.5
+  - rot: 1.5707963267948966 rad
+    pos: 42.5,-39.5
     parent: 60
     type: Transform
 - uid: 3177
@@ -49516,9 +49529,10 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3226
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 16.5,-42.5
+  - rot: -1.5707963267948966 rad
+    pos: 14.5,-42.5
     parent: 60
     type: Transform
 - uid: 3227
@@ -49543,15 +49557,17 @@ entities:
     parent: 60
     type: Transform
 - uid: 3230
-  type: Bed
+  type: WallSolid
   components:
-  - pos: 48.5,-34.5
+  - rot: -1.5707963267948966 rad
+    pos: 12.5,-44.5
     parent: 60
     type: Transform
 - uid: 3231
-  type: BedsheetSpawner
+  type: WallSolid
   components:
-  - pos: 48.5,-34.5
+  - rot: -1.5707963267948966 rad
+    pos: 12.5,-45.5
     parent: 60
     type: Transform
 - uid: 3232
@@ -49962,15 +49978,16 @@ entities:
     parent: 60
     type: Transform
 - uid: 3294
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 15.5,-47.5
+  - rot: -1.5707963267948966 rad
+    pos: 15.5,-47.5
     parent: 60
     type: Transform
 - uid: 3295
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 14.5,-47.5
+  - pos: 16.5,-47.5
     parent: 60
     type: Transform
 - uid: 3296
@@ -50073,7 +50090,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 3312
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 43.5,-43.5
     parent: 60
@@ -50345,9 +50362,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3352
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -62.5,8.5
+  - pos: -62.5,9.5
     parent: 60
     type: Transform
 - uid: 3353
@@ -50565,9 +50582,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3386
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -59.5,-15.5
+  - pos: -58.5,-15.5
     parent: 60
     type: Transform
 - uid: 3387
@@ -50623,9 +50640,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3394
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -53.5,-20.5
+  - pos: -53.5,-19.5
     parent: 60
     type: Transform
 - uid: 3395
@@ -50826,9 +50843,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3425
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 59.5,-25.5
+  - pos: 59.5,-28.5
     parent: 60
     type: Transform
 - uid: 3426
@@ -50880,9 +50897,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3434
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 59.5,-28.5
+  - pos: 59.5,-25.5
     parent: 60
     type: Transform
 - uid: 3435
@@ -51083,7 +51100,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 3463
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 47.5,-36.5
     parent: 60
@@ -51251,13 +51268,13 @@ entities:
     parent: 60
     type: Transform
 - uid: 3489
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 55.5,-18.5
     parent: 60
     type: Transform
 - uid: 3490
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 55.5,-19.5
     parent: 60
@@ -51303,7 +51320,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 3496
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 56.5,-22.5
     parent: 60
@@ -51400,9 +51417,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3511
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 46.5,-38.5
+  - rot: -1.5707963267948966 rad
+    pos: 46.5,-39.5
     parent: 60
     type: Transform
 - uid: 3512
@@ -51418,7 +51436,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 3514
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: 57.5,-35.5
     parent: 60
@@ -51493,19 +51511,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 3526
-  type: PoweredlightSodium
+  type: MaintenanceWeaponSpawner
   components:
-  - rot: 1.5707963267948966 rad
-    pos: 47.5,-37.5
+  - pos: 47.5,-34.5
     parent: 60
     type: Transform
-  - powerLoad: 0
-    type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 3527
   type: PoweredSmallLight
   components:
@@ -51547,11 +51557,19 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 3531
-  type: WallSolidRust
+  type: PoweredlightSodium
   components:
-  - pos: 20.5,-50.5
+  - rot: 1.5707963267948966 rad
+    pos: 47.5,-35.5
     parent: 60
     type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 3532
   type: PoweredlightSodium
   components:
@@ -52084,9 +52102,10 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 3599
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 12.5,-44.5
+  - rot: -1.5707963267948966 rad
+    pos: 15.5,-50.5
     parent: 60
     type: Transform
 - uid: 3600
@@ -52176,27 +52195,31 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 3611
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 10.5,-42.5
+  - rot: -1.5707963267948966 rad
+    pos: 19.5,-45.5
     parent: 60
     type: Transform
 - uid: 3612
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 14.5,-42.5
+  - rot: -1.5707963267948966 rad
+    pos: 18.5,-45.5
     parent: 60
     type: Transform
 - uid: 3613
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 16.5,-45.5
+  - rot: -1.5707963267948966 rad
+    pos: 17.5,-45.5
     parent: 60
     type: Transform
 - uid: 3614
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 15.5,-42.5
+  - rot: -1.5707963267948966 rad
+    pos: 16.5,-45.5
     parent: 60
     type: Transform
 - uid: 3615
@@ -52207,9 +52230,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3616
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 16.5,-47.5
+  - rot: -1.5707963267948966 rad
+    pos: 17.5,-43.5
     parent: 60
     type: Transform
 - uid: 3617
@@ -52273,15 +52297,16 @@ entities:
     parent: 60
     type: Transform
 - uid: 3626
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 15.5,-50.5
+  - rot: -1.5707963267948966 rad
+    pos: 14.5,-47.5
     parent: 60
     type: Transform
 - uid: 3627
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 12.5,-45.5
+  - pos: 20.5,-50.5
     parent: 60
     type: Transform
 - uid: 3628
@@ -52291,9 +52316,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3629
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 10.5,-47.5
+  - pos: 20.5,-47.5
     parent: 60
     type: Transform
 - uid: 3630
@@ -52310,15 +52335,17 @@ entities:
     parent: 60
     type: Transform
 - uid: 3632
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 20.5,-47.5
+  - rot: -1.5707963267948966 rad
+    pos: 10.5,-47.5
     parent: 60
     type: Transform
 - uid: 3633
-  type: PoweredSmallLight
+  type: WallSolid
   components:
-  - pos: 48.5,-34.5
+  - rot: -1.5707963267948966 rad
+    pos: 15.5,-42.5
     parent: 60
     type: Transform
   - powerLoad: 0
@@ -52332,9 +52359,10 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3634
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 57.5,-43.5
+  - rot: -1.5707963267948966 rad
+    pos: 16.5,-42.5
     parent: 60
     type: Transform
 - uid: 3635
@@ -52463,9 +52491,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3655
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 8.5,-42.5
+  - pos: 50.5,-43.5
     parent: 60
     type: Transform
 - uid: 3656
@@ -52592,9 +52620,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3676
-  type: LockerBoozeFilled
+  type: WallSolid
   components:
-  - pos: 47.5,-34.5
+  - rot: -1.5707963267948966 rad
+    pos: 8.5,-42.5
     parent: 60
     type: Transform
 - uid: 3677
@@ -52618,9 +52647,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3680
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -10.5,-49.5
+  - rot: -1.5707963267948966 rad
+    pos: 10.5,-42.5
     parent: 60
     type: Transform
 - uid: 3681
@@ -53840,9 +53870,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 3850
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -17.5,-36.5
+  - rot: 1.5707963267948966 rad
+    pos: -12.5,-47.5
     parent: 60
     type: Transform
 - uid: 3851
@@ -53986,9 +54017,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 3871
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -38.5,-30.5
+  - pos: -17.5,-36.5
     parent: 60
     type: Transform
 - uid: 3872
@@ -55551,9 +55582,9 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 4055
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -62.5,0.5
+  - pos: -38.5,-30.5
     parent: 60
     type: Transform
 - uid: 4056
@@ -56757,9 +56788,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4222
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -58.5,-7.5
+  - pos: -62.5,0.5
     parent: 60
     type: Transform
 - uid: 4223
@@ -57433,9 +57464,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4310
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -44.5,-24.5
+  - pos: -58.5,-7.5
     parent: 60
     type: Transform
 - uid: 4311
@@ -57724,14 +57755,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 4345
-  type: PottedPlant2
+  type: WallSolid
   components:
-  - pos: -22.5,-29.5
+  - pos: -44.5,-24.5
     parent: 60
     type: Transform
-  - containers:
-      stash: !type:ContainerSlot {}
-    type: ContainerContainer
 - uid: 4346
   type: WallReinforced
   components:
@@ -57773,11 +57801,14 @@ entities:
     parent: 60
     type: Transform
 - uid: 4351
-  type: WallSolidRust
+  type: PottedPlantRandom
   components:
-  - pos: -38.5,-35.5
+  - pos: -22.5,-26.5
     parent: 60
     type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
 - uid: 4352
   type: WallReinforced
   components:
@@ -58621,9 +58652,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4482
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -34.5,-33.5
+  - pos: -27.5,-33.5
     parent: 60
     type: Transform
 - uid: 4483
@@ -58887,9 +58918,9 @@ entities:
   - color: '#0335FCFF'
     type: AtmosPipeColor
 - uid: 4517
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -35.5,-33.5
+  - pos: -28.5,-33.5
     parent: 60
     type: Transform
 - uid: 4518
@@ -59116,7 +59147,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4538
-  type: WallSolidRust
+  type: WallSolid
   components:
   - pos: -29.5,-33.5
     parent: 60
@@ -59447,9 +59478,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4570
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -28.5,-33.5
+  - pos: -34.5,-33.5
     parent: 60
     type: Transform
 - uid: 4571
@@ -59712,9 +59743,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4604
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -27.5,-33.5
+  - pos: -35.5,-33.5
     parent: 60
     type: Transform
 - uid: 4605
@@ -59724,9 +59755,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4606
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -13.5,-47.5
+  - pos: -38.5,-35.5
     parent: 60
     type: Transform
 - uid: 4607
@@ -61117,9 +61148,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4833
-  type: Grille
+  type: WallSolid
   components:
-  - pos: -20.5,-65.5
+  - pos: -10.5,-49.5
     parent: 60
     type: Transform
 - uid: 4834
@@ -62411,9 +62442,10 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4971
-  type: ShuttleWindow
+  type: ReinforcedWindow
   components:
-  - pos: -15.5,-59.5
+  - rot: -1.5707963267948966 rad
+    pos: -13.5,-59.5
     parent: 60
     type: Transform
 - uid: 4972
@@ -62435,9 +62467,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4975
-  type: ShuttleWindow
+  type: WallShuttle
   components:
-  - pos: -11.5,-59.5
+  - pos: -15.5,-59.5
     parent: 60
     type: Transform
 - uid: 4976
@@ -62465,9 +62497,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 4980
-  type: ShuttleWindow
+  type: WallShuttle
   components:
-  - pos: -11.5,-65.5
+  - pos: -11.5,-59.5
     parent: 60
     type: Transform
 - uid: 4981
@@ -62563,25 +62595,27 @@ entities:
 - uid: 4995
   type: WallShuttle
   components:
-  - pos: -13.5,-59.5
+  - pos: -11.5,-65.5
     parent: 60
     type: Transform
 - uid: 4996
-  type: WallShuttle
+  type: Grille
   components:
-  - pos: -13.5,-65.5
+  - rot: -1.5707963267948966 rad
+    pos: -13.5,-59.5
     parent: 60
     type: Transform
 - uid: 4997
-  type: ShuttleWindow
+  type: Grille
   components:
-  - pos: -15.5,-65.5
+  - rot: -1.5707963267948966 rad
+    pos: -13.5,-65.5
     parent: 60
     type: Transform
 - uid: 4998
   type: WallShuttle
   components:
-  - pos: -19.5,-59.5
+  - pos: -15.5,-65.5
     parent: 60
     type: Transform
 - uid: 4999
@@ -62611,25 +62645,25 @@ entities:
 - uid: 5003
   type: WallShuttle
   components:
-  - pos: -21.5,-59.5
-    parent: 60
-    type: Transform
-- uid: 5004
-  type: ShuttleWindow
-  components:
   - pos: -20.5,-65.5
     parent: 60
     type: Transform
-- uid: 5005
+- uid: 5004
   type: WallShuttle
   components:
   - pos: -19.5,-65.5
     parent: 60
     type: Transform
-- uid: 5006
-  type: Grille
+- uid: 5005
+  type: WallShuttle
   components:
   - pos: -20.5,-59.5
+    parent: 60
+    type: Transform
+- uid: 5006
+  type: WallShuttle
+  components:
+  - pos: -19.5,-59.5
     parent: 60
     type: Transform
 - uid: 5007
@@ -62666,9 +62700,10 @@ entities:
   - enabled: False
     type: AmbientSound
 - uid: 5012
-  type: ShuttleWindow
+  type: ReinforcedWindow
   components:
-  - pos: -20.5,-59.5
+  - rot: -1.5707963267948966 rad
+    pos: -13.5,-65.5
     parent: 60
     type: Transform
 - uid: 5013
@@ -63135,9 +63170,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 5067
-  type: Grille
+  type: WallShuttle
   components:
-  - pos: -15.5,-59.5
+  - pos: -21.5,-59.5
     parent: 60
     type: Transform
 - uid: 5068
@@ -63147,9 +63182,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 5069
-  type: ShuttleWindow
+  type: ReinforcedWindow
   components:
-  - pos: -24.5,-60.5
+  - rot: 3.141592653589793 rad
+    pos: -25.5,-61.5
     parent: 60
     type: Transform
 - uid: 5070
@@ -63167,15 +63203,17 @@ entities:
     parent: 60
     type: Transform
 - uid: 5072
-  type: ShuttleWindow
+  type: ReinforcedWindow
   components:
-  - pos: -25.5,-60.5
+  - rot: 3.141592653589793 rad
+    pos: -24.5,-64.5
     parent: 60
     type: Transform
 - uid: 5073
-  type: Grille
+  type: ReinforcedWindow
   components:
-  - pos: -15.5,-65.5
+  - rot: 3.141592653589793 rad
+    pos: -25.5,-64.5
     parent: 60
     type: Transform
 - uid: 5074
@@ -63186,9 +63224,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 5075
-  type: Grille
+  type: ReinforcedWindow
   components:
-  - pos: -11.5,-65.5
+  - rot: 3.141592653589793 rad
+    pos: -25.5,-63.5
     parent: 60
     type: Transform
 - uid: 5076
@@ -63199,39 +63238,40 @@ entities:
     parent: 60
     type: Transform
 - uid: 5077
-  type: Grille
+  type: ReinforcedWindow
   components:
-  - pos: -11.5,-59.5
+  - rot: 3.141592653589793 rad
+    pos: -25.5,-60.5
     parent: 60
     type: Transform
 - uid: 5078
-  type: VendingMachineClothing
+  type: ReinforcedWindow
   components:
-  - pos: -18.5,-60.5
+  - rot: 3.141592653589793 rad
+    pos: -24.5,-60.5
     parent: 60
     type: Transform
 - uid: 5079
-  type: WallSolidRust
+  type: ReinforcedWindow
   components:
-  - pos: 54.5,-9.5
+  - rot: 3.141592653589793 rad
+    pos: -26.5,-63.5
     parent: 60
     type: Transform
 - uid: 5080
-  type: ShuttleWindow
+  type: ReinforcedWindow
   components:
-  - pos: -25.5,-64.5
+  - rot: 3.141592653589793 rad
+    pos: -26.5,-62.5
     parent: 60
     type: Transform
 - uid: 5081
-  type: WallmountTelescreen
+  type: ReinforcedWindow
   components:
-  - pos: -25.5,-28.5
+  - rot: 3.141592653589793 rad
+    pos: -26.5,-61.5
     parent: 60
     type: Transform
-  - containers:
-      board: !type:Container
-        ents: []
-    type: ContainerContainer
 - uid: 5082
   type: Grille
   components:
@@ -63533,9 +63573,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 5127
-  type: WallSolidRust
+  type: TableReinforced
   components:
-  - pos: -58.5,-15.5
+  - pos: -18.5,-60.5
     parent: 60
     type: Transform
 - uid: 5128
@@ -69653,9 +69693,9 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5881
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 53.5,-45.5
+  - pos: 54.5,-9.5
     parent: 60
     type: Transform
 - uid: 5882
@@ -71942,9 +71982,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 6147
-  type: ShuttleWindow
+  type: WindowReinforcedDirectional
   components:
-  - pos: -25.5,-63.5
+  - rot: -1.5707963267948966 rad
+    pos: -24.5,-63.5
     parent: 60
     type: Transform
 - uid: 6148
@@ -74350,11 +74391,15 @@ entities:
     parent: 60
     type: Transform
 - uid: 6457
-  type: ShuttleWindow
+  type: ComputerTelevision
   components:
-  - pos: -26.5,-62.5
+  - pos: -25.5,-28.5
     parent: 60
     type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 6458
   type: WallSolid
   components:
@@ -75330,9 +75375,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 6594
-  type: ShuttleWindow
+  type: WallSolid
   components:
-  - pos: -24.5,-64.5
+  - pos: -60.5,-14.5
     parent: 60
     type: Transform
 - uid: 6595
@@ -75362,9 +75407,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 6599
-  type: ShuttleWindow
+  type: WallSolid
   components:
-  - pos: -26.5,-61.5
+  - pos: 57.5,-43.5
     parent: 60
     type: Transform
 - uid: 6600
@@ -75840,15 +75885,16 @@ entities:
     parent: 60
     type: Transform
 - uid: 6666
-  type: ShuttleWindow
+  type: WindowReinforcedDirectional
   components:
-  - pos: -25.5,-61.5
+  - pos: -25.5,-62.5
     parent: 60
     type: Transform
 - uid: 6667
-  type: WallSolidRust
+  type: WindowReinforcedDirectional
   components:
-  - pos: 46.5,-39.5
+  - rot: 3.141592653589793 rad
+    pos: -25.5,-62.5
     parent: 60
     type: Transform
 - uid: 6668
@@ -76622,21 +76668,23 @@ entities:
   - color: '#FF1212FF'
     type: AtmosPipeColor
 - uid: 6764
-  type: WallSolidRust
+  type: WindowReinforcedDirectional
   components:
-  - pos: 50.5,-43.5
+  - pos: -24.5,-63.5
     parent: 60
     type: Transform
 - uid: 6765
-  type: WallSolidRust
+  type: WindowReinforcedDirectional
   components:
-  - pos: 53.5,-44.5
+  - rot: -1.5707963267948966 rad
+    pos: -24.5,-61.5
     parent: 60
     type: Transform
 - uid: 6766
-  type: WallSolidRust
+  type: WindowReinforcedDirectional
   components:
-  - pos: -64.5,5.5
+  - rot: 3.141592653589793 rad
+    pos: -24.5,-61.5
     parent: 60
     type: Transform
 - uid: 6767
@@ -78907,9 +78955,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 7073
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -63.5,5.5
+  - pos: 46.5,-38.5
     parent: 60
     type: Transform
 - uid: 7074
@@ -84383,9 +84431,10 @@ entities:
     parent: 60
     type: Transform
 - uid: 7835
-  type: Autolathe
+  type: WallSolid
   components:
-  - pos: -41.5,-7.5
+  - rot: 3.141592653589793 rad
+    pos: 53.5,-45.5
     parent: 60
     type: Transform
   - containers:
@@ -84405,13 +84454,12 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 7836
-  type: PersonalAI
+  type: WallSolid
   components:
-  - pos: 21.509922,1.5610104
+  - rot: 3.141592653589793 rad
+    pos: 53.5,-44.5
     parent: 60
     type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 7837
   type: WallSolid
   components:
@@ -84433,9 +84481,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 7840
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 53.5,-5.5
+  - pos: -63.5,5.5
     parent: 60
     type: Transform
 - uid: 7841
@@ -85587,9 +85635,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 7997
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -53.5,-19.5
+  - pos: -64.5,5.5
     parent: 60
     type: Transform
 - uid: 7998
@@ -96209,11 +96257,21 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 9475
-  type: WallSolidRust
+  type: Protolathe
   components:
-  - pos: -54.5,-22.5
+  - pos: -41.5,-7.5
     parent: 60
     type: Transform
+  - containers:
+    - machine_parts
+    - machine_board
+    type: Construction
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 9476
   type: Table
   components:
@@ -97306,13 +97364,20 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 9618
-  type: PottedPlant28
+  type: Autolathe
   components:
-  - pos: -1.5,21.5
+  - pos: -38.5,14.5
     parent: 60
     type: Transform
   - containers:
-      stash: !type:ContainerSlot {}
+    - machine_parts
+    - machine_board
+    type: Construction
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
     type: ContainerContainer
 - uid: 9619
   type: Table
@@ -111610,15 +111675,11 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 11885
-  type: WallmountTelevision
+  type: WallSolid
   components:
-  - pos: 33.5,10.5
+  - pos: 53.5,-5.5
     parent: 60
     type: Transform
-  - containers:
-      board: !type:Container
-        ents: []
-    type: ContainerContainer
 - uid: 11886
   type: Table
   components:
@@ -118105,15 +118166,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 12905
-  type: WallmountTelevision
+  type: WallSolid
   components:
-  - pos: 26.5,-21.5
+  - pos: -53.5,-20.5
     parent: 60
     type: Transform
-  - containers:
-      board: !type:Container
-        ents: []
-    type: ContainerContainer
 - uid: 12906
   type: WallSolid
   components:
@@ -118127,9 +118184,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 12908
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: -53.5,22.5
+  - pos: -54.5,-22.5
     parent: 60
     type: Transform
 - uid: 12909
@@ -141057,23 +141114,46 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 16079
-  type: WallSolidRust
+  type: PottedPlantRandom
   components:
-  - pos: -56.5,25.5
+  - pos: -1.5,21.5
     parent: 60
     type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
 - uid: 16080
-  type: WallSolidRust
+  type: Autolathe
   components:
-  - pos: -56.5,23.5
+  - pos: -4.5,18.5
     parent: 60
     type: Transform
+  - containers:
+    - machine_parts
+    - machine_board
+    type: Construction
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 16081
-  type: WallSolidRust
+  type: Protolathe
   components:
-  - pos: -56.5,18.5
+  - pos: -4.5,19.5
     parent: 60
     type: Transform
+  - containers:
+    - machine_parts
+    - machine_board
+    type: Construction
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 16082
   type: ClothingHeadsetEngineering
   components:
@@ -149308,14 +149388,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 17295
-  type: PottedPlant22
+  type: WallSolid
   components:
-  - pos: -0.5,-2.5
+  - pos: -53.5,22.5
     parent: 60
     type: Transform
-  - containers:
-      stash: !type:ContainerSlot {}
-    type: ContainerContainer
 - uid: 17296
   type: WallReinforced
   components:
@@ -149523,24 +149600,21 @@ entities:
     parent: 60
     type: Transform
 - uid: 17330
-  type: PottedPlant22
+  type: WallSolid
   components:
-  - pos: -0.5,-7.5
+  - pos: -56.5,23.5
     parent: 60
     type: Transform
-  - containers:
-      stash: !type:ContainerSlot {}
-    type: ContainerContainer
 - uid: 17331
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 50.5,-4.5
+  - pos: -56.5,25.5
     parent: 60
     type: Transform
 - uid: 17332
-  type: Window
+  type: WallSolid
   components:
-  - pos: 32.5,16.5
+  - pos: -56.5,18.5
     parent: 60
     type: Transform
 - uid: 17333
@@ -157946,17 +158020,23 @@ entities:
     parent: 60
     type: Transform
 - uid: 18488
-  type: WallSolidRust
+  type: PottedPlantRandom
   components:
-  - pos: 31.5,19.5
+  - pos: -0.5,-2.5
     parent: 60
     type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
 - uid: 18489
-  type: WallSolidRust
+  type: PottedPlantRandom
   components:
-  - pos: 28.5,19.5
+  - pos: -0.5,-7.5
     parent: 60
     type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
 - uid: 18490
   type: PoweredSmallLight
   components:
@@ -162955,9 +163035,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 19104
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 27.5,19.5
+  - pos: 50.5,-4.5
     parent: 60
     type: Transform
 - uid: 19105
@@ -166831,15 +166911,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 19668
-  type: WallmountTelevision
+  type: WallSolid
   components:
-  - pos: 36.5,19.5
+  - pos: 31.5,13.5
     parent: 60
     type: Transform
-  - containers:
-      board: !type:Container
-        ents: []
-    type: ContainerContainer
 - uid: 19669
   type: WallSolid
   components:
@@ -166853,9 +166929,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 19671
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 31.5,13.5
+  - pos: 31.5,19.5
     parent: 60
     type: Transform
 - uid: 19672
@@ -166871,15 +166947,15 @@ entities:
     parent: 60
     type: Transform
 - uid: 19674
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 31.5,16.5
+  - pos: 28.5,19.5
     parent: 60
     type: Transform
 - uid: 19675
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 30.5,16.5
+  - pos: 27.5,19.5
     parent: 60
     type: Transform
 - uid: 19676
@@ -166893,11 +166969,15 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 19677
-  type: WallSolidRust
+  type: FirelockGlass
   components:
-  - pos: 28.5,-8.5
+  - pos: 29.5,13.5
     parent: 60
     type: Transform
+  - airBlocked: False
+    type: Airtight
+  - canCollide: False
+    type: Physics
 - uid: 19678
   type: filingCabinet
   components:
@@ -167188,21 +167268,21 @@ entities:
     parent: 60
     type: Transform
 - uid: 19716
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 30.5,-3.5
+  - pos: 30.5,16.5
     parent: 60
     type: Transform
 - uid: 19717
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 33.5,5.5
+  - pos: 31.5,16.5
     parent: 60
     type: Transform
 - uid: 19718
-  type: WallSolidRust
+  type: Window
   components:
-  - pos: 33.5,0.5
+  - pos: 32.5,16.5
     parent: 60
     type: Transform
 - uid: 19719
@@ -168810,9 +168890,9 @@ entities:
     parent: 60
     type: Transform
 - uid: 19954
-  type: WallSolidRust
+  type: WallSolid
   components:
-  - pos: 32.5,-3.5
+  - pos: 28.5,-8.5
     parent: 60
     type: Transform
 - uid: 19955
@@ -169078,13 +169158,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 19996
-  type: WeaponSubMachineGunVector
+  type: WallSolid
   components:
-  - pos: -28.436613,2.4905505
+  - pos: 32.5,-3.5
     parent: 60
     type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 19997
   type: AirlockMaintLocked
   components:
@@ -169098,13 +169176,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 19999
-  type: WeaponSubMachineGunVector
+  type: WallSolid
   components:
-  - pos: -28.436613,2.6468005
+  - pos: 33.5,0.5
     parent: 60
     type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 20000
   type: WallSolid
   components:
@@ -169124,13 +169200,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 20003
-  type: SheetSteel
+  type: WallSolid
   components:
-  - pos: -24.46965,0.7424586
+  - pos: 33.5,5.5
     parent: 60
     type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 20004
   type: WallSolid
   components:
@@ -169144,15 +169218,11 @@ entities:
     parent: 60
     type: Transform
 - uid: 20006
-  type: MagazineMagnumSubMachineGun
+  type: WallSolid
   components:
-  - pos: -24.780363,-0.47819963
+  - pos: 30.5,-3.5
     parent: 60
     type: Transform
-  - unspawnedCount: 25
-    type: BallisticAmmoProvider
-  - canCollide: False
-    type: Physics
 - uid: 20007
   type: WallSolid
   components:
@@ -175548,23 +175618,19 @@ entities:
     parent: 60
     type: Transform
 - uid: 21014
-  type: FirelockGlass
+  type: WeaponSubMachineGunVector
   components:
-  - pos: -70.5,17.5
+  - pos: -28.465193,2.6841984
     parent: 60
     type: Transform
-  - airBlocked: False
-    type: Airtight
   - canCollide: False
     type: Physics
 - uid: 21015
-  type: FirelockGlass
+  type: WeaponSubMachineGunVectorRubber
   components:
-  - pos: -60.5,17.5
+  - pos: -28.449568,2.4185734
     parent: 60
     type: Transform
-  - airBlocked: False
-    type: Airtight
   - canCollide: False
     type: Physics
 - uid: 21016
@@ -175576,11 +175642,15 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 21017
-  type: PottedPlantRandom
+  type: MagazineMagnumSubMachineGunRubber
   components:
-  - pos: 34.5,9.5
+  - pos: -24.75233,-0.4746566
     parent: 60
     type: Transform
+  - unspawnedCount: 25
+    type: BallisticAmmoProvider
+  - canCollide: False
+    type: Physics
 - uid: 21018
   type: MagazineMagnumSubMachineGun
   components:
@@ -175748,11 +175818,15 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 21032
-  type: CableApcExtension
+  type: MagazineRifleRubber
   components:
-  - pos: 8.5,-23.5
+  - pos: -24.236706,-0.6934066
     parent: 60
     type: Transform
+  - unspawnedCount: 25
+    type: BallisticAmmoProvider
+  - canCollide: False
+    type: Physics
 - uid: 21033
   type: MagazineMagnumSubMachineGun
   components:
@@ -177291,11 +177365,16 @@ entities:
     parent: 60
     type: Transform
 - uid: 21199
-  type: CableApcExtension
+  type: BlastDoor
   components:
-  - pos: 9.5,-23.5
+  - pos: -60.5,17.5
     parent: 60
     type: Transform
+  - inputs:
+      Open: []
+      Close: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 21200
   type: HighSecCommandLocked
   components:
@@ -177745,11 +177824,16 @@ entities:
     parent: 60
     type: Transform
 - uid: 21269
-  type: CableApcExtension
+  type: BlastDoor
   components:
-  - pos: 10.5,-23.5
+  - pos: -70.5,17.5
     parent: 60
     type: Transform
+  - inputs:
+      Open: []
+      Close: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 21270
   type: SurveillanceCameraCommand
   components:
@@ -178366,11 +178450,14 @@ entities:
     parent: 60
     type: Transform
 - uid: 21347
-  type: WindowDirectional
+  type: PottedPlantRandom
   components:
-  - pos: -67.5,9.5
+  - pos: 33.5,9.5
     parent: 60
     type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
 - uid: 21348
   type: CarpetOrange
   components:

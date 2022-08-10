@@ -1,5 +1,16 @@
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadMailCarrier
+  name: mail carrier's hat
+  description: Smells like a good pension.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/mailman.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/mailman.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeaverHat
   name: beaver hat
   description: 'Gentlemen?'
@@ -390,6 +401,17 @@
     sprite: Clothing/Head/Hats/truckershat.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/truckershat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTrucker
+  name: MST hat
+  description: You can now invade private property.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/msthat.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/msthat.rsi
 
 - type: entity
   parent: ClothingHeadBase

@@ -11,6 +11,7 @@ namespace Content.Server.Entry
             "AnimationsTest",
             "ItemStatus",
             "Marker",
+            "MailVisuals",
             "Clickable",
             "Icon",
             "ClientEntitySpawner",

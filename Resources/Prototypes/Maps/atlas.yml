@@ -4,9 +4,9 @@
   mapPath: /Maps/atlas.yml
   minPlayers: 0
   maxPlayers: 35
-  votable: False
+  votable: true
   stations:
-    Atlas: 
+    Atlas:
       mapNameTemplate: '{0} Atlas {1}'
       nameGenerator:
         !type:NanotrasenNameGenerator
