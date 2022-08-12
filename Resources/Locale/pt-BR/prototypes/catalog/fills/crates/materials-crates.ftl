@@ -1,17 +1,17 @@
-ent-CrateMaterialGlass = Glass sheet crate
-    .desc = 90 sheets of glass, packed with care.
+ent-CrateMaterialGlass = Caixa de placas de vidro
+    .desc = 90 placas de vidro, enpacotados com cuidado.
 
-ent-CrateMaterialSteel = Steel sheet crate
-    .desc = 90 sheets of steel.
+ent-CrateMaterialSteel = Caixa de placas de aço
+    .desc = 90 placas de aço.
 
-ent-CrateMaterialPlastic = Plastic sheet crate
-    .desc = 90 sheets of plastic.
+ent-CrateMaterialPlastic = Caixa de placas de plastico
+    .desc = 90 placas de plastico.
 
-ent-CrateMaterialWood = Wood crate
-    .desc = Bunch of wood planks.
+ent-CrateMaterialWood = Caixa com madeira
+    .desc = Um tanto de tábuas de madeira.
 
-ent-CrateMaterialPlasteel = Plasteel crate
-    .desc = 90 sheets of plasteel.
+ent-CrateMaterialPlasteel = Caixa de plástico-aço
+    .desc = 90 placas de plástico-aço.
 
-ent-CrateMaterialPlasma = Solid plasma crate
-    .desc = 90 sheets of plasma.
+ent-CrateMaterialPlasma = Caixa de plasma sólido
+    .desc = 90 placas de plasma.

@@ -1,30 +1,30 @@
-ent-CrateEngineeringAMEShielding = Packaged antimatter reactor crate
-    .desc = 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
+ent-CrateEngineeringAMEShielding = Caixa de reator antimatéria embalado
+    .desc = 9 partes para o corpo de um reator antimatéria, ou para expandir um que já existe.
 
-ent-CrateEngineeringAMEJar = Antimatter containment jar crate
-    .desc = 3 antimatter jars, for fuelling an antimatter reactor.
+ent-CrateEngineeringAMEJar = Caixa de tanques de contenção de antimatéria
+    .desc = 3 tanques de antimatéria, para abastecer um reator antimatéria.
 
-ent-CrateEngineeringAMEControl = Antimatter control unit crate
-    .desc = The control unit of an antimatter reactor.
+ent-CrateEngineeringAMEControl = Caixa de controlador antimatéria
+    .desc = A unidade de controle de um reator antimatéria.
 
-ent-CrateEngineeringSingularityEmitter = Emitter crate
-    .desc = An emitter, best used for singularity engines.
+ent-CrateEngineeringSingularityEmitter = Caixa de emissor
+    .desc = Um emissor, melhor usado em motores de singularidade.
 
-ent-CrateEngineeringSingularityCollector = Radiation collector crate
-    .desc = A radiation collector, best used for singularity engines.
+ent-CrateEngineeringSingularityCollector = Caixa de coletor de radiação
+    .desc = Um coletor de radiação, melhor usado em motores de singularidade.
 
-ent-CrateEngineeringSingularityContainment = Containment field generator crate
-    .desc = A containment field generator, keeps the singulo in submission.
+ent-CrateEngineeringSingularityContainment = Caixa de gerador de campo de contenção
+    .desc = Um gerador de campo de contenção, mantém a singulo submissa.
 
-ent-CrateEngineeringSingularityGenerator = Singularity generator crate
-    .desc = A singularity generator, the mother of the beast.
+ent-CrateEngineeringSingularityGenerator = Caixa de gerador de singularidade
+    .desc = Um gerador de singularidade, a mãe da besta.
 
-ent-CrateEngineeringParticleAccelerator = PA crate
-    .desc = Complex to setup, but rewarding as fuck.
+ent-CrateEngineeringParticleAccelerator = Caixa de acelerador de partículas
+    .desc = Complexo de configurar, mas vale a pena para um caralho.
 
-ent-CrateEngineeringGenerator = Generator crate
+ent-CrateEngineeringGenerator = Caixa de gerador
 
-ent-CrateEngineeringSolar = Solar assembly crate
-    .desc = Parts for constructing solar panels and trackers.
-
-ent-CrateEngineeringShuttle = Shuttle powering crate
+ent-CrateEngineeringSolar = Caixa de conjunto solar
+    .desc = Partes para construir painéis e rastreadores solares.
+    
+ent-CrateEngineeringShuttle = Caixa de energização de nave

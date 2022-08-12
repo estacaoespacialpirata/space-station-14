@@ -24,7 +24,8 @@ emergency-shuttle-console-auth-revoked = Antecipação de lançamento revogada, 
 emergency-shuttle-console-denied = Acesso negado
 
 # UI
-emergency-shuttle-ui-engines = MOTOR:
+emergency-shuttle-console-window-title = Console da Nave de Emergência
+emergency-shuttle-ui-engines = MOTORES:
 emergency-shuttle-ui-idle = Parada
 emergency-shuttle-ui-repeal-all = Revogar tudo
 emergency-shuttle-ui-early-authorize = Autorização de lançamento antecipado

@@ -18,13 +18,13 @@ random-sentience-event-strength-8 = IA
 
 ## Announcement text
 
-station-event-random-sentience-announcement = Based on { $data }, we believe that some of the station's { $amount ->
+station-event-random-sentience-announcement = Baseado em { $data }, nós acreditamos que alguns seres { $amount ->
     [1] { $kind1 }
     [2] { $kind1 } and { $kind2 }
     [3] { $kind1 }, { $kind2 }, and { $kind3 }
     *[other] { $kind1 }, { $kind2 }, { $kind3 }, etc.
-} beings have developed { $strength } level intelligence, and the ability to communicate.
+} da estação desenvolveram um nível de inteligência { $strength }, e a habilidade de se comunicar.
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = You are a sentient { $name }, brought to life through space magic.
+station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da magia espacial.

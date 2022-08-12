@@ -1,5 +1,5 @@
 whitelist-not-whitelisted = Você não está na whitelist.
-whitelist-not-whitelisted-rp = You are not whitelisted. To become whitelisted, visit our Discord (which can be found at https://spacestation14.io) and check the #rp-whitelist channel.
+whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em https://www.estacaopirata.com/).
 
 command-whitelistadd-description = Adiciona o jogador na whitelist.
 command-whitelistadd-help = whitelistadd <username>

@@ -57,7 +57,7 @@ accent-words-duck-3 = Quack?
 accent-words-duck-4 = Quack quack!
 
 # Chicken
-accent-words-chicken-1 = Cluck!
-accent-words-chicken-2 = Cluck.
-accent-words-chicken-3 = Cluck?
-accent-words-chicken-4 = Cluck cluck!
+accent-words-chicken-1 = Poooó!
+accent-words-chicken-2 = Pópô.
+accent-words-chicken-3 = Pópôpó?
+accent-words-chicken-4 = Pó Popopó Poooó!

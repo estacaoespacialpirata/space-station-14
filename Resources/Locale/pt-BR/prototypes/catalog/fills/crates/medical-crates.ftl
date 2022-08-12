@@ -1,13 +1,13 @@
-ent-CrateMedicalDefib = Defibrillator crate
+ent-CrateMedicalDefib = Caixa de Defibrilador
 
-ent-CrateMedicalSupplies = Medical supplies crate
-    .desc = Basic medical supplies.
+ent-CrateMedicalSupplies = Caixa de suprimentos médicos
+    .desc = Suprimentos médicos básicos.
 
 ent-CrateChemistrySupplies = Chemistry supplies crate
-    .desc = Basic chemistry supplies.
+    .desc = Suprimentos químicos básicos.
 
-ent-CrateMedicalSurgery = Surgical supplies crate
-    .desc = Surgical instruments.
+ent-CrateMedicalSurgery = Caixa de suprimentos cirúrgicos
+    .desc = Instrumentos cirúrgicos.
 
-ent-CrateMedicalScrubs = Medical scrubs crate
-    .desc = Medical clothings.
+ent-CrateMedicalScrubs = Caixa de batas médicas
+    .desc = Roupas médicas.

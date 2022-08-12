@@ -1,20 +1,20 @@
-ent-CrateServiceJanitorialSupplies = Janitorial supplies crate
-    .desc = Fight back against dirt and grime with Nanotrasen's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, rag, and trash bag.
+ent-CrateServiceJanitorialSupplies = Caixa de suprimentos de limpeza
+    .desc = Lute contra terra e sujeira com os Essenciais de Limpeza da Nanotrasen(tm)! Contém três baldes, placas de "cuidado" e granadas de limpeza. Também tem um único esfregão, vassoura, limpador spray, lenço e saco de lixo.
 
-ent-CrateServiceReplacementLights = Replacement lights crate
-    .desc = May the light of Aether shine upon this station! Or at least, the light of forty two light tubes and twenty one light bulbs.
+ent-CrateServiceReplacementLights = Caixa de reposição de luzes
+    .desc = Que a luz de Aether ilumine essa estação! Ou pelo menos a luz de 42 tubos de luz e 21 lâmpadas.
 
-ent-CrateMousetrapBoxes = Mousetraps crate
-    .desc = Mousetraps, for when all of service is being haunted by an entire horde of rats. Use sparingly... or not.
+ent-CrateMousetrapBoxes = Caixa de ratoeiras
+    .desc = Um ratão bombado apareceu na estação? Taca-lhe ratoeira.
 
-ent-CrateServiceSmokeables = Smokeables crate
-    .desc = Tired of a quick death on the station? Order this crate and chain-smoke your way to a coughy demise!
+ent-CrateServiceSmokeables = Caixa de cigarros
+    .desc = Você já vai morrer logo logo mesmo, então fumar não faria diferença.
 
-ent-CrateServiceCustomSmokable = DIY smokeables crate
-    .desc = Want to get a little creative with what you use to destroy your lungs? Then this crate is for you! Has everything you need to roll your own cigarettes.
+ent-CrateServiceCustomSmokable = Caixa de cigarros DIY
+    .desc = Quer ser criativo destruindo o seu pulmão? Se sim essa caixa é para você! Tem tudo o que você precisa para bolar seus próprios cigarros.
 
-ent-CrateServiceBureaucracy = Bureaucracy crate
-    .desc = Several stacks of paper and a few pens, what more can you ask for.
+ent-CrateServiceBureaucracy = Caixa de burocracia
+    .desc = Várias pilhas de papéis e algumas canetas, o que mais você pode pedir.
 
-ent-CrateServicePersonnel = Personnel crate
-    .desc = Contains a box of blank ID cards and PDAs.
+ent-CrateServicePersonnel = Caixa de tripulação
+    .desc = Contém uma caixa de cartões de ID em branco e PDAs.

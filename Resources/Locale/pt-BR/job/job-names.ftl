@@ -1,4 +1,4 @@
-job-name-warden = diretor de segurança
+job-name-warden = cercereiro
 job-name-security = segurança
 job-name-cadet = segurança cadete
 job-name-hos = segurança chefe
@@ -42,4 +42,4 @@ job-name-ertjanitor = zelador da ERT
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobSalvageSpecialist = especialista em salvamento
-JobWarden = diretor de segurança
+JobWarden = carcereiro

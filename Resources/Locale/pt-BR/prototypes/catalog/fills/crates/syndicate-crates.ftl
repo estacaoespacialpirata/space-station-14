@@ -1,5 +1,5 @@
-ent-CrateSyndicateSurplusBundle = Syndicate surplus crate
-    .desc = Contains 50 telecrystals worth of completely random Syndicate items. It can be useless junk or really good.
+ent-CrateSyndicateSurplusBundle = Caixa de items do Sindicato
+    .desc = Contém itens do Sindicato aleatórios valendo 50 telecristais. Pode ser tralha inúltil ou muito bom.
 
-ent-CrateSyndicateSuperSurplusBundle = Syndicate super surplus crate.
-    .desc = Contains 125 telecrystals worth of completely random Syndicate items.
+ent-CrateSyndicateSuperSurplusBundle = Super caixa de items do Sindicato
+    .desc = Contém itens do Sindicato aleatórios valendo 125 telecristais.

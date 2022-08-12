@@ -1,14 +1,14 @@
-ent-BaseThruster = Thruster
-    .desc = A thruster that allows a shuttle to move.
+ent-BaseThruster = Propulsor
+    .desc = Um propulsor que permite a nave de se mover.
 
 ent-Thruster = { ent-BaseThruster }
     .desc = { ent-BaseThruster.desc }
 
-ent-DebugThruster = Debug thruster
-    .desc = It goes nyooooooom. It doesn't need power nor space.
+ent-DebugThruster = Propulsor de teste
+    .desc = Ele faz vuoooooooom. Não precisa de energia nem espaço.
 
-ent-Gyroscope = Gyroscope
-    .desc = Increases the shuttle's potential angular rotation.
+ent-Gyroscope = Giroscópio
+    .desc = Aumenta o pontecial de rotação angular da nave.
 
-ent-DebugGyroscope = Debug gyroscope
+ent-DebugGyroscope = Giroscópio de teste
     .desc = { ent-Gyroscope.desc }

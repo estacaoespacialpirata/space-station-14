@@ -1,5 +1,5 @@
-﻿role-timer-department-insufficient = Require {TOSTRING($time, "0")} more minutes in {$department} department.
-role-timer-overall-insufficient = Require {TOSTRING($time, "0")} more minutes of playtime.
-role-timer-role-insufficient = Require {TOSTRING($time, "0")} more minutes with {$job} for this role.
+role-timer-department-insufficient = Precisa-se de mais {TOSTRING($time, "0")} minutos no departamento {$department}.
+role-timer-overall-insufficient = Precisa-se de mais {TOSTRING($time, "0")} minutos de jogatina.
+role-timer-role-insufficient = Precisa-se de mais {TOSTRING($time, "0")} minutos com {$job} para esta função.
 
-role-timer-locked = Locked (hover for details)
+role-timer-locked = Trancado (passe o mouse para mais detalhes)

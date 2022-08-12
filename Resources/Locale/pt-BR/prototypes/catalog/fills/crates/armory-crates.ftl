@@ -1,5 +1,5 @@
-ent-CrateArmorySMG = SMG crate
-    .desc = Contains two high-powered, semiautomatic rifles with four mags. Requires Armory access to open.
+ent-CrateArmorySMG = Caixa de SMG
+    .desc = Contém dois poderosos, semiautomáticos rifles, com quatro carregadores. Precisa de Acesso ao Arsenal para abrir.
 
-ent-CrateArmoryShotgun = Shotgun crate
-    .desc = For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open.
+ent-CrateArmoryShotgun = Caixa de Espingarda
+    .desc = Mete chumbo neles! Contém duas Espingardas de Combate Enforcer, e alguns cartuchos padrões de espingarda. Precisa de Acesso ao Arsenal para abrir.

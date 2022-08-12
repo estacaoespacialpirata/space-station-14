@@ -1,20 +1,20 @@
-ent-CrateSecurityArmor = armor crate
-    .desc = Three vests of well-rounded, decently-protective armor. Requires Security access to open.
+ent-CrateSecurityArmor = caixa de armadura
+    .desc = Três coletes bem equilibrados de proteção decente. Precisa de acesso à Segurança para abrir.
 
-ent-CrateSecurityHelmet = helmet crate
-    .desc = Contains three standard-issue brain buckets. Requires Security access to open.
+ent-CrateSecurityHelmet = caixa de capacetes
+    .desc = Contém três protetores de cérebro padrões. Precisa de acesso à Segurança para abrir.
 
-ent-CrateSecurityNonlethal = nonlethals crate
-    .desc = Disabler weapons. Requires Security access to open.
+ent-CrateSecurityNonlethal = caixa de não-letais
+    .desc = Armas disabilitadoras. Precisa de acesso à Segurança para abrir.
 
-ent-CrateSecurityLaser = lasers crate
-    .desc = Contains three lethal, high-energy laser guns. Requires Security access to open.
+ent-CrateSecurityLaser = caixa de lazers
+    .desc = Contém três letais, de alta energia, armas à lazer. Precisa de acesso à Segurança para abrir.
 
-ent-CrateSecurityRiot = swat crate
-    .desc = Contains two sets of heavy body armor and helmets and 2 shotguns with 6 rounds of beanbag shells each. Requires Armory access to open.
+ent-CrateSecurityRiot = caixa da SWAT
+    .desc = Contém dois conjuntos de armaduras de corpo pesadas com capacetes e duas espingardas com 6 tiros de cartuchos de feijão cada. Precisa de acesso ao Arsenal para abrir.
 
-ent-CrateSecuritySupplies = security supplies crate
-    .desc = Contains various supplies for the station's Security team. Requires Security access to open.
+ent-CrateSecuritySupplies = caixa de suprimentos de segurançasecurity supplies crate
+    .desc = Contém vários suprimentos para o time de Segurança da estação. Precisa de acesso à Segurança para abrir.
 
-ent-CrateRestraints = restraints crate
-    .desc = Contains two boxes each of handcuffs and zipties. Requires Security access to open.
+ent-CrateRestraints = caixa de contenção
+    .desc = Contém duas caixas de algemas e cabos. Precisa de acesso à Segurança para abrir.
