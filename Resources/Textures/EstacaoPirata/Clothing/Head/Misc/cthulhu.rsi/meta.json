@@ -1,14 +1,17 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "sprites by Furones_80z#9940",
+  "copyright": "discord:brainfood#7460 github: brainfood1183",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "equipped-NECK",
+      "name": "icon"
+    },
+    {
+      "name": "equipped-HELMET",
       "directions": 4
     },
     {

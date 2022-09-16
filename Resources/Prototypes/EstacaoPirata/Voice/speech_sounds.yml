@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: PrawnSpeech
+  saySound:
+    path: /Audio/EstacaoPirata/Animals/prawn_scream.ogg
+  askSound:
+    path: /Audio/EstacaoPirata/Animals/prawn_scream.ogg
+  exclaimSound:
+    path: /Audio/EstacaoPirata/Animals/prawn_scream.ogg
