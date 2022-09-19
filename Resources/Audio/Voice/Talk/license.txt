@@ -1,3 +1,5 @@
+mothchitter.ogg (Renamed to moth.ogg)
+mothsqueak.ogg (Renamed to moth_exclaim.ogg)
 pai.ogg
 pai_ask.ogg
 pai_exclaim.ogg
@@ -22,4 +24,5 @@ buwoo_ask.ogg (Renamed to slime_ask.ogg)
 buwoo_exclaim (Renamed to slime_exclaim.ogg)
 all taken from
 https://github.com/goonstation/goonstation/tree/eb3e7df6292d23f6af2f18b4372d3a8ba4b0fda7/sound/misc/talk
+https://github.com/Skyrat-SS13/Skyrat-tg/tree/master/modular_skyrat/modules/emotes/sound/emotes
 licensed under CC BY-NC-SA 3.0

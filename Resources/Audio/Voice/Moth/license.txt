@@ -1,0 +1,3 @@
+Sound taken from https://github.com/Skyrat-SS13/Skyrat-tg/commit/31c19654e0f641166ecd80c672ea05362fd19488
+
+scream_moth.ogg (renamed to moth_scream.ogg)
