@@ -757,6 +757,16 @@
     FoodDoughPie: 1
     FoodMeatXeno: 3
     FoodPlateTin: 1
+    
+ - type: microwaveMealRecipe
+  id: RecipeBananaCreamPie
+  name: banana cream pie
+  result: FoodPieBananaCream
+  time: 15
+  solids:
+    FoodDoughPie: 1
+    FoodBanana: 3
+    FoodPlateTin: 1
 
 - type: microwaveMealRecipe
   id: RecipeAppleCake
@@ -824,16 +834,6 @@
   solids:
     ClothingMaskClown: 1
     FoodCakePlain: 1
-
-- type: microwaveMealRecipe
-  id: RecipeBananaCreamPie
-  name: banana cream pie
-  result: FoodPieBananaCream
-  time: 15
-  solids:
-    FoodDoughPie: 1
-    FoodBanana: 3
-    FoodPlateTin: 1
 
 - type: microwaveMealRecipe
   id: RecipeCake
