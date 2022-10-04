@@ -18,6 +18,8 @@ using Content.Server.Ghost.Components;
 using Content.Server.Ghost.Roles.Components;
 using Content.Server.Tools.Innate;
 using Content.Server.UserInterface;
+using Content.Server.Speech;
+using Content.Server.Chat.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
@@ -31,37 +33,17 @@ namespace Content.Server.Drone
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly InnateToolSystem _innateToolSystem = default!;
 
+        [Dependency] private readonly ChatSystem _chat = default!;
+
+        [Dependency] private readonly VocalSystem _vocal = default!;
+
         public override void Initialize()
         {
             base.Initialize();
-            SubscribeLocalEvent<DroneComponent, InteractionAttemptEvent>(OnInteractionAttempt);
-            SubscribeLocalEvent<DroneComponent, UserOpenActivatableUIAttemptEvent>(OnActivateUIAttempt);
             SubscribeLocalEvent<DroneComponent, MobStateChangedEvent>(OnMobStateChanged);
             SubscribeLocalEvent<DroneComponent, ExaminedEvent>(OnExamined);
             SubscribeLocalEvent<DroneComponent, MindAddedMessage>(OnMindAdded);
             SubscribeLocalEvent<DroneComponent, MindRemovedMessage>(OnMindRemoved);
-            SubscribeLocalEvent<DroneComponent, EmoteAttemptEvent>(OnEmoteAttempt);
-            SubscribeLocalEvent<DroneComponent, ThrowAttemptEvent>(OnThrowAttempt);
-        }
-
-        private void OnInteractionAttempt(EntityUid uid, DroneComponent component, InteractionAttemptEvent args)
-        {
-            if (args.Target != null && !HasComp<UnremoveableComponent>(args.Target) && NonDronesInRange(uid, component))
-                args.Cancel();
-
-            if (HasComp<ItemComponent>(args.Target) && !HasComp<UnremoveableComponent>(args.Target))
-            {
-                if (!_tagSystem.HasAnyTag(args.Target.Value, "DroneUsable", "Trash"))
-                    args.Cancel();
-            }
-        }
-
-        private void OnActivateUIAttempt(EntityUid uid, DroneComponent component, UserOpenActivatableUIAttemptEvent args)
-        {
-            if (!_tagSystem.HasTag(args.Target, "DroneUsable"))
-            {
-                args.Cancel();
-            }
         }
 
         private void OnExamined(EntityUid uid, DroneComponent component, ExaminedEvent args)
@@ -101,18 +83,6 @@ namespace Content.Server.Drone
             UpdateDroneAppearance(uid, DroneStatus.Off);
             EnsureComp<GhostTakeoverAvailableComponent>(uid);
         }
-
-        private void OnEmoteAttempt(EntityUid uid, DroneComponent component, EmoteAttemptEvent args)
-        {
-            // No.
-            args.Cancel();
-        }
-
-        private void OnThrowAttempt(EntityUid uid, DroneComponent drone, ThrowAttemptEvent args)
-        {
-            args.Cancel();
-        }
-
         private void UpdateDroneAppearance(EntityUid uid, DroneStatus status)
         {
             if (TryComp<AppearanceComponent>(uid, out var appearance))
