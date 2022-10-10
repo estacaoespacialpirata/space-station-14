@@ -1,3 +1,3 @@
-carry-verb = Carry
+carry-verb = Carregar
 
-carry-too-heavy = You're not strong enough.
+carry-too-heavy = Você não é forte o suficiente.

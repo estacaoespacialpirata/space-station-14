@@ -1,2 +1,2 @@
-state-laws-action = State Laws
-state-laws-action-desc = State the laws you're bound by.
+state-laws-action = Declare Leis
+state-laws-action-desc = Declare as leis às quais você está vinculado.

@@ -1,8 +1,8 @@
-health-analyzer-action = Health Analyzer
-health-analyzer-action-desc = Scan a target's health.
+health-analyzer-action = Analizador de Saúde
+health-analyzer-action-desc = Escaneia a saúde de um alvo.
 
-fabricate-gumball-action = Fabricate Gumball
-fabricate-gumball-desc = Fabricate a gumball full of sugar and medicine.
+fabricate-gumball-action = Fabricar Bala de Goma
+fabricate-gumball-desc = Fabrica uma bala de goma de açúcar e remédio.
 
-fabricate-lollipop-action = Fabricate Lollipop
-fabricate-lollipop-desc = Fabricate a lollipop full of a lot of good stuff.
+fabricate-lollipop-action = Fabricar pirulito
+fabricate-lollipop-desc = Fabrica um piroluto cheio de coisas boas.

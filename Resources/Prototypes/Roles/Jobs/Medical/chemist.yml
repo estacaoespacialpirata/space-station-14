@@ -23,6 +23,7 @@
     shoes: ClothingShoesColorWhite
     outerClothing: ClothingOuterCoatLabChem
     id: ChemistryPDA
+    neck: ClothingNeckStethoscope
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedical
     pocket1: HandLabeler

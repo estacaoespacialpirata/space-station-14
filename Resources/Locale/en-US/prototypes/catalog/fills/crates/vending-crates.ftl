@@ -1,3 +1,3 @@
-ent-CrateFoodVendingMachineRestock = Food & drink machine restock crate
-    .desc = A set of packages to restock food & drink vending machines.
+ent-CrateFoodVendingMachineRestock = Caixa de reabastecimento de máquina de alimentos e bebidas
+    .desc = Um conjunto de pacotes para reabastecer máquinas de venda automática de alimentos e bebidas.
 

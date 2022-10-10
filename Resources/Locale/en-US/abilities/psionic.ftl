@@ -1,50 +1,50 @@
-cage-resist-second-person = You start removing your {$cage}.
-cage-resist-third-person = {CAPITALIZE(THE($user))} starts removing {POSS-ADJ($user)} {$cage}.
+cage-resist-second-person = Você começa a remover sua {$cage}.
+cage-resist-third-person = {CAPITALIZE(THE($user))} começa a remover a {POSS-ADJ($user)} {$cage}.
 
-cage-uncage-verb = Uncage
+cage-uncage-verb = desenjaula
 
-action-name-metapsionic = Metapsionic Pulse
-action-description-metapsionic = Send a mental pulse through the area to see if there are any psychics nearby.
+action-name-metapsionic = Pulso Metapsiônico
+action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psíquico por perto.
 
-metapsionic-pulse-success = You detect psychic presence nearby.
-metapsionic-pulse-failure = You don't detect any psychic presence nearby.
-metapsionic-pulse-power = You detect that {$power} was used nearby.
+metapsionic-pulse-success = Você percebe uma presença psíquica próxima.
+metapsionic-pulse-failure = Você não detecta nenhuma presença psíquica próxima.
+metapsionic-pulse-power = Você detecta que {$power} foi usado nas proximidades.
 
-action-name-dispel = Dispel
-action-description-dispel = Dispel summoned entities such as familiars or forcewalls.
+action-name-dispel = Dissipar
+action-description-dispel = Dissipa entidades invocadas tais como familiares e paredes de força.
 
-action-name-mass-sleep = Mass Sleep
-action-description-mass-sleep = Put targets in a small area to sleep.
+action-name-mass-sleep = Sono em Massa
+action-description-mass-sleep = Coloca alvos em uma pequena área pra dormir.
 
-accept-psionics-window-title = Psionic!
-accept-psionics-window-prompt-text-part = You rolled a psionic power!
-                                         It's possible that certain anti-psychic forces may hunt you,
-                                         so you should consider keeping it secret.
-                                         Do you still wish to be psionic?
+accept-psionics-window-title = Psiônico!
+accept-psionics-window-prompt-text-part = Você rolou um poder psiônico!
+                                         É possível que certas forças anti-psychicas te cacem,
+                                         então você deve considerar mantê-lo em segredo.
+                                         Você ainda quer ser psiônico?
 
-action-name-psionic-invisibility = Psionic Invisibility
+action-name-psionic-invisibility = Invisibilidade Psiônica
+action-description-psionic-invisibility = Torne-se invisível para qualquer entidade que teria o potencial de se tornar psíquica. Borgs, bichos e assim por diante não são afetados.
+
+action-name-psionic-invisibility = Invisibilidade Psiônica
 action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
 
-action-name-psionic-invisibility = Psionic Invisibility
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+action-name-psionic-invisibility-off = Desligar Invisibilidade Psiônica
+action-description-psionic-invisibility-off = Volta à visibilidade e fica atordoado.
 
-action-name-psionic-invisibility-off = Turn Off Psionic Invisibility
-action-description-psionic-invisibility-off = Return to visibility, and receive a stun.
+action-name-mind-swap = Troca de Mente
+action-description-mind-swap = Troca de mente com o alvo. Ambos podem trocar de volta depois de 20 segundos.
 
-action-name-mind-swap = Mind Swap
-action-description-mind-swap = Swap minds with the target. Either can change back after 20 seconds.
+action-name-mind-swap-return = Reverte a Troca de Mente
+action-description-mind-swap-return = Retorne ao seu corpo original.
 
-action-name-mind-swap-return = Reverse Mind Swap
-action-description-mind-swap-return = Return to your original body.
+action-name-telegnosis = Telegnose
+action-description-telegnosis = Crie uma projeção telegnóstica para observar as coisas remotamente.
 
-action-name-telegnosis = Telegnosis
-action-description-telegnosis = Create a telegnostic projection to remotely observe things.
+action-name-psionic-regeneration = Regeneração Psiônica
+action-description-psionic-regeneration = Leve o seu metabolismo ao limite para alimentar as capacidades regenerativas do seu corpo.
 
-action-name-psionic-regeneration = Psionic Regeneration
-action-description-psionic-regeneration = Push your natural metabolism to the limit to power your body's regenerative capability.
+glimmer-report = Nivel atual de vislumbre: {$level}μΨ.
+glimmer-event-report-generic = descarga noösférica detectada. Nivel de vislumbre diminuiu {$decrease} até {$level}μΨ.
 
-glimmer-report = Current Glimmer Level: {$level}μΨ.
-glimmer-event-report-generic = Noöspheric discharge detected. Glimmer level has decreased by {$decrease} to {$level}μΨ.
-
-noospheric-zap-seize = You seize up!
-noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too.
+noospheric-zap-seize = You seize up! (oi aqui é o rber. tire um screenshot disso por favor)
+noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too. (oi aqui é o rber. tire um screenshot disso por favor)

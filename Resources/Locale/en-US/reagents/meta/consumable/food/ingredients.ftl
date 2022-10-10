@@ -10,7 +10,7 @@ reagent-desc-enzyme = Usado para cozinhar uma variedade de pratos.
 reagent-name-egg = ovo
 reagent-desc-egg = Usado para assar.
 
-reagent-name-sugar = açucar
+reagent-name-sugar = sugar
 reagent-desc-sugar = Saboroso açucar do espaço!
 
 reagent-name-blackpepper = pimenta preta

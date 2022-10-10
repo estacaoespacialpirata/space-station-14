@@ -4,6 +4,8 @@
   setPreference: false
   playTimeTracker: JobSecurityCadet
   requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 36000
     - !type:DepartmentTimeRequirement
       department: Security
       time: 7200

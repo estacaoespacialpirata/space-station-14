@@ -100,9 +100,27 @@
   serverEvent: !type:TelegnosisPowerActionEvent
 
 - type: instantAction
-  id: Psionic Regeneration
+  id: PsionicRegeneration
   name: action-name-psionic-regeneration
   description: action-description-psionic-regeneration
   icon: Interface/VerbIcons/sentient.svg.192dpi.png
   useDelay: 120
   serverEvent: !type:PsionicRegenerationPowerActionEvent
+
+- type: entityTargetAction
+  id: NoosphericZap
+  name: action-name-noospheric-zap
+  description: action-description-noospheric-zap
+  icon: Interface/VerbIcons/sentient.svg.192dpi.png
+  useDelay: 120
+  range: 8
+  serverEvent: !type:NoosphericZapPowerActionEvent
+
+- type: entityTargetAction
+  id: Pyrokinesis
+  name: action-name-pyrokinesis
+  description: action-description-pyrokinesis
+  icon: Interface/VerbIcons/sentient.svg.192dpi.png
+  useDelay: 50
+  range: 8
+  serverEvent: !type:PyrokinesisPowerActionEvent

@@ -1,7 +1,7 @@
-mail-recipient-mismatch = Recipient name or job does not match.
-mail-invalid-access = Recipient name and job match, but access isn't as expected.
-mail-locked = The anti-tamper lock hasn't been removed. Tap the recipient's ID.
-mail-desc-far = A parcel of mail. You can't make out who it's addressed to from this distance.
-mail-desc-close = A parcel of mail addressed to {CAPITALIZE($name)}, {$job}.
-mail-bounty = Anti-tamper system unlocked. {$bounty} zorkmids have been added to cargo's account.
-mail-penalty = ANTI-TAMPER LOCK BROKEN. CARGO BANK ACCOUNT PENALIZED BY {$credits} CREDITS.
+mail-recipient-mismatch = Nome ou cargo do destinatário não corresponde.
+mail-invalid-access = Nome ou cargo do destinatário corresponde, mas o acesso não funciona como esperado.
+mail-locked = A tranca anti-violação não foi removida. Toque com o ID do destinatário.
+mail-desc-far = Um pacote de correio. Você não consegue entender pra quem se dirige dessa distância.
+mail-desc-close = Um pacote de correio endereçado a {CAPITALIZE($name)}, {$job}.
+mail-bounty = Sistema anti-violação destrancado. {$bounty} zorkmids foram adicionados à conta da carga.
+mail-penalty = TRANCA ANTI-VIOLAÇÃO VIOLADA. MULTA SOBE A CONTA BANCÁRIA DA CARGO DE {$credits} CREDITOS.

@@ -38,6 +38,7 @@ job-name-ertengineer = engenheiro da ERT
 job-name-ertsecurity = segurança da ERT
 job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
+job-name-boxer = boxeador
 
 
 #Nyano

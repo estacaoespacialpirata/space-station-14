@@ -1,6 +1,6 @@
 admin-logs-title = Admin Logs 
 admin-logs-count = Mostrando {$showing}/{$total}
-admin-logs-pop-out = Sair
+admin-logs-pop-out = Abrir fora
 
 # Round
 admin-logs-round = Rodada{" "}

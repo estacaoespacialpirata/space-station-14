@@ -1,19 +1,19 @@
-action-name-suck-blood = Suck Blood
-action-description-suck-blood = Suck the blood of the victim in your hand.
+action-name-suck-blood = Chupa Sangue
+action-description-suck-blood = Chupa o sangue da vítima na sua mão.
 
-bloodsucker-fail-helmet = You'd need to remove {THE($helmet)}.
-bloodsucker-fail-mask = You'd need to remove your mask!
+bloodsucker-fail-helmet = Você precisa remover o {THE($helmet)}.
+bloodsucker-fail-mask = Você precisaria remover a sua máscara!
 
-bloodsucker-fail-not-blood = { CAPITALIZE(SUBJECT($target)) } doesn't have delicious, nourishing mortal blood.
-bloodsucker-fail-no-blood = { CAPITALIZE(SUBJECT($target)) } has no blood in { POSS-ADJ($target) } body.
-bloodsucker-fail-no-blood-bloodsucked = { CAPITALIZE(SUBJECT($target)) } has been sucked dry.
+bloodsucker-fail-not-blood = { CAPITALIZE(SUBJECT($target)) } não tem o delicioso e nutritivo sangue mortal.
+bloodsucker-fail-no-blood = { CAPITALIZE(SUBJECT($target)) } não tem sangue no corpo de { POSS-ADJ($target) }.
+bloodsucker-fail-no-blood-bloodsucked = { CAPITALIZE(SUBJECT($target)) } foi chupado até secar.
 
-bloodsucker-blood-sucked = You suck some blood from {$target}.
-bloodsucker-doafter-start = You try biting {$target}'s neck.
+bloodsucker-blood-sucked = Você chupa um pouco de sangue de {$target}.
+bloodsucker-doafter-start = Você tenta morder o pescoço de {$target}.
 
-bloodsucker-doafter-start-victim = {CAPITALIZE(THE($sucker))} is trying to bite your neck!
-bloodsucker-blood-sucked-victim = {CAPITALIZE(THE($sucker))} sucks some of your blood!
+bloodsucker-doafter-start-victim = {CAPITALIZE(THE($sucker))} está tentando morder seu pescoço!
+bloodsucker-blood-sucked-victim = {CAPITALIZE(THE($sucker))} chupa um pouco do seu sangue!
 
-bloodsucked-health-examine = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } bite marks on { POSS-ADJ($target) } neck.[/color]
+bloodsucked-health-examine = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } marcas de mordida no pescoço de { POSS-ADJ($target) }.[/color]
 
-bloodsucker-glands-throb = The glands behind your fangs feel a bit sore.
+bloodsucker-glands-throb = Você sente as glândulas sob as suas presas um pouco machucadas.

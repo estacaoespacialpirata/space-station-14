@@ -1,8 +1,10 @@
+
 - type: gameMap
-  id: boxstation
+  id: Box
   mapName: 'Box Station'
   mapPath: /Maps/box.yml
   minPlayers: 30
+  votable: false
   stations:
     Boxstation:
       mapNameTemplate: '{0} Box Station {1}'

@@ -73,6 +73,7 @@
     randomizeName: false
   - type: PsionicBonusChance
     multiplier: 7
+    warn: false
 
 - type: entity
   name: ERT leader
@@ -216,3 +217,4 @@
     - type: RandomHumanoidAppearance
     - type: PsionicBonusChance
       multiplier: 7
+      warn: false

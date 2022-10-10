@@ -31,7 +31,7 @@
     - shape:
         !type:PhysShapeCircle
         radius: 0.35
-      mass: 65
+      density: 65
       mask:
       - SmallMobMask
       layer:
@@ -72,6 +72,7 @@
       - CannotSuicide
       - DoorBumpOpener
       - FootstepSound
+      - Spider
   - type: NoSlip
   - type: GiantTarantula
     actionDomain:
@@ -106,7 +107,6 @@
     successChance: 0.5
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-generic
-  - type: BypassWeb
 
 - type: entity
   name: tarantula
@@ -114,14 +114,15 @@
   id: MobTarantulaServant
   suffix: Angry
   components:
-    - type: BypassWeb
     - type: Fixtures
       fixtures:
       - shape:
           !type:PhysShapeCircle
           radius: 0.35
-        mass: 50
+        density: 50
         mask:
         - SmallMobMask
         layer:
         - SmallMobLayer
+    - type: Puller
+      needsHands: false

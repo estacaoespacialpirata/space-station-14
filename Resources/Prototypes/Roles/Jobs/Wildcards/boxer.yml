@@ -1,10 +1,10 @@
 - type: job
   id: Boxer
-  name: "boxer"
+  name: job-name-boxer
   playTimeTracker: JobBoxer
   startingGear: BoxerGear
   icon: "Boxer"
-  supervisors: "the head of personnel"
+  supervisors: job-supervisors-hop
   special:
   - !type:AddComponentSpecial
     components:

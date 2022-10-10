@@ -1,5 +1,5 @@
-psionic-regeneration-begin = {CAPITALIZE($entity)}'s eyes twitch under a wave of sweat.
+psionic-regeneration-begin = Os olhos de {CAPITALIZE($entity)} se contraem sob uma onda de suor.
 
-psionic-regeneration-essence-sweat = {CAPITALIZE($entity)} sweats profusely.
-psionic-regeneration-essence-veins = {CAPITALIZE($entity)}'s veins pulse.
-psionic-regeneration-essence-breath = {CAPITALIZE($entity)} breathes rapidly.
+psionic-regeneration-essence-sweat = {CAPITALIZE($entity)} sua profusamente.
+psionic-regeneration-essence-veins = As veias de {CAPITALIZE($entity)} pulsam.
+psionic-regeneration-essence-breath = {CAPITALIZE($entity)} respira pesadamente.
