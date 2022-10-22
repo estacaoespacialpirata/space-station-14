@@ -1,28 +1,28 @@
-devour-action-popup-message-structure = Your jaws dig into thick material..
-devour-action-popup-message-fail-target-not-valid = That doesn't look particularly edible.
-devour-action-popup-message-fail-target-alive = You can't consume creatures that are alive!
+devour-action-popup-message-structure = Suas mandíbulas adentram um material grosso..
+devour-action-popup-message-fail-target-not-valid = Isso não parece comestível.
+devour-action-popup-message-fail-target-alive = Você não pode consumir criaturas que estão vivas!
 
-dragon-spawn-action-popup-message-fail-no-eggs = You don't have the stamina to do that!
+dragon-spawn-action-popup-message-fail-no-eggs = Você não tem energia para criar uma carpa!
 
 
-action-name-devour = [color=red]Devour[/color]
-action-description-devour = Attempt to break a structure with your jaws or swallow a creature.
+action-name-devour = [color=red]Devorar[/color]
+action-description-devour = Tente quebrar uma estrutura com suas mandíbulas ou engolir uma criatura.
 
-action-name-carp-summon = Summon carp
-action-description-carp-summon = Summon a carp to aid you at seizing the station!
+action-name-carp-summon = Sumonar carpa
+action-description-carp-summon = Sumone uma carpa para te ajudar a tomar a estação!
 
 # Rifts
-carp-rift-warning = A rift is causing an unnaturally large energy flux at {$location}. Stop it at all costs!
-carp-rift-duplicate = Cannot have 2 charging rifts at the same time!
-carp-rift-examine = It is [color=yellow]{$percentage}%[/color] charged!
-carp-rift-max = You have reached your maximum amount of rifts
-carp-rift-anchor = Rifts require a stable surface to spawn.
-carp-rift-proximity = Too close to a nearby rift! Need to be at least {$proximity}m away.
-carp-rift-space-proximity = Too close to space! Need to be at least {$proximity}m away.
-carp-rift-weakened = You are unable to summon more rifts in your weakened state.
-carp-rift-destroyed = A rift has been destroyed! You are now weakened temporarily.
+carp-rift-warning = Uma fenda está causando um fluxo de energia anormal em {$location}. Pare-a a qualquer custo!
+carp-rift-duplicate = Não pode ter 2 fendas carregando ao mesmo tempo!
+carp-rift-examine = Está [color=yellow]{$percentage}%[/color] carregado!
+carp-rift-max = Você alcançou a quantidade máxima de fendas.
+carp-rift-anchor = Fendas precisa de uma superfície estável para serem geradas.
+carp-rift-proximity = Perto demais de uma fenda! Precisa estar a pelo menos {$proximity}m de distãncia.
+carp-rift-space-proximity = Perto demais do espaço! Precisa estar a pelo menos {$proximity}m de distãncia.
+carp-rift-weakened = Você está incapaz de sumonar mais fendas em seu estado enfraquecido.
+carp-rift-destroyed = Uma fenda foi destruída! Você agora está enfraquecido temporariamente.
 
 # Round end
-dragon-round-end-summary = The dragons were:
-dragon-round-end-dragon = {$name} with {$count} rifts
-dragon-round-end-dragon-player = {$name} ({$player}) with {$count} rifts
+dragon-round-end-summary = Os dragões foram:
+dragon-round-end-dragon = {$name} com {$count} fendas
+dragon-round-end-dragon-player = {$name} ({$player}) com {$count} fendas

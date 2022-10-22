@@ -1,20 +1,20 @@
-ent-CrateFunPlushie = Plushie crate
+ent-CrateFunPlushie = Caixa de pelúcias
     .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
 
-ent-CrateFunInstruments = Big band instrument collection
+ent-CrateFunInstruments = Coleção de instrumentos
     .desc = Get your sad station movin' and groovin' with this fine collection! Contains thirteen different instruments.
 
-ent-CrateFunBrass = Brass instrument ensemble crate
+ent-CrateFunBrass = Caixa de intrumentos de sopro
     .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
 
-ent-CrateFunArtSupplies = Art supplies
+ent-CrateFunArtSupplies = Suprimentos Artísticos
     .desc = Make some happy little accidents with lots of crayons!
 
-ent-CrateFunBoardGames = Board game crate
+ent-CrateFunBoardGames = Caixa de jogos de tabuleiro
     .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
 
-ent-CrateFunATV = ATV crate
-    .desc = An Absolutely Taxable Vehicle to help cargo with hauling.
+ent-CrateFunATV = Caixa de ATV
+    .desc = Vruuuum, bibibi.
 
-ent-CrateFunSyndicateSegway = Syndicate segway crate
-    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.
+ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
+    .desc = Para dar fuga na segurança.

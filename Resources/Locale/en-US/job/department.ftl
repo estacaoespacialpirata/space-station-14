@@ -1,7 +1,7 @@
 department-Cargo = cargo
-department-Civilian = civilian
-department-Command = command
-department-Engineering = engineering
-department-Medical = medical
-department-Security = security
-department-Science = science
+department-Civilian = civil
+department-Command = comando
+department-Engineering = engenharia
+department-Medical = médico
+department-Security = segurança
+department-Science = pesquisa & desenvolvimento

@@ -1,7 +1,7 @@
-﻿advertisement-cola-1 = Refreshing!
-advertisement-cola-2 = Hope you're thirsty!
-advertisement-cola-3 = Over 1 million drinks sold!
-advertisement-cola-4 = Thirsty? Why not cola?
-advertisement-cola-5 = Please, have a drink!
-advertisement-cola-6 = Drink up!
-advertisement-cola-7 = The best drinks in the galaxy!
+advertisement-cola-1 = Refrescante!
+advertisement-cola-2 = Espero que esteja com sede!
+advertisement-cola-3 = Mais de 1 milhão de freguêses!
+advertisement-cola-4 = Com sede? que tal um refri?
+advertisement-cola-5 = Vai um gole?
+advertisement-cola-6 = Beba!
+advertisement-cola-7 = A bebida das galáxias!

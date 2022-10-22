@@ -1,1 +1,0 @@
-power-cell-component-examine-details = A carga indica estar {$currentCharge} % cheia.

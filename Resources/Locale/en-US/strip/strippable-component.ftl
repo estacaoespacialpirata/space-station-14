@@ -1,19 +1,20 @@
-strippable-component-not-holding-anything = You aren't holding anything!
-strippable-component-cannot-drop = You can't drop that!
-strippable-component-item-slot-occupied-message = {$owner} already has something there!
-strippable-component-cannot-equip-message = {$owner} cannot equip that there!
-strippable-component-cannot-put-message = {$owner} cannot put that there!
-strippable-component-item-slot-free-message = {$owner} has nothing there!
-strippable-component-cannot-unequip-message = {$owner} cannot unequip that!
-strippable-component-cannot-drop-message = {$owner} cannot drop that!
-strippable-component-alert-owner = {$user} is removing your {$item}!
-strippable-component-alert-owner-hidden = You feel someone fumbling in your {$slot}!
-strippable-component-alert-owner-insert = {$user} is putting {$item} on you!
+strippable-component-not-holding-anything = Você não está segurando nada!
+strippable-component-cannot-drop = Você não pode largar isso!
+strippable-component-item-slot-occupied-message = {$owner} já tem algo ali!
+strippable-component-cannot-equip-message = {$owner} não pode equipar isso ali!
+strippable-component-cannot-put-message = {$owner} não pode colocar isso ali!
+strippable-component-item-slot-free-message = {$owner} não tem nada ali!
+strippable-component-cannot-unequip-message = {$owner} não pode equipar aquilo!
+strippable-component-cannot-drop-message = {$owner} não pode largar aquilo!
+strippable-component-alert-owner = {$user} está removendo seu(sua) {$item}!
+strippable-component-alert-owner-hidden = Você sente alguém mexendo no(a) seu(sua) {$slot}!
+strippable-component-alert-owner-insert = {$user} está colocando {$item} em você!
 
 # StripVerb
-strip-verb-get-data-text = Strip
+strip-verb-get-data-text = Pilhar
 
 ## UI
 
-strippable-bound-user-interface-stripping-menu-title = {$ownerName}'s inventory
-strippable-bound-user-interface-stripping-menu-ensnare-button = Remove Leg Restraints
+strippable-bound-user-interface-stripping-menu-title = Inventário de {$ownerName}
+strippable-bound-user-interface-stripping-menu-handcuffs-button = Contenções
+strippable-bound-user-interface-stripping-menu-obfuscate = Ocupado

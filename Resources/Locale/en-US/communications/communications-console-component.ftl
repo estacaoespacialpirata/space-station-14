@@ -1,18 +1,20 @@
-﻿# User interface
-comms-console-menu-title = Communications Console
-comms-console-menu-announcement-placeholder = Announcement
-comms-console-menu-announcement-button = Announce
-comms-console-menu-call-shuttle = Call emergency shuttle
-comms-console-menu-recall-shuttle = Recall emergency shuttle
+# User interface
+comms-console-menu-title = Console de Comunicações
+comms-console-menu-announcement-placeholder = Aviso
+comms-console-menu-announcement-button = Anunciar
+comms-console-menu-call-shuttle = Chamar nave de emergência
+comms-console-menu-recall-shuttle = Chamar nave de emergência de volta
+communicationsconsole-menu-call-shuttle = Chamar nave de emergência
+communicationsconsole-menu-recall-shuttle = Cancelar nave de emergência
 
 # Popup
-comms-console-permission-denied = Permission denied
+comms-console-permission-denied = Permissão recusada
 
 # Placeholder values
-comms-console-announcement-sent-by = Sent by
-comms-console-announcement-unknown-sender = Unknown
+comms-console-announcement-sent-by = Enviado por
+comms-console-announcement-unknown-sender = Desconhecido
 
 # Comms console variant titles
-comms-console-announcement-title-station = Communications Console
-comms-console-announcement-title-centcom = Central Command
-comms-console-announcement-title-nukie = Syndicate Nuclear Operative
+comms-console-announcement-title-station = Console de Comunicações
+comms-console-announcement-title-centcom = Central de Comando
+comms-console-announcement-title-nukie = Operativo Nuclear do Sindicato

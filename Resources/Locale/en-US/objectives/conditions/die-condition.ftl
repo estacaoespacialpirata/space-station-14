@@ -1,2 +1,2 @@
-objective-condition-die-title = Die a glorious death
-objective-condition-die-description = Die.
+objective-condition-die-title = Morra de forma gloriosa
+objective-condition-die-description = Morra.

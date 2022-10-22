@@ -1,9 +1,9 @@
 ﻿identity-unknown-name = ???
 
-identity-age-young = young
-identity-age-middle-aged = middle-aged
-identity-age-old = old
+identity-age-young = jovem
+identity-age-middle-aged = maduro(a)
+identity-age-old = velho(a)
 
-identity-gender-feminine = woman
-identity-gender-masculine = man
-identity-gender-person = person
+identity-gender-feminine = mulher
+identity-gender-masculine = homem
+identity-gender-person = pessoa

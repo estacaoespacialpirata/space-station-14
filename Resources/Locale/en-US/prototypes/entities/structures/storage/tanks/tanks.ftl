@@ -1,23 +1,23 @@
-ent-WeldingFuelTank = fuel tank
-    .desc = A fuel tank. It's used to store high amounts of fuel.
+ent-WeldingFuelTank = tanque de combustível
+    .desc = Um tanque de combustível. É usado para armazenar grandes quantidades de combustível.
 
 ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
     .desc = { ent-WeldingFuelTank.desc }
 
-ent-WaterTank = water tank
-    .desc = A water tank. It's used to store high amounts of water.
+ent-WaterTank = tanque de água
+    .desc = Um tanque de água. É usado para armazenar grandes quantidades de água.
 
 ent-WaterTankFull = { ent-WaterTank }
     .desc = { ent-WaterTank.desc }
 
-ent-WaterCooler = water cooler
-    .desc = Seems like a good place to stand and waste time.
+ent-WaterCooler = resfriador de água
+    .desc = Parece um bom lugar para ficar parado e gastar tempo.
 
-ent-WaterTankHighCapacity = High-capacity water tank
-    .desc = A highly pressurized water tank made to hold gargantuan amounts of water.
+ent-WaterTankHighCapacity = Tanque de água de alta capacidade
+    .desc = Um tanque de água altamente pressurizado feito para armazenar quantidades massivas de água.
 
 ent-KvassTank = КВАС
-    .desc = A cool refreshing drink with a taste of socialism.
+    .desc = Uma refrescante bebida com sabor de socialismo.
 
 ent-KvassTankFull = { ent-KvassTank }
     .desc = { ent-KvassTank.desc }

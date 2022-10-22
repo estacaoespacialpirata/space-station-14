@@ -1,8 +1,8 @@
-﻿advertisement-discount-1 = Discount Dan, he's the man!
-advertisement-discount-2 = There ain't nothing better in this world than a bite of mystery.
-advertisement-discount-3 = Don't listen to those other machines, buy my product!
-advertisement-discount-4 = Quantity over Quality!
-advertisement-discount-5 = Don't listen to those eggheads at the CDC, buy now!
-advertisement-discount-6 = Discount Dan's: We're good for you! Nope, couldn't say it with a straight face.
-advertisement-discount-7 = Discount Dan's: Only the best quality produ-*BZZT
-advertisement-discount-8 = Discount Dan(tm) is not responsible for any damages caused by misuse of his product.
+advertisement-discount-1 = Discount Dan, é o cara!
+advertisement-discount-2 = Não há nada melhor nesse mundo do que um pouco de mistério.
+advertisement-discount-3 = Não ouça as outras máquinas, compre meu produto!
+advertisement-discount-4 = Quantidade melhor que qualidade!
+advertisement-discount-5 = Não ouça aqueles caras da CDC, Compre agora!
+advertisement-discount-6 = Discount Dan: Nós te fazemos bem! Eu não podia ser mais direto.
+advertisement-discount-7 = Discount Dan: Os produtos com a melhor qualida-*BZZT
+advertisement-discount-8 = Discount Dan(tm) Não é responsável por qualquer dano com o mal uso dos produtos.

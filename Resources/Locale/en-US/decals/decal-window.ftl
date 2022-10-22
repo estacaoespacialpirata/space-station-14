@@ -1,8 +1,8 @@
-﻿decal-placer-window-title = Decal Placer
-decal-placer-window-use-color = Custom Color
-decal-placer-window-rotation = Rotation
-decal-placer-window-zindex = Draw Depth
-decal-placer-window-enable-snap = Snap To Tile
-decal-placer-window-enable-cleanable = Cleanable
-decal-placer-window-palette = Palette
-palette-color-picker-window-title = Palettes
+decal-placer-window-title = Aplicador de Decalques
+decal-placer-window-use-color = Cor Personalizada
+decal-placer-window-rotation = Rotação
+decal-placer-window-zindex = Profundidade de Desenho
+decal-placer-window-enable-snap = Encaixar em Quadrado
+decal-placer-window-enable-cleanable = Limpável
+decal-placer-window-palette = Paleta
+palette-color-picker-window-title = Paletas

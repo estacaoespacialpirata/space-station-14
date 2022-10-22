@@ -1,12 +1,12 @@
-cuffable-component-cannot-interact-message = You can't do that!
-cuffable-component-cannot-remove-cuffs-too-far-message = You are too far away to remove the cuffs.
-cuffable-component-start-removing-cuffs-message = You start removing the cuffs.
-cuffable-component-remove-cuffs-success-message = You successfully remove the cuffs.
-cuffable-component-remove-cuffs-by-other-success-message = {$otherName} uncuffs your hands.
-cuffable-component-remove-cuffs-to-other-partial-success-message = You successfully remove the cuffs. {$cuffedHandCount} of {$otherName}'s hands remain cuffed.
-cuffable-component-remove-cuffs-by-other-partial-success-message = {$otherName} removes your cuffs. {$cuffedHandCount} of your hands remain cuffed.
-cuffable-component-remove-cuffs-partial-success-message = You successfully remove the cuffs. {$cuffedHandCount} of your hands remain cuffed.
-cuffable-component-remove-cuffs-fail-message = You fail to remove the cuffs.
+cuffable-component-cannot-interact-message = Você não pode fazer isso!
+cuffable-component-cannot-remove-cuffs-too-far-message = Você está muito longe para remover as algemas.
+cuffable-component-start-removing-cuffs-message = Você começa a remover as algemas.
+cuffable-component-remove-cuffs-success-message = Você removeu as algemas.
+cuffable-component-remove-cuffs-by-other-success-message = {$otherName} desalgema suas mãos.
+cuffable-component-remove-cuffs-to-other-partial-success-message = Você remove uma algema. {$cuffedHandCount} mão do(a) {$otherName}'s continua algemada.
+cuffable-component-remove-cuffs-by-other-partial-success-message = {$otherName} remove uma algema. {$cuffedHandCount} mão continua algemada.
+cuffable-component-remove-cuffs-partial-success-message = Você remove uma algema. {$cuffedHandCount} mão continua algemada.
+cuffable-component-remove-cuffs-fail-message = Você falha em remover as algemas.
 
 # UncuffVerb
-uncuff-verb-get-data-text = Uncuff
+uncuff-verb-get-data-text = Desalgemar

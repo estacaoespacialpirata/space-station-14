@@ -1,5 +1,5 @@
 ## SpillTargetVerb
 
-spill-target-verb-get-data-text = Spill liquid
-spill-target-verb-activate-cannot-drain-message = You can't pour anything from {$owner}!
-spill-target-verb-activate-is-empty-message = {$owner} is empty!
+spill-target-verb-get-data-text = Derramar líquido
+spill-target-verb-activate-cannot-drain-message = Você não pode despejar nada de {$owner}!
+spill-target-verb-activate-is-empty-message = {$owner} está vazio!

@@ -1,3 +1,3 @@
-signal-port-selector-menu-title = Port Selector
-signal-port-selector-menu-clear = Clear
-signal-port-selector-menu-link-defaults = Link defaults
+signal-port-selector-menu-title = Slecionador de Porta
+signal-port-selector-menu-clear = Limpar
+signal-port-selector-menu-link-defaults = Conectar Padrões

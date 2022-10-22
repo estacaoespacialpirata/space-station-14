@@ -2,36 +2,36 @@
 
 ## Petting animals
 
-petting-success-generic = You pet {THE($target)} on {POSS-ADJ($target)} head.
-petting-success-soft-floofy = You pet {THE($target)} on {POSS-ADJ($target)} soft floofy head.
+petting-success-generic = Você acaricia {THE($target)} em sua cabeça.
+petting-success-soft-floofy = Você acaricia {THE($target)} levemente em sua cabeça macia.
 
-petting-success-bird = You pet {THE($target)} on {POSS-ADJ($target)} cute feathery head.
-petting-success-cat = You pet {THE($target)} on {POSS-ADJ($target)} fuzzy little head.
-petting-success-corrupted-corgi = In an act of hubris, you pet {THE($target)} on {POSS-ADJ($target)} cursed little head.
-petting-success-crab = You pet {THE($target)} on {POSS-ADJ($target)} smooth little head.
-petting-success-dog = You pet {THE($target)} on {POSS-ADJ($target)} soft floofy head.
-petting-success-frog = You pet {THE($target)} on {POSS-ADJ($target)} slippery little head.
-petting-success-goat = You pet {THE($target)} on {POSS-ADJ($target)} horned floofy head.
-petting-success-goose = Against all odds, you manage to pet {THE($target)} on {POSS-ADJ($target)} horrible little head.
-petting-success-possum = You pet {THE($target)} on {POSS-ADJ($target)} horrible little head.
-petting-success-reptile = You pet {THE($target)} on {POSS-ADJ($target)} scaly little head.
-petting-success-sloth = You pet {THE($target)} on {POSS-ADJ($target)} slow moving head.
-petting-success-space-cat = You pet {THE($target)} on {POSS-ADJ($target)} glass domed head.
-petting-success-tarantula = You pet {THE($target)} on {POSS-ADJ($target)} hairy little head.
-petting-success-holo = You pet {THE($target)} on {POSS-ADJ($target)} metallic spiky head.
-petting-success-dragon = Dodging teeth, claws, and flames, you pet {THE($target)} on {POSS-ADJ($target)} massive scaled head.
+petting-success-bird = Você acaricia {THE($target)} em sua cabeça emplumada.
+petting-success-cat = Você acaricia {THE($target)} em sua cabeça pequena e felpuda.
+petting-success-corrupted-corgi = Em um ato de arrogância, você acaricia {THE($target)} em sua amaldiçoada cabecinha.
+petting-success-crab = Você acaricia {THE($target)} em sua cabecinha suave.
+petting-success-dog = Você acaricia {THE($target)} em sua macia e fofa cabeça.
+petting-success-frog = Você acaricia {THE($target)} em sua slippery cabecinha.
+petting-success-goat = Você acaricia {THE($target)} em sua fofa cabeça com chifres.
+petting-success-goose = Contra todas as possibilidades, você consegue acariciar {THE($target)} em sua horrível cabecinha.
+petting-success-possum = Você acaricia {THE($target)} em sua horrível cabecinha.
+petting-success-reptile = Você acaricia {THE($target)} em sua escamosa cabecinha.
+petting-success-sloth = Você acaricia {THE($target)} em sua lenta cabeça.
+petting-success-space-cat = Você acaricia {THE($target)} em sua cabeça envolta em vidro.
+petting-success-tarantula = Você acaricia {THE($target)} em sua peluda cabecinha.
+petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálica cabeça.
+petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
 
-petting-failure-generic = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} aloof towards you.
+petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
-petting-failure-bat = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} too hard to catch!
-petting-failure-corrupted-corgi = You reach out to pet {THE($target)}, but think better of it.
-petting-failure-crab = You reach out to pet {THE($target)}, but {SUBJECT($target)} snaps {POSS-ADJ($target)} claws in your general direction!
-petting-failure-goat = You reach out to pet {THE($target)}, but {SUBJECT($target)} stubbornly refuses!
-petting-failure-goose = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} too horrible!
-petting-failure-possum = You reach out to pet {THE($target)}, but are met with hisses and snarls!
-petting-failure-sloth = You reach out to pet {THE($target)}, but {SUBJECT($target)} somehow dodge with ludicrous speed!
-petting-failure-holo = You reach out to pet {THE($target)}, but {POSS-ADJ($target)} spikes almost impale your hand!
-petting-failure-dragon = You raise your hand, but as {THE($target)} roars, you decide you'd rather not be toasty carp food.
+petting-failure-bat = Você tenta acariciar {THE($target)}, mas ele(a) é muito difícil de pegar!
+petting-failure-corrupted-corgi = Você tenta acariciar {THE($target)}, mas pensa melhor sobre isso.
+petting-failure-crab = Você tenta acariciar {THE($target)}, mas ele(a) aponta suas pinças em sua direção!
+petting-failure-goat = Você tenta acariciar {THE($target)}, mas ele(a) recusa teimosamente!
+petting-failure-goose = Você tenta acariciar {THE($target)}, mas ele(a) é horrível demais!
+petting-failure-possum = Você tenta acariciar {THE($target)}, mas é recebido com chiados e rosnados!
+petting-failure-sloth = Você tenta acariciar {THE($target)}, mas ele(a) de algum jeito desvia com uma velocidade ridícula!
+petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos dele(a) quase impalam sua mão!
+petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta um rugido, você decide que é melhor não arriscar virar franguinho assado.
 
 ## Petting silicons
 
@@ -46,10 +46,10 @@ petting-failure-medibot = You reach out to pet {THE($target)}, but {POSS-ADJ($ta
 ## Knocking on windows
 
 # Shown when knocking on a window
-comp-window-knock = *knock knock*
+comp-window-knock = *toc toc*
 
 ## Hugging players
 
-hugging-success-generic = You hug {THE($target)}.
-hugging-success-generic-others = { CAPITALIZE(THE($user)) } hugs {THE($target)}.
-hugging-success-generic-target = { CAPITALIZE(THE($user)) } hugs you.
+hugging-success-generic = Você abraça {THE($target)}.
+hugging-success-generic-others = { CAPITALIZE(THE($user)) } abraçou {THE($target)}.
+hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.

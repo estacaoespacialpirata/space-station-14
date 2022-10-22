@@ -1,32 +1,32 @@
-reagent-name-flour = flour
-reagent-desc-flour = Used for baking.
+reagent-name-flour = farinha
+reagent-desc-flour = Usado para assar.
 
-reagent-name-oats = oats
-reagent-desc-oats = Used for a variety of tasty purposes.
+reagent-name-oats = aveia
+reagent-desc-oats = Usado para uma variedade de propósitos saborosos.
 
-reagent-name-enzyme = universal enzyme
-reagent-desc-enzyme = Used in cooking various dishes.
+reagent-name-enzyme = enzima universal
+reagent-desc-enzyme = Usado para cozinhar uma variedade de pratos.
 
-reagent-name-egg = egg
-reagent-desc-egg = Used for baking.
+reagent-name-egg = ovo
+reagent-desc-egg = Usado para assar.
 
 reagent-name-sugar = sugar
-reagent-desc-sugar = Tasty spacey sugar!
+reagent-desc-sugar = Saboroso açucar do espaço!
 
-reagent-name-blackpepper = black pepper
-reagent-desc-blackpepper = Often used to flavor food or make people sneeze.
+reagent-name-blackpepper = pimenta preta
+reagent-desc-blackpepper = Frequentemente usado para temperar comida ou fazer pessoas espirrarem.
 
-reagent-name-vinegar = vinegar
-reagent-desc-vinegar = Often used to flavor food.
+reagent-name-vinegar = vinagre
+reagent-desc-vinegar = Usado para temperar comida.
 
-reagent-name-rice = rice
-reagent-desc-rice = Hard, small white grains.
+reagent-name-rice = arroz
+reagent-desc-rice = Pequenos, duros grãos brancos.
 
-reagent-name-oil-olive = olive oil
-reagent-desc-oil-olive = Viscous and fragrant.
+reagent-name-oil-olive = óleo de oliva
+reagent-desc-oil-olive = Viscoso e cheiroso.
 
-reagent-name-oil = oil
-reagent-desc-oil = Used by chefs to cook.
+reagent-name-oil = óleo
+reagent-desc-oil = Usado por chefs para cozinhar.
 
-reagent-name-capsaicin-oil = Capsaicin Oil
-reagent-desc-capsaicin-oil = Capsaicin Oil is the ingredient found in different types of hot peppers.
+reagent-name-capsaicin-oil = Óleo de Capsaicina
+reagent-desc-capsaicin-oil = Capsaicin Oil é o ingrediente encontrado nas pimentas chilli.

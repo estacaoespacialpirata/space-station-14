@@ -1,3 +1,3 @@
-id-examinable-component-verb-text = ID Card
-id-examinable-component-verb-disabled = Read an ID card in close range.
-id-examinable-component-verb-no-id = No ID card visible.
+id-examinable-component-verb-text = Cartão ID
+id-examinable-component-verb-disabled = Ler um cartão ID em curta distância.
+id-examinable-component-verb-no-id = Nenhum cartão ID visível.

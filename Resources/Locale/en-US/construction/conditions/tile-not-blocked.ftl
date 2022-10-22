@@ -1,1 +1,1 @@
-construction-step-condition-tile-not-blocked = The tile must not be obstructed.
+construction-step-condition-tile-not-blocked = O quadrado não deve estar obstruído.

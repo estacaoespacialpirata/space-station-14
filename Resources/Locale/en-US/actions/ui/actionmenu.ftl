@@ -1,11 +1,11 @@
 ## Action menu stuff (left panel, with hotbars etc)
 
-ui-actionmenu-title = Actions
-ui-actionmenu-filter-label = Filters: {$selectedLabels}
-ui-actionmenu-filter-button = Filter
-ui-actionmenu-search-bar-placeholder-text = Search
-ui-actionmenu-clear-button = Clear
+ui-actionmenu-title = Ações
+ui-actionmenu-filter-label = Filtros: {$selectedLabels}
+ui-actionmenu-filter-button = Filtro
+ui-actionmenu-search-bar-placeholder-text = Procurar
+ui-actionmenu-clear-button = Limpar
 
-ui-actionsui-function-lock-action-slots = (Un)lock dragging and clearing action slots
-ui-actionsui-function-open-abilities-menu = Open action menu
+ui-actionsui-function-lock-action-slots = (Des)bloquear arrastamento e limpar slots de ação
+ui-actionsui-function-open-abilities-menu = Abrir menu de ação
 

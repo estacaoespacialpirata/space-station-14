@@ -1,44 +1,44 @@
-ent-CrateNPCBee = Crate of bees
+ent-CrateNPCBee = Caixa de abelhas
     .desc = A crate containing a swarm of eight bees.
 
-ent-CrateNPCButterflies = Crate of butterflies
+ent-CrateNPCButterflies = Caixa de borboletas
     .desc = A crate containing five butterflies.
 
-ent-CrateNPCCat = Cat crate
-    .desc = A crate containing a single cat.
+ent-CrateNPCCat = Caixa de gato
+    .desc = Uma caixa contendo um único gato.
 
-ent-CrateNPCChicken = Chicken crate
+ent-CrateNPCChicken = Caixa de galinhas
     .desc = A crate containing four fully grown chickens.
 
-ent-CrateNPCDuck = Duck crate
+ent-CrateNPCDuck = Caixa de patos
     .desc = A crate containing six fully grown ducks.
 
-ent-CrateNPCCorgi = Corgi crate
-    .desc = A crate containing a single corgi.
+ent-CrateNPCCorgi = Caixa de Corgi
+    .desc = Uma caixa contendo um único corgi.
 
-ent-CrateNPCCow = Cow crate
-    .desc = A crate containing a single cow.
+ent-CrateNPCCow = Caixa de vaca
+    .desc = Uma vaca com um leite muuuuito gostoso e uma carne melhor ainda.
 
-ent-CrateNPCGoat = Goat crate
+ent-CrateNPCGoat = Caixa de cabra
     .desc = A crate containing a single goat.
 
-ent-CrateNPCGoose = Goose crate
+ent-CrateNPCGoose = Caixa de gansos
     .desc = A crate containing two geese.
 
-ent-CrateNPCGorilla = Gorilla crate
+ent-CrateNPCGorilla = Caixa de gorila
     .desc = A crate containing a single gorilla.
 
-ent-CrateNPCMonkeyCube = Monkey cube crate
+ent-CrateNPCMonkeyCube = Caixa de macacos em cubos
     .desc = A crate containing three boxes of monkey cubes.
 
-ent-CrateNPCMouse = Mice crate
+ent-CrateNPCMouse = Caixa de ratos
     .desc = A crate containing five mice.
 
-ent-CrateNPCParrot = Parrot crate
+ent-CrateNPCParrot = Caixa de papagaios
     .desc = A crate containing three parrots.
 
-ent-CrateNPCPenguin = Penguin crate
+ent-CrateNPCPenguin = Caixa de penguins
     .desc = A crate containing two penguins.
 
-ent-CrateNPCSnake = Snake crate
+ent-CrateNPCSnake = Caixa de cobras
     .desc = A crate containing three snakes.

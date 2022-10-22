@@ -1,8 +1,8 @@
-admin-announce-title = Make Announcement
-admin-announce-announcement-placeholder = Announcement text
-admin-announce-announcer-placeholder = Announcer
-admin-announce-announcer-default = Central Command
-admin-announce-button = Announce
-admin-announce-type-station = Station
-admin-announce-type-server = Server
-admin-announce-keep-open = Keep open
+admin-announce-title = Fazer anúncio
+admin-announce-announcement-placeholder = Texto do anúncio
+admin-announce-announcer-placeholder = Locutor
+admin-announce-announcer-default = Central de Comando
+admin-announce-button = Anunciar
+admin-announce-type-station = Estação
+admin-announce-type-server = Servidor
+admin-announce-keep-open = Manter aberto

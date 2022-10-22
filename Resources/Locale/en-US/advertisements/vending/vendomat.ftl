@@ -1,4 +1,4 @@
-﻿advertisement-vendomat-1 = Only the finest!
-advertisement-vendomat-2 = Have some tools.
-advertisement-vendomat-3 = The most robust equipment.
-advertisement-vendomat-4 = The finest gear in space!
+advertisement-vendomat-1 = Apenas os melhores!
+advertisement-vendomat-2 = Pegue suas ferramentas!
+advertisement-vendomat-3 = Os equipamentos mais robustos!
+advertisement-vendomat-4 = Os melhores equipamentos do espaço!

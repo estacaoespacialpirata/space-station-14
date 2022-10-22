@@ -1,25 +1,25 @@
-marking-TattooHiveChest-hivechest = Back Tattoo (Hive)
-marking-TattooHiveChest = Back Tattoo (Hive)
+marking-TattooHiveChest-hivechest = Tatuagem nas costas (Hive)
+marking-TattooHiveChest = Tatuagem nas costas (Hive)
 
-marking-TattooNightlingChest-nightlingchest = Chest Tattoo (nightling)
-marking-TattooNightlingChest = Chest Tattoo (Nightling)
+marking-TattooNightlingChest-nightlingchest = Tatuagem no peito (nightling)
+marking-TattooNightlingChest = Tatuagem no peito (Nightling)
 
-marking-TattooSilverburghLeftLeg-silverburghleftleg = Left Leg Tattoo (Silverburg)
-marking-TattooSilverburghLeftLeg = Left Leg Tattoo (Silverburg)
+marking-TattooSilverburghLeftLeg-silverburghleftleg = Tatuagem na perna esquerda (Silverburg)
+marking-TattooSilverburghLeftLeg = Tatuagem na perna esquerda (Silverburg)
 
-marking-TattooSilverburghRightLeg-silverburghRightleg = Right Leg Tattoo (Silverburg)
-marking-TattooSilverburghRightLeg = Right Leg Tattoo (Silverburg)
+marking-TattooSilverburghRightLeg-silverburghRightleg = Tatuagem na perna direita (Silverburg)
+marking-TattooSilverburghRightLeg = Tatuagem na perna direita (Silverburg)
 
-marking-TattooCampbellLeftArm-campbelleleftArm = Left Arm Tattoo (Campbelle)
-marking-TattooCampbellLeftArm = Left Arm Tattoo (Campbelle)
+marking-TattooCampbellLeftArm-campbelleleftArm = Tatuagem no braço esquerdo (Campbelle)
+marking-TattooCampbellLeftArm = Tatuagem no braço esquerdo (Campbelle)
 
-marking-TattooCampbellRightArm-campbellrightarm = Right Arm Tattoo (Campbelle)
-marking-TattooCampbellRightArm = Right Arm Tattoo (Campbelle)
+marking-TattooCampbellRightArm-campbellrightarm = Tatuagem no braço direito (Campbelle)
+marking-TattooCampbellRightArm = Tatuagem no braço direito (Campbelle)
 
-marking-TattooCampbellLeftLeg-campbellleftleg = Left Leg Tattoo (Campbelle)
-marking-TattooCampbellLeftLeg = Left Leg Tattoo (Campbelle)
+marking-TattooCampbellLeftLeg-campbellleftleg = Tatuagem na perna esquerda (Campbelle)
+marking-TattooCampbellLeftLeg = Tatuagem na perna esquerda (Campbelle)
 
-marking-TattooCampbellRightLeg-campbellrightleg = Right Leg Tattoo (Campbelle)
-marking-TattooCampbellRightLeg = Right Leg Tattoo (Campbelle)
+marking-TattooCampbellRightLeg-campbellrightleg = Tatuagem na perna direita (Campbelle)
+marking-TattooCampbellRightLeg = Tatuagem na perna direita (Campbelle)
 
 

@@ -1,25 +1,25 @@
-﻿whitelist-not-whitelisted = You are not whitelisted.
-whitelist-not-whitelisted-rp = You are not whitelisted. To become whitelisted, visit our Discord (which can be found at https://spacestation14.io) and check the #rp-whitelist channel.
+whitelist-not-whitelisted = Você não está na whitelist.
+whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em https://estacaopirata.com/).
 
-command-whitelistadd-description = Adds the player with the given username to the server whitelist.
+command-whitelistadd-description = Adiciona o jogador na whitelist.
 command-whitelistadd-help = whitelistadd <username>
-command-whitelistadd-existing = {$username} is already on the whitelist!
-command-whitelistadd-added = {$username} added to the whitelist
-command-whitelistadd-not-found = Unable to find '{$username}'
+command-whitelistadd-existing = {$username} já está na whitelist!
+command-whitelistadd-added = {$username} adicionado à whitelist
+command-whitelistadd-not-found = Usuário '{$username}' não encontrado
 
-command-whitelistremove-description = Removes the player with the given username from the server whitelist.
+command-whitelistremove-description = Remove o jogador da whitelist.
 command-whitelistremove-help = whitelistremove <username>
-command-whitelistremove-existing = {$username} is not on the whitelist!
-command-whitelistremove-removed = {$username} removed from the whitelist
-command-whitelistremove-not-found = Unable to find '{$username}'
+command-whitelistremove-existing = {$username} não está na whitelist!
+command-whitelistremove-removed = {$username} removido da whitelist
+command-whitelistremove-not-found = Usuário '{$username}' não encontrado
 
-command-kicknonwhitelisted-description = Kicks all non-whitelisted players from the server.
+command-kicknonwhitelisted-description = Expulsar todos os jogadores que não estão na whitelist.
 command-kicknonwhitelisted-help = kicknonwhitelisted
 
-ban-banned-permanent = This ban is appeal only.
-ban-expires = This ban is for {$duration} minutes and will expire at {$time} UTC.
-ban-banned-1 = You, or another user of this computer or connection, are banned from playing here.
-ban-banned-2 = The ban reason is: "{$reason}"
+ban-banned-permanent = Este ban só expira através de apelo em https://discord.gg/8gDMcmsCPQ
+ban-expires = Este ban dura {$duration} minutos e irá expirar em {$time} UTC.
+ban-banned-1 = Você ou outro usuário desse computador ou conexão estão banidos aqui.
+ban-banned-2 = O motivo do ban é: "{$reason}"
 
-soft-player-cap-full = The server is full!
-panic-bunker-account-denied = This server is in Panic mode and you were rejected. Contact the server administrator for help.
+soft-player-cap-full = O servidor está cheio!
+panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.

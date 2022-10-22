@@ -1,34 +1,29 @@
-nuke-component-cant-anchor = The bolts seems to be blocked without disk!
-nuke-component-announcement-sender = Nuclear Fission Explosive
-nuke-component-announcement-armed = Attention! The station's self-destruct mechanism has been engaged at global coordinates {$position}. {$time} seconds until detonation. If this was made in error, the mechanism may still be disarmed.
-nuke-component-announcement-unarmed = The station's self-destruct was deactivated! Have a nice day!
-nuke-component-announcement-send-codes = Attention! Requested self-destruction codes was sent to communication consoles.
-nuke-component-doafter-warning = You start fiddling with wires and knobs in order to disarm the nuke.. This may take a while.
+nuke-component-cant-anchor = As trancas ficam bloqueadas sem o disco!
+nuke-component-announcement-sender = Explosivo de fissão nuclear
+nuke-component-announcement-armed = Atenção! O mecanismo de auto-destruição da estação foi ativado. {$time} segundos até a detonação.
+nuke-component-announcement-unarmed = A auto-destruição da estação foi desativada! Tenham um bom dia!
+nuke-component-announcement-send-codes = Atenção! Os códigos de auto-destruição foram enviados aos consoles de comunicação.
+nuke-component-doafter-warning = Você começa a mexer nos fios para desativar a nuke.. Isto pode demorar um pouco.
 
 # Nuke UI
-nuke-user-interface-title = Nuclear Fission Explosive
-nuke-user-interface-arm-button = ARM
-nuke-user-interface-anchor-button = ANCHOR
-nuke-user-interface-eject-button = EJECT
+nuke-user-interface-title = Explosivo de fissão nuclear
+nuke-user-interface-arm-button = LIGAR
+nuke-user-interface-anchor-button = FIXAR
+nuke-user-interface-eject-button = EJETAR
 
 ## Upper status
-nuke-user-interface-first-status-device-locked = DEVICE LOCKED
-nuke-user-interface-first-status-input-code = INPUT CODE
-nuke-user-interface-first-status-input-time = INPUT TIME
-nuke-user-interface-first-status-device-ready = DEVICE READY
-nuke-user-interface-first-status-device-armed = DEVICE ARMED
+nuke-user-interface-first-status-device-locked = DISPOSITIVO TRANCADO
+nuke-user-interface-first-status-input-code = INSIRA CÓDIGO
+nuke-user-interface-first-status-input-time = INSIRA TEMPO
+nuke-user-interface-first-status-device-ready = DISPOSITIVO PRONTO
+nuke-user-interface-first-status-device-armed = DISPOSTIIVO ATIVO
 nuke-user-interface-first-status-device-cooldown = DEACTIVATED
-nuke-user-interface-status-error = ERROR
+nuke-user-interface-status-error = ERRO
 
 ## Lower status
-nuke-user-interface-second-status-await-disk = AWAIT DISK
-nuke-user-interface-second-status-time = TIME: {$time}
-nuke-user-interface-second-status-current-code = CODE: {$code}
-nuke-user-interface-second-status-cooldown-time = WAIT: {$time}
+nuke-user-interface-second-status-await-disk = ESPERANDO DISCO
+nuke-user-interface-second-status-time = TEMPO: {$time}
+nuke-user-interface-second-status-current-code = CÓDIGO: {$code}
+nuke-user-interface-second-status-cooldown-time = ESPERE: {$time}
 
-## Nuke labels
-nuke-label-nanotrasen = NT-{$serial}
 
-# do you even need this one? It's more funnier to say that
-# the Syndicate stole a NT nuke
-nuke-label-syndicate = SYN-{$serial}

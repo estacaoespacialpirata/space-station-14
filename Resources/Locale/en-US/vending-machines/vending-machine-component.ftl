@@ -1,10 +1,10 @@
 ##  VendingMachineComponent
 
-vending-machine-component-try-eject-invalid-item = Invalid item
-vending-machine-component-try-eject-out-of-stock = Out of stock
-vending-machine-component-try-eject-access-denied = Access denied
+vending-machine-component-try-eject-invalid-item = Item inválido
+vending-machine-component-try-eject-out-of-stock = Esgotado
+vending-machine-component-try-eject-access-denied = Acesso negado
 
 ##  VendingMachineSelfDespense Action
 
-vending-machine-action-name = Dispense Item
-vending-machine-action-description = Randomly dispense an item from your stock.
+vending-machine-action-name = Dispensar item
+vending-machine-action-description = Dispensa de modo aleatório um item de seu estoque.

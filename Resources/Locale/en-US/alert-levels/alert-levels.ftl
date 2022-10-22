@@ -1,25 +1,25 @@
-alert-level-announcement = Attention! Station alert level is now {$name}! {$announcement}
+alert-level-announcement = Atenção! O nível de alerta da estação agora é {$name}! {$announcement}
 
-alert-level-green = Green
-alert-level-green-announcement = It is now safe to return to your workplaces.
+alert-level-green = Verde
+alert-level-green-announcement = Agora é seguro voltar para seus postos de trabalho.
 
-alert-level-blue = Blue
-alert-level-blue-announcement = There is an unknown threat on the station. Security is allowed to perform random checks. Crewmembers are advised to follow commands issued by any relevant authority.
+alert-level-blue = Azul
+alert-level-blue-announcement = Há uma ameaça desconhecida na estação. A segurança está autorizada à fazer revistas. Os tripulantes são aconselhados à obedecer comandos feitos por qualquer autoridade relevante.
 
-alert-level-red = Red
-alert-level-red-announcement = There is a known threat on the station. Security is allowed to use lethal force if necessary. Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
+alert-level-red = Vermelho
+alert-level-red-announcement = Há uma ameaça conhecida na estação. Segurança está autorizada à usar força letal se necessário. Os tripulantes devem achar um local seguro para se abrigar, e são aconselhados em seguir qualquer autoridade presente.
 
-alert-level-violet = Violet
-alert-level-violet-announcement = There is a viral threat on the station. Medical staff are advised to isolate crewmembers with any symptoms. Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
+alert-level-violet = Violeta
+alert-level-violet-announcement = Há uma ameaça viral na estação. O departamento médico é aconselhado à isolar tripulantes com algum sintoma. Os tripulantes são aconselhados à manter distancia um do outro e manter qualquer medida de segurança para previnir a propagação.
 
-alert-level-yellow = Yellow
-alert-level-yellow-announcement = There is a structural or atmospheric threat within the station. Engineering staff are advised to immediately respond and perform safety measures. Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
+alert-level-yellow = Amarelo
+alert-level-yellow-announcement = Há uma ameaça estrutural ou atmosférica na estação. O departamento de engenharia é aconselhado à responder imediatamente e performar as medidas de segurança. Os tripulantes são aconselhados à manter distância da ameaça, e continuar em seus postos de trabalho se necessário.
 
 alert-level-gamma = Gamma
-alert-level-gamma-announcement = Central Command has ordered the Gamma security level on the station. Security is to have weapons equipped at all times, and all civilians are to immediately seek their nearest head for transportation to a secure location.
+alert-level-gamma-announcement = A CentCom ordenou o nível de alerta Gamma na estação. A segurança deve ter armas equipadas a todo momento, e todos os civis devem imediatamente procurar seu chefe mais próximo para o alocamento em um local seguro.
 
 alert-level-delta = Delta
-alert-level-delta-announcement = The station is currently under threat of imminent destruction. Crewmembers are advised to listen to heads of staff for more information.
+alert-level-delta-announcement = A estação está sobre uma ameaça iminente de destruição. Os tripulantes são aconselhados a ouvir aos chefes dos departamentos para mais informações.
 
 alert-level-epsilon = Epsilon
-alert-level-epsilon-announcement = Central Command has ordered the Epsilon security level on the station. Consider all contracts terminated.
+alert-level-epsilon-announcement = A CentCom ordenou o nível de alerta Epsilon na estação. Considere todos os contratos encerrados.

@@ -1,4 +1,4 @@
-delete-singularities = Delete Singularities
-open-station-events = Station Events
-load-game-prototype = Load Prototype
-load-blueprints = Load Blueprints
+delete-singularities = Deletar Singularidades
+open-station-events = Eventos da Estação
+load-game-prototype = Carregar Protótipo
+load-blueprints = Carregar Blueprint

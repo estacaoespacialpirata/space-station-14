@@ -1,4 +1,4 @@
-reassemble-action = Reassemble
-reassemble-description = Reassemble the pieces of your body.
-reassemble-fail = Parts are missing!
-reassemble-success = {CAPITALIZE(THE($user))} was put back together.
+reassemble-action = Remontar
+reassemble-description = Remonte as partes de seu corpo.
+reassemble-fail = Partes estão perdidas!
+reassemble-success = {CAPITALIZE(THE($user))} foi remontado(a).

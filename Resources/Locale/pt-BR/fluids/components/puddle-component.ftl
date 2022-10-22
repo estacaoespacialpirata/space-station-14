@@ -1,1 +1,0 @@
-puddle-component-examine-is-slipper-text = Parece escorregadio.

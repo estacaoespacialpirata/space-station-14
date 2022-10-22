@@ -1,1 +1,0 @@
-advertisement-bardrobe-1 = Garantido em te proteger de bebidas derramadas!

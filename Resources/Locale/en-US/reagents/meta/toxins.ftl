@@ -1,56 +1,53 @@
 reagent-name-toxin = toxin
-reagent-desc-toxin = A toxic chemical.
+reagent-desc-toxin = Um produto químico tóxico.
 
 reagent-name-carpotoxin = carpotoxin
-reagent-desc-carpotoxin = Toxic secretions of a space carp. Causes a painful burning sensation.
+reagent-desc-carpotoxin = Secreções tóxicas de uma carpa espacial. Causa uma sensação dolorosa de queimação.
 
 reagent-name-mold = mold
-reagent-desc-mold = Often found in dark, humid places or on old bread.
+reagent-desc-mold = Frequentemente encontrado em locais escuros e úmidos ou em pão velho.
 
 reagent-name-polytrinic-acid = polytrinic acid
-reagent-desc-polytrinic-acid = An extremely corrosive chemical substance. The slightest touch of it will melt off most masks and headgear, and it deals extreme damage to anyone who comes directly into contact with it.
+reagent-desc-polytrinic-acid = Uma substância química extremamente corrosiva. O menor toque dele derreterá a maioria das máscaras e capacetes, e causará danos extremos a qualquer um que entrar em contato direto com ele.
 
 reagent-name-chloral-hydrate = chloral hydrate
-reagent-desc-chloral-hydrate = In low doses, makes you drowsy. In higher doses, puts you to sleep. Overdoses deal toxin damage.
+reagent-desc-chloral-hydrate = Em doses pequenas te faz sonolento. Em doses maiores, te põe para dormir. Overdose causa entoxicação.
 
 reagent-name-fluorosulfuric-acid = fluorosulfuric acid
-reagent-desc-fluorosulfuric-acid = An extremely corrosive chemical substance.
+reagent-desc-fluorosulfuric-acid = Uma substância química extremamente corrosiva.
 
 reagent-name-sulfuric-acid = sulfuric acid
-reagent-desc-sulfuric-acid = A highly corrosive, oily, colorless liquid.
+reagent-desc-sulfuric-acid = Líquido altamente corrosivo, oleoso e incolor.
 
 reagent-name-unstable-mutagen = unstable mutagen
-reagent-desc-unstable-mutagen = Causes mutations when injected into living people or plants. High doses may be lethal, especially in humans.
+reagent-desc-unstable-mutagen = Causa mutações quando injetado em pessoas ou plantas vivas. Altas doses podem ser letais, especialmente em humanos.
 
 reagent-name-heartbreaker-toxin = heartbreaker toxin
-reagent-desc-heartbreaker-toxin = A hallucinogenic compound that is illegal under space law. A synthetic drug derived from Mindbreaker toxin, it blocks some neurological signals to the respiratory system which causes choking.
+reagent-desc-heartbreaker-toxin = Um composto alucinógeno que é ilegal sob a lei espacial. Uma droga sintética derivada da toxina Mindbreaker, bloqueia alguns sinais neurológicos para o sistema respiratório que causa asfixia.
 
 reagent-name-lexorin = lexorin
-reagent-desc-lexorin = Temporarily stops respiration and causes tissue damage. Large doses are fatal, and will cause people to pass out very quickly. Dexalin and Dexalin Plus will both remove it, however.
+reagent-desc-lexorin = Interrompe temporariamente a respiração e causa danos nos tecidos. Grandes doses são fatais e farão com que as pessoas desmaiem muito rapidamente. Dexalin e Dexalin Plus irão removê-lo, no entanto.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = A potent hallucinogenic compound that is illegal under space law. Formerly known as LSD.
+reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que é ilegal sob a lei espacial. Anteriormente conhecido como LSD.
 
 reagent-name-histamine = histamine
-reagent-desc-histamine = Histamine's effects become more dangerous depending on the dosage amount. They range from mildly annoying to incredibly lethal.
+reagent-desc-histamine = Os efeitos da histamina tornam-se mais perigosos dependendo da quantidade de dosagem. Eles variam de levemente irritantes a incrivelmente letais.
 
 reagent-name-theobromine = theobromine
-reagent-desc-theobromine = Theobromine is a bitter alkaloid of the cacao plant found in chocolate, and some other foods.
+reagent-desc-theobromine = A teobromina é um alcalóide amargo da planta do cacau encontrado no chocolate e em alguns outros alimentos.
 
 reagent-name-amatoxin = amatoxin
-reagent-desc-amatoxin = A potent toxin found in some mushrooms.
+reagent-desc-amatoxin = Uma toxina potente encontrada em alguns cogumelos.
 
 reagent-name-vent-crud = vent crud
-reagent-desc-vent-crud = A jet black substance found in poorly maintained ventilation systems.
+reagent-desc-vent-crud = Uma substância negra encontrada em sistemas de ventilação mal mantidos.
 
 reagent-name-corpium = corpium
-reagent-desc-corpium = A Syndicate cocktail, carefully harvested from various sources. You wouldn't want this inside of you.
+reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias fontes. Você não iria querer isso dentro de você.
 
 reagent-name-uncooked-animal-proteins = uncooked animal proteins
-reagent-desc-uncooked-animal-proteins = This is very risky for the stomachs of softer lifeforms to digest.
+reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômagos de formas de vida mais suaves digerirem.
 
 reagent-name-allicin = allicin
-reagent-desc-allicin = An organosulfur compound found in alliums like garlic, onions, and related plants.
-
-reagent-name-pax = pax
-reagent-desc-pax = A psychiatric drug which prevents the patient from directly harming anyone.
+reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.

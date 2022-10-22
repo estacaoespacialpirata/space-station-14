@@ -1,16 +1,16 @@
-﻿# UI
-admin-notes-title = Notes for {$player}
-admin-notes-new-note = New note:
-admin-notes-id = Id: {$id}
-admin-notes-round-id = Round Id: {$id}
-admin-notes-round-id-unknown = Round Id: Unknown
-admin-notes-created-by = Created by: {$author}
-admin-notes-created-at = Created At: {$date}
-admin-notes-last-edited-by = Last edited by: {$author}
-admin-notes-last-edited-at = Last edited at: {$date}
-admin-notes-edit = Edit
-admin-notes-delete = Delete
-admin-notes-delete-confirm = Are you sure?
+# UI
+admin-notes-title = Notas para {$player}
+admin-notes-new-note = Nova nota:
+admin-notes-id = ID: {$id}
+admin-notes-round-id = ID do round: {$id}
+admin-notes-round-id-unknown = ID do round: Desconhecido
+admin-notes-created-by = Criado por: {$author}
+admin-notes-created-at = Criação: {$date}
+admin-notes-last-edited-by = Ultima vez editado por: {$author}
+admin-notes-last-edited-at = Ultima vez editado: {$date}
+admin-notes-edit = Editar
+admin-notes-delete = Deletar
+admin-notes-delete-confirm = Você tem certeza?
 
 # Verb
-admin-notes-verb-text = Open Admin Notes
+admin-notes-verb-text = Abrir notas de Admin

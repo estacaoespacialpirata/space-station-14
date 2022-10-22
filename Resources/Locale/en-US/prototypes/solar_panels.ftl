@@ -1,14 +1,14 @@
 ### Power entity prototype data.
 
 ### Solars
-ent-solar-tracker = solar tracker
-    .desc = A solar tracker. Can be wired to a solar array and computer to track solar positions.
-ent-solar-assembly = solar assembly
-    .desc = A solar assembly. Anchor to a wire to start building a solar panel.
-ent-solar-panel = solar panel
-    .desc = Generates power from sunlight. Usually used to power replacements for sunlight. Fragile.
+ent-solar-tracker = rastreador solar
+    .desc = Um rastreador solar. Pode ser conectado com fios a um complexo e computador solar para rastrear posições solares.
+ent-solar-assembly = conjunto solar
+    .desc = Um conjunto solar. Ancore a um fio para comerçar a construir um painel solar.
+ent-solar-panel = painel solar
+    .desc = Gera energia a partir de luz solar. Geralmente usado para energizar substitutos para luz solar. Frágil.
 
-ent-solar-tracker-electronics = solar tracker electronics
-    .desc = An electronics board for making a solar tracker.
-ent-solar-assembly-part = solar assembly parts
-    .desc = Used in the construction of solar assemblies for solar panels and trackers.
+ent-solar-tracker-electronics = eletrônicos de rastreador solar
+    .desc = Uma placa eletrônica para fazer um rastreador solar.
+ent-solar-assembly-part = partes de conjunto solar
+    .desc = Usadas na construção de conjuntos solar para painéis e rastreadores solares.

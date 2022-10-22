@@ -1,1 +1,1 @@
-research-disk-inserted = You insert the disk, adding {$points} points to the server.
+research-disk-inserted = Você inseriu o disco, adicionando {$points} pontos ao servidor.

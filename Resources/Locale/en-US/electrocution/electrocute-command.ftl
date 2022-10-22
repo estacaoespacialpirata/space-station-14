@@ -1,2 +1,2 @@
-electrocute-command-description = Electrocutes the specified entity, defaults to 10 seconds and 10 damage. Shocking!
-electrocute-command-entity-cannot-be-electrocuted = You cannot electrocute that entity!
+electrocute-command-description = Eletrocuta determinada entidade, o padrão é 10 segundos e 10 de dano. Chocante!
+electrocute-command-entity-cannot-be-electrocuted = Você não pode eletrocutar esta entidade!

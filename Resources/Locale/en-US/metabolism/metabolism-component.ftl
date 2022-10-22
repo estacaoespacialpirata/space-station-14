@@ -1,3 +1,3 @@
-metabolism-component-is-comfortable = You feel comfortable
-metabolism-component-is-sweating = You are sweating
-metabolism-component-is-shivering = You are shivering
+metabolism-component-is-comfortable = Você se sente desconfortável
+metabolism-component-is-sweating = Você está suando
+metabolism-component-is-shivering = Você está tremendo

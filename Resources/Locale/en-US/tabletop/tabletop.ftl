@@ -1,16 +1,16 @@
-﻿## TabletopGameComponent
-tabletop-verb-play-game = Play Game
-tabletop-default-board-name = Board Game
+## TabletopGameComponent
+tabletop-verb-play-game = Jogar
+tabletop-default-board-name = Jogo de Tabuleiro
 
 ## Chess
-tabletop-chess-board-name = Chess
-tabletop-chess-flip = Flip
+tabletop-chess-board-name = Xadrez
+tabletop-chess-flip = Virar
 
 ## Parchís
-tabletop-parchis-board-name = Parchís
+tabletop-parchis-board-name = Parchis
 
 ## Backgammon
-tabletop-backgammon-board-name = Backgammon
+tabletop-backgammon-board-name = Gamão
 
 ## Checkers
-tabletop-checkers-board-name = Checkers
+tabletop-checkers-board-name = Damas

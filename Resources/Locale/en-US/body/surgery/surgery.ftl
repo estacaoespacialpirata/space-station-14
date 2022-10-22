@@ -1,4 +1,4 @@
 ## UI
 
-surgery-window-title = Surgery
+surgery-window-title = Cirurgia
 surgery-window-not-available-button-text = N/A

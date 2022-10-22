@@ -1,3 +1,3 @@
-character-info-title = Character
-character-info-roles-antagonist-text = Antagonist Roles
-character-info-objectives-label = Objectives
+character-info-title = Personagem
+character-info-roles-antagonist-text = Funções Antagonísticas
+character-info-objectives-label = Objetivos

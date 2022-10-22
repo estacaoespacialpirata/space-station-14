@@ -1,4 +1,4 @@
-drone-active = A maintenance drone. It seems totally unconcerned with you.
-drone-dormant = A dormant maintenance drone. Who knows when it will wake up?
-drone-activated = The drone whirrs to life!
-drone-too-close = Your laws prevent this action near {THE($being)}.
+drone-active = Um drone de manutenção. Parece estar despreocupado contigo.
+drone-dormant = Um drone de manutenção dormindo. Quando será que vai acordar?
+drone-activated = O drone acorda e volta a vida!
+drone-too-close = Suas leis previnem esta ação perto do(a) {THE($being)}.

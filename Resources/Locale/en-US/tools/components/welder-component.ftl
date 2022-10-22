@@ -1,13 +1,13 @@
-welder-component-welder-not-lit-message = The welder is turned off!
-welder-component-cannot-weld-message = The welder does not have enough fuel for that!
-welder-component-no-fuel-message = The welder has no fuel left!
-welder-component-no-fuel-in-tank = The {$owner} is empty.
-welder-component-on-examine-welder-lit-message = [color=orange]Lit[/color]
-welder-component-on-examine-welder-not-lit-message = Not lit
-welder-component-on-examine-detailed-message = Fuel: [color={$colorName}]{$fuelLeft}/{$fuelCapacity}[/color]. {$status}
-welder-component-suicide-lit-others-message = {$victim} welds their every orifice closed! It looks like they are trying to commit suicide!
-welder-component-suicide-lit-message = You weld your every orifice closed!
-welder-component-suicide-unlit-others-message = {$victim} bashes themselves with the unlit welding torch!
-welder-component-suicide-unlit-message = You bash yourself with the unlit welding torch!
-welder-component-after-interact-refueled-message = Refueled!
-welder-component-already-full = The welder is already full.
+welder-component-welder-not-lit-message = O soldador está desligado!
+welder-component-cannot-weld-message = O soldador não tem combustível o suficiente para isso!
+welder-component-no-fuel-message = O soldador está sem combustível!
+welder-component-no-fuel-in-tank = O {$owner} está vazio.
+welder-component-on-examine-welder-lit-message = [color=orange]Aceso[/color]
+welder-component-on-examine-welder-not-lit-message = Apagado
+welder-component-on-examine-detailed-message = Combustível: [color={$colorName}]{$fuelLeft}/{$fuelCapacity}[/color]. {$status}
+welder-component-suicide-lit-others-message = {$victim} solda todos os seus orifícios! Parece que está tentando cometer suicídio!
+welder-component-suicide-lit-message = Você solda todos os seus orifícos!
+welder-component-suicide-unlit-others-message = {$victim} se batem com o soldador apagado!
+welder-component-suicide-unlit-message = Você se bate com o soldador apagado!
+welder-component-after-interact-refueled-message = Reabastecido!
+welder-component-already-full = O soldador já está cheio.

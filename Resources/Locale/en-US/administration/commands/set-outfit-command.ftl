@@ -1,4 +1,4 @@
-set-outfit-command-description = Sets the outfit of the specified entity. The entity must have {INDEFINITE($requiredComponent)} {$requiredComponent}
-set-outfit-command-help-text = Usage: {$command} <entityUid> | {$command} <entityUid> <outfitId>
-set-outfit-command-is-not-player-error = This does not work from the server console. You must pass the outfit id aswell.
-set-outfit-command-invalid-outfit-id-error = Invalid outfit id
+set-outfit-command-description = Define a roupa da entidade especificada. A entidade deve ter {INDEFINITE($requiredComponent)} {$requiredComponent}
+set-outfit-command-help-text = Modo de uso: {$command} <entityUid> | {$command} <entityUid> <outfitId>
+set-outfit-command-is-not-player-error = Isso não funciona no console do servidor. Você deve passar o ID da roupa também.
+set-outfit-command-invalid-outfit-id-error = ID de roupa inválido

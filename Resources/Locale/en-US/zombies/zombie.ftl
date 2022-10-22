@@ -1,7 +1,7 @@
-zombie-transform = {CAPITALIZE(THE($target))} turned into a zombie!
-zombie-infection-greeting = You have become a zombie. Your goal is to seek out the living and to try to infect them. Work together with your fellow zombies to overpower the remaining crewmates.
+zombie-transform = {CAPITALIZE(THE($target))} se transformou em um zumbi!
+zombie-infection-greeting = Você se transformou em um zumbi. Seu objetivo é procurar os que estão vivos e infecta-los. Trabalhe junto com seus amigos zumbis para infectar os tripulantes restantes.
 
-zombie-generic = zombie
-zombie-name-prefix = Zombified {$target}
-zombie-role-desc =  A malevolent creature of the dead.
-zombie-role-rules = You are an antagonist. Search out the living and bite them in order to infect them and turn them into zombies. Work together with other the zombies to overtake the station.
+zombie-generic = zumbi
+zombie-name-prefix = {$target} zumbificado(a)
+zombie-role-desc =  Uma criatura malévola dos mortos.
+zombie-role-rules = Você é um antagonista. Procure os que estão vivos e os morda para transforma-los em zumbis. Trabalhe junto com outros zumbis para dominar a estação.

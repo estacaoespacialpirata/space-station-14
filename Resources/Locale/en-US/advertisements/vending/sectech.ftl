@@ -1,5 +1,5 @@
-﻿advertisement-sectech-1 = Crack communist skulls!
-advertisement-sectech-2 = Beat some heads in!
-advertisement-sectech-3 = Don't forget - harm is good!
-advertisement-sectech-4 = Your weapons are right here.
+advertisement-sectech-1 = Quebre crânios comunistas!
+advertisement-sectech-2 = Os melhores equipamentos de combate!
+advertisement-sectech-3 = Não se esqueça - Violência resolve tudo!
+advertisement-sectech-4 = Suas armas estão aqui.
 

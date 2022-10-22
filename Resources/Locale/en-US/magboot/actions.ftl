@@ -1,2 +1,2 @@
-action-name-magboot-toggle = Toggle Magboots
-action-decription-magboot-toggle = Toggles the magboots on and off.
+action-name-magboot-toggle = Alternar Magboots
+action-decription-magboot-toggle = Liga e desliga as Magboots.

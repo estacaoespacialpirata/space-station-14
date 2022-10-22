@@ -2,24 +2,24 @@
 
 ## UI
 
-gravity-generator-window-title = Gravity Generator
+gravity-generator-window-title = Gerador de gravidade
 
 ## UI field names
 
 gravity-generator-window-status = Status:
-gravity-generator-window-power = Power:
+gravity-generator-window-power = Energia:
 gravity-generator-window-eta = ETA:
-gravity-generator-window-charge = Charge:
+gravity-generator-window-charge = Carregar:
 
 ## UI statuses
-gravity-generator-window-status-fully-charged = Fully Charged
-gravity-generator-window-status-off = Off
-gravity-generator-window-status-charging = Charging
-gravity-generator-window-status-discharging = Discharging
+gravity-generator-window-status-fully-charged = Totalmente Carregado
+gravity-generator-window-status-off = Desligado
+gravity-generator-window-status-charging = Carregando
+gravity-generator-window-status-discharging = Descarregado
 
 ## UI Power Buttons
-gravity-generator-window-power-on = On
-gravity-generator-window-power-off = Off
+gravity-generator-window-power-on = Ativado
+gravity-generator-window-power-off = Desativado
 gravity-generator-window-power-label = { $draw } / { $max } W
 
 ## UI ETA label

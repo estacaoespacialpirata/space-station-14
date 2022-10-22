@@ -1,15 +1,15 @@
 
-mopping-system-tool-full = { CAPITALIZE(THE($used)) } is full!
-mopping-system-puddle-diluted = You dilute the puddle.
-mopping-system-puddle-success = You mop the puddle.
-mopping-system-release-to-floor = You squeeze some liquid onto the floor.
+mopping-system-tool-full = { CAPITALIZE(THE($used)) } está cheio!
+mopping-system-puddle-diluted = Você dilui a poça.
+mopping-system-puddle-success = Você esfrega a poça.
+mopping-system-release-to-floor = Você despeja algum líquido no chão.
 
-mopping-system-target-container-full = { CAPITALIZE(THE($target)) } is full!
-mopping-system-target-container-empty = { CAPITALIZE(THE($target)) } is empty!
-mopping-system-target-container-too-small = { CAPITALIZE(THE($target)) } is too small for that!
-mopping-system-refillable-success = You wring { THE($used) } into { THE($target) }.
-mopping-system-drainable-success = You wet { THE($used) } from { THE($target) }.
+mopping-system-target-container-full = { CAPITALIZE(THE($target)) } está cheio!
+mopping-system-target-container-empty = { CAPITALIZE(THE($target)) } está vazio!
+mopping-system-target-container-too-small = { CAPITALIZE(THE($target)) } é pequeno demais pra isso!
+mopping-system-refillable-success = Você torce { THE($used) } em { THE($target) }.
+mopping-system-drainable-success = Você molha { THE($used) } de { THE($target) }.
 
-mopping-system-hand-squeeze-still-wet = You wring { THE($used) } with your hands. It's still wet.
-mopping-system-hand-squeeze-little-wet = You wring { THE($used) } with your hands. It's still a little wet.
-mopping-system-hand-squeeze-dry = You wring { THE($used) } with your hands. It's pretty much dry.
+mopping-system-hand-squeeze-still-wet = Você torce { THE($used) } com as suas mãos. Ainda ta molhado.
+mopping-system-hand-squeeze-little-wet = Você torce { THE($used) } com as suas mãos. Ainda ta um pouco molhado.
+mopping-system-hand-squeeze-dry = Você torce { THE($used) } com as suas mãos. Ta bem seco.

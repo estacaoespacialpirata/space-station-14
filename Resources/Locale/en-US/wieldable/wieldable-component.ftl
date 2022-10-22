@@ -1,17 +1,16 @@
-﻿### Locale for wielding items; i.e. two-handing them
+### Locale for wielding items; i.e. two-handing them
 
-wieldable-verb-text-wield = Wield
-wieldable-verb-text-unwield = Unwield
+wieldable-verb-text-wield = Empunhar
+wieldable-verb-text-unwield = Guardar
 
-wieldable-component-successful-wield = You wield { THE($item) }.
-wieldable-component-failed-wield = You unwield { THE($item) }.
-wieldable-component-successful-wield-other = { THE($user) } wields { THE($item) }.
-wieldable-component-failed-wield-other = { THE($user) } unwields { THE($item) }.
+wieldable-component-successful-wield = Você empunha { THE($item) }.
+wieldable-component-failed-wield = Você guarda { THE($item) }.
+wieldable-component-successful-wield-other = { THE($user) } empunha { THE($item) }.
+wieldable-component-failed-wield-other = { THE($user) } guarda { THE($item) }.
 
-wieldable-component-no-hands = You don't have enough hands!
+wieldable-component-no-hands = Você não tem mãos o suficiente!
 wieldable-component-not-enough-free-hands = {$number -> 
-    [one] You need a free hand to wield { THE($item) }.
-    *[other] You need { $number } free hands to wield { THE($item) }.
+    [one] Você precisa de uma mão livre para empunhar { THE($item) }.
+    *[other] Você precisa de { $number } mãos livres para empunhar { THE($item) }.
 }
-wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } isn't in your hands!
-
+wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } não está em suas mãos!

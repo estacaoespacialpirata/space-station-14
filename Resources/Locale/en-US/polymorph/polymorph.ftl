@@ -1,8 +1,8 @@
-polymorph-self-action-name = Polymorph ({CAPITALIZE($target)})
-polymorph-self-action-description = Instantly polymorph yourself into {$target}. 
+polymorph-self-action-name = Polimorfar ({CAPITALIZE($target)})
+polymorph-self-action-description = Instantaneamente te polimorfa para um(a) {$target}. 
 
-polymorph-revert-action-name = Revert
-polymorph-revert-action-description = Revert back into your original form.
+polymorph-revert-action-name = Reverter
+polymorph-revert-action-description = Retornar para sua forma original.
 
-polymorph-popup-generic = {CAPITALIZE($parent)} turned into {$child}.
-polymorph-revert-popup-generic = {CAPITALIZE($parent)} reverted back into {$child}.
+polymorph-popup-generic = {CAPITALIZE($parent)} virou um(a) {$child}.
+polymorph-revert-popup-generic = {CAPITALIZE($parent)} voltou a ser um(a) {$child}.

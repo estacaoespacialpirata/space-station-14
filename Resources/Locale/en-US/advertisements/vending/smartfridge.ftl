@@ -1,6 +1,6 @@
-﻿advertisement-smartfridge-1 = Hello world!
-advertisement-smartfridge-2 = PLEASE LET ME OUT
-advertisement-smartfridge-3 = I can make a quintillion calculations a second. Now, I am a fridge.
-advertisement-smartfridge-4 = New firmware update available.
-advertisement-smartfridge-5 = I am completely operational, and all my circuits are functioning perfectly.
-advertisement-smartfridge-6 = Scanning system for malicious software...
+advertisement-smartfridge-1 = Olá Mundo!
+advertisement-smartfridge-2 = ME TIRA DAQUI
+advertisement-smartfridge-3 = Eu podia fazer um quintilhão de contas. Agora, Eu sou uma geladeira.
+advertisement-smartfridge-4 = Atualização de firmware disponível.
+advertisement-smartfridge-5 = Eu sou completamento funcional, e todos meus circuítos funcionam perfeitamente.
+advertisement-smartfridge-6 = As definições de vírus foram atualizadas.

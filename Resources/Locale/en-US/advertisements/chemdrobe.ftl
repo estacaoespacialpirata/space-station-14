@@ -1,1 +1,1 @@
-advertisement-chemdrobe-1 = Our clothes are 0.5% more resistant to acid spills! Get yours now!
+advertisement-chemdrobe-1 = Nossas roupas são 0.5% mais resistentes à respingos de ácido! Pegue a sua já!

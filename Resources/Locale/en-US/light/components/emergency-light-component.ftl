@@ -1,6 +1,6 @@
-emergency-light-component-on-examine = The battery indicator displays: {$batteryStateText}.
-emergency-light-component-on-examine-alert = The current station alert level is: [color={$color}]{$level}[/color].
-emergency-light-component-light-state-full = [color=darkgreen]full[/color]
-emergency-light-component-light-state-empty = [color=darkgreen]empty[/color]
-emergency-light-component-light-state-charging = [color=darkgreen]charging[/color]
-emergency-light-component-light-state-on = [color=darkgreen]on[/color]
+emergency-light-component-on-examine = O indicador de bateria mostra: {$batteryStateText}.
+emergency-light-component-on-examine-alert = O alerta da estação atual é: [color={$color}]{$level}[/color].
+emergency-light-component-light-state-full = [color=darkgreen]Cheio[/color]
+emergency-light-component-light-state-empty = [color=darkgreen]Vázio[/color]
+emergency-light-component-light-state-charging = [color=darkgreen]Carregando[/color]
+emergency-light-component-light-state-on = [color=darkgreen]Ligado[/color]

@@ -1,19 +1,19 @@
 # Displayed as initiator of vote when no user creates the vote
-ui-vote-initiator-server = The server
+ui-vote-initiator-server = O Servidor
 
 ## Default.Votes
 
-ui-vote-restart-title = Restart round
-ui-vote-restart-succeeded = Restart vote succeeded.
-ui-vote-restart-failed = Restart vote failed (need { TOSTRING($ratio, "P0") }).
-ui-vote-restart-yes = Yes
-ui-vote-restart-no = No
-ui-vote-restart-abstain = Abstain
+ui-vote-restart-title = Reiniciar rodada
+ui-vote-restart-succeeded = Reinício de rodada aceito.
+ui-vote-restart-failed = Reinício de rodada negado (necessário { TOSTRING($ratio, "P0") }).
+ui-vote-restart-yes = Sim
+ui-vote-restart-no = Não
+ui-vote-restart-abstain = Nulo
 
-ui-vote-gamemode-title = Next gamemode
-ui-vote-gamemode-tie = Tie for gamemode vote! Picking... { $picked }
-ui-vote-gamemode-win = { $winner } won the gamemode vote!
+ui-vote-gamemode-title = Próximo modo de jogo
+ui-vote-gamemode-tie = Empate na escolha do modo de jogo! Escolhendo... { $picked }
+ui-vote-gamemode-win = { $winner } venceu a escolha do modo de jogo!
 
-ui-vote-map-title = Next map
-ui-vote-map-tie = Tie for map vote! Picking... { $picked }
-ui-vote-map-win = { $winner } won the map vote!
+ui-vote-map-title = Próximo mapa
+ui-vote-map-tie = Empate na escolha de mapa! Escolhendo... { $picked }
+ui-vote-map-win = { $winner } venceu a escolha de mapa!

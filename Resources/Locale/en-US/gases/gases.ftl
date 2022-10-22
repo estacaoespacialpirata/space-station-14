@@ -1,9 +1,9 @@
-gases-oxygen = Oxygen
-gases-nitrogen = Nitrogen
-gases-co2 = Carbon Dioxide
+gases-oxygen = Oxigênio
+gases-nitrogen = Nitrogênio
+gases-co2 = Dióxido de Carbono
 gases-plasma = Plasma
-gases-tritium = Tritium
-gases-water-vapor = Water Vapor
+gases-tritium = Trítio
+gases-water-vapor = Vapor de água
 gases-miasma = Miasma
-gases-n2o = Nitrous Oxide
+gases-n2o = Óxido nitroso
 gases-frezon = Frezon

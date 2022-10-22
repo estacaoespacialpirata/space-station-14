@@ -1,20 +1,20 @@
-reagent-name-thermite = thermite
-reagent-desc-thermite = A mixture that becomes extremely hot when ignited, and which can burn straight through walls when applied and ignited. It'll slowly inflict burn damage to anybody dumb enough to ingest it, but can't be ignited inside inside said dumb person.
+reagent-name-thermite = termite
+reagent-desc-thermite = Uma mistura que fica extremamente quente quando ateiada, que pode queimar através das paredes quando aplicado e ateiado. Vai lentamente infligir dano de queimaduras para qualquer um burro o suficiente de ingerir isto, mas não pode ser ateiado dentro de certa pessoa burra.
 
 reagent-name-napalm = napalm
-reagent-desc-napalm = It's just a little flammable.
+reagent-desc-napalm = É só um pouco inflamável.
 
-reagent-name-phlogiston = phlogiston
-reagent-desc-phlogiston = Catches you on fire and makes you ignite.
+reagent-name-phlogiston = flogisto
+reagent-desc-phlogiston = Te ateia em fogo e te queima.
 
 reagent-name-chlorine-trifluoride = CLF3
-reagent-desc-chlorine-trifluoride = You really, REALLY don't want to get this shit anywhere near you.
+reagent-desc-chlorine-trifluoride = Você realmente, NÃO QUER essa merda perto de você.
 
-reagent-name-foaming-agent = foaming agent
-reagent-desc-foaming-agent = Makes foam such as that's required in metal foam grenades.
+reagent-name-foaming-agent = formador de espuma
+reagent-desc-foaming-agent = Cria uma espuma que é necessária para criar granadas de espuma.
 
-reagent-name-welding-fuel = welding fuel
-reagent-desc-welding-fuel = Used by welders to weld.
+reagent-name-welding-fuel = Combustível de solda
+reagent-desc-welding-fuel = Usado por soldadores para soldar.
 
-reagent-name-fluorosurfactant = fluorosurfactant
-reagent-desc-fluorosurfactant = A perfluoronated sulfonic acid that forms a foam when mixed with water.
+reagent-name-fluorosurfactant = fluorosurfactante
+reagent-desc-fluorosurfactant = Um ácido sulfônico perfluoronado que forma uma espuma quando misturado com água.

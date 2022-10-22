@@ -1,8 +1,8 @@
-advertisement-goodcleanfun-1 = Escape to a fantasy world!
-advertisement-goodcleanfun-2 = Fuel your gambling addiction!
-advertisement-goodcleanfun-3 = Ruin your friendships!
-advertisement-goodcleanfun-4 = Roll for initiative!
-advertisement-goodcleanfun-5 = Elves and dwarves!
-advertisement-goodcleanfun-6 = Paranoid computers!
-advertisement-goodcleanfun-7 = Totally not satanic!
-advertisement-goodcleanfun-8 = Fun times forever!
+advertisement-goodcleanfun-1 = Venha para um mundo fantasioso!
+advertisement-goodcleanfun-2 = Aumente seu vício em apostas!
+advertisement-goodcleanfun-3 = Arruine suas amizades!
+advertisement-goodcleanfun-4 = Role iniciativas!
+advertisement-goodcleanfun-5 = Anões & Elfos!
+advertisement-goodcleanfun-6 = Computadores paranóicos!
+advertisement-goodcleanfun-7 = Não é do demônio!
+advertisement-goodcleanfun-8 = Se divirta para sempre!

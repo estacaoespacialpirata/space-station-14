@@ -1,2 +1,2 @@
-objective-condition-kill-person-title = Kill {$targetName}, {CAPITALIZE($job)}
-objective-condition-kill-person-description = Do it however you like, just make sure they don't last the shift.
+objective-condition-kill-person-title = Mate {$targetName}, {CAPITALIZE($job)}
+objective-condition-kill-person-description = Faça do jeito que você quiser, apenas tenha certeza de que ele(a) não sobreviva.

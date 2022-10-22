@@ -1,1 +1,0 @@
-charger-examine = Carrega [color={$color}]{$chargeRate}W[/color] por segundo.

@@ -1,20 +1,20 @@
 # Chat window radio wrap (prefix and postfix)
-chat-radio-message-wrap = [color={$color}]{$channel} {$name} says: "{"{"}0{"}"}"[/color]
+chat-radio-message-wrap = [color={$color}]{$channel} {$name} diz, "{"{"}0{"}"}"[/color]
 
-examine-radio-frequency = It's set to broadcast over the {$frequency} frequency.
+examine-radio-frequency = Está na frequência {$frequency}.
 
-examine-headset = A small screen on the headset displays the following available frequencies:
-examine-headset-channel = [color={$color}]:{$key} for {$id} ({$freq})[/color]
+examine-headset = Uma tela pequena no headset mostra as seguintes frequências disponíveis:
+examine-headset-channel = [color={$color}]:{$key} para {$id} ({$freq})[/color]
 
-examine-headset-chat-prefix = Use {$prefix} for the currently tuned frequency.
+examine-headset-chat-prefix = Use {$prefix} para a frequência sintonizada.
 
-chat-radio-common = Common
+chat-radio-common = Geral
 chat-radio-centcom = CentCom
-chat-radio-command = Command
-chat-radio-engineering = Engineering
-chat-radio-medical = Medical
-chat-radio-science = Science
-chat-radio-security = Security
-chat-radio-service = Service
-chat-radio-supply = Supply
-chat-radio-syndicate = Syndicate
+chat-radio-command = Comando
+chat-radio-engineering = Engenharia
+chat-radio-medical = Médico
+chat-radio-science = Ciêntífico
+chat-radio-security = Segurança
+chat-radio-service = Serviço
+chat-radio-supply = Carga
+chat-radio-syndicate = Sindicato

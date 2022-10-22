@@ -1,2 +1,2 @@
-shared-interaction-system-in-range-unobstructed-cannot-reach = You can't reach there!
-interaction-system-user-interaction-cannot-reach = You can't reach there!
+shared-interaction-system-in-range-unobstructed-cannot-reach = Você não alcança até lá!
+interaction-system-user-interaction-cannot-reach = Você não alcança até lá!

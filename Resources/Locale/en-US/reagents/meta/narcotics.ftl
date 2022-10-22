@@ -1,26 +1,26 @@
 reagent-name-desoxyephedrine = desoxyephedrine
-reagent-desc-desoxyephedrine = Desoxyephedrine is a potent stimulant with dangerous side-effects if too much is consumed.
+reagent-desc-desoxyephedrine = A desoxiefedrina é um estimulante potente com efeitos colaterais perigosos se for consumido em excesso.
 
 reagent-name-ephedrine = ephedrine
-reagent-desc-ephedrine = Increases stun resistance and movement speed, giving you hand cramps. Overdose deals toxin damage and inhibits breathing.
+reagent-desc-ephedrine = Aumenta a resistência ao atordoamento e a velocidade de movimento, causando cãibras nas mãos. Overdose causa dano de toxina e inibe a respiração.
 
 reagent-name-thc = THC
-reagent-desc-thc = The main psychoactive compound in cannabis.
+reagent-desc-thc = O principal composto psicoativo da cannabis.
 
 reagent-name-thc-oil = THC oil
-reagent-desc-thc-oil = Pure THC oil, extracted from the leaves of the cannabis plant. Much stronger than in it's natural form and can be used to numb chronic pain in patients.
+reagent-desc-thc-oil = Óleo de THC puro, extraído das folhas da planta de cannabis. Muito mais forte do que em sua forma natural e pode ser usado para anestesiar a dor crônica em pacientes.
 
 reagent-name-nicotine = Nicotine
-reagent-desc-nicotine = Dangerous and highly addictive.
+reagent-desc-nicotine = Perigoso e altamente viciante.
 
 reagent-name-impedrezene = impedrezene
-reagent-desc-impedrezene = A narcotic that impedes one's ability by slowing down the higher brain cell functions. Causes massive brain damage.
+reagent-desc-impedrezene = Um narcótico que impede a capacidade de uma pessoa, diminuindo as funções das células cerebrais superiores. Causa danos cerebrais maciços.
 
 reagent-name-space-drugs = space drugs
-reagent-desc-space-drugs = An illegal compound which induces a number of effects such as loss of balance and visual artefacts.
+reagent-desc-space-drugs = Um composto ilegal que induz uma série de efeitos, como perda de equilíbrio e artefatos visuais.
 
 reagent-name-nocturine = nocturine
-reagent-desc-nocturine = Makes you feel very tired and unable to stand up. Basically, it's bone hurting juice.
+reagent-desc-nocturine = Faz você se sentir muito cansado e incapaz de se levantar. Basicamente, é um suco que machuca os ossos.
 
 reagent-name-mute-toxin = mute toxin
-reagent-desc-mute-toxin = Makes you unable to talk while metabolizing.
+reagent-desc-mute-toxin = Torna você incapaz de falar enquanto metaboliza.

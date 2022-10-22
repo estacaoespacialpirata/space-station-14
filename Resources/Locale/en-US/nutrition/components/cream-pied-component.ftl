@@ -1,2 +1,2 @@
-cream-pied-component-on-hit-by-message =  You have been creamed by {$thrower}!
-cream-pied-component-on-hit-by-message-others = {$owner} has been creamed by {$thrower}!
+cream-pied-component-on-hit-by-message =  {$thrower} jogou uma torta na sua cara!
+cream-pied-component-on-hit-by-message-others = {$thrower} jogou uma torta na cara do(a) {$owner}  !

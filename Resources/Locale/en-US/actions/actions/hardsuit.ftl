@@ -1,2 +1,2 @@
-action-name-hardsuit = Toggle Helmet
-action-description-hardsuit = Remember to equip the helmet before flinging yourself into space.
+action-name-hardsuit = Alternar capacete
+action-description-hardsuit = Lembre-se de equipar o capacete antes de entrar no espaço.

@@ -1,2 +1,2 @@
-turn-undead-action-name = Turn Undead
-turn-undead-action-description = Succumb to your infection and become a zombie.
+turn-undead-action-name = Virar morto-vivo
+turn-undead-action-description = Sucumba à sua infecção e se torne um zumbi.

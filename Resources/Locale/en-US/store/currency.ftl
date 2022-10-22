@@ -1,9 +1,9 @@
-store-currency-inserted = {CAPITALIZE(THE($used))} is inserted into the {THE($target)}.
+store-currency-inserted = {CAPITALIZE(THE($used))} foi inserida n{THE($target)}.
 
-store-currency-free = Free
+store-currency-free = Grátis
 store-currency-display-debugdollar = {$amount ->
-    [one] Debug Dollar
-    *[other] Debug Dollars
+    [one] Debug Dólar
+    *[other] Debug Dólares
 }
 store-currency-display-telecrystal = TC
-store-currency-display-stolen-essence = Stolen Essence
+store-currency-display-stolen-essence = Essência Roubada

@@ -2,63 +2,63 @@
 
 ## Window
 
-air-alarm-ui-access-denied = Insufficient access!
+air-alarm-ui-access-denied = Acesso insuficiente!
 
-air-alarm-ui-window-pressure-label = Pressure
-air-alarm-ui-window-temperature-label = Temperature
+air-alarm-ui-window-pressure-label = Pressão
+air-alarm-ui-window-temperature-label = Temperatura
 air-alarm-ui-window-alarm-state-label = Status
 
-air-alarm-ui-window-address-label = Address
-air-alarm-ui-window-device-count-label = Total Devices
-air-alarm-ui-window-resync-devices-label = Resync
+air-alarm-ui-window-address-label = Endereço
+air-alarm-ui-window-device-count-label = Dispositivos Totais
+air-alarm-ui-window-resync-devices-label = Ressincronizar
 
-air-alarm-ui-window-mode-label = Mode
+air-alarm-ui-window-mode-label = Modo
 
 air-alarm-ui-window-pressure = {$pressure} kPa
 air-alarm-ui-window-temperature = {$tempC} C ({$temperature} K)
 air-alarm-ui-window-alarm-state = {$state}
 
-air-alarm-ui-window-tab-vents = Vents
-air-alarm-ui-window-tab-scrubbers = Scrubbers
-air-alarm-ui-window-tab-sensors = Sensors
+air-alarm-ui-window-tab-vents = Ventilações
+air-alarm-ui-window-tab-scrubbers = Depuradores
+air-alarm-ui-window-tab-thresholds = Limites
 
 air-alarm-ui-gases = {$gas}: {$amount} mol ({$percentage}%)
 
-air-alarm-ui-mode-filtering = Filtering
-air-alarm-ui-mode-wide-filtering = Filtering (wide)
-air-alarm-ui-mode-fill = Fill
-air-alarm-ui-mode-panic = Panic
-air-alarm-ui-mode-none = None
+air-alarm-ui-mode-filtering = Filtragem
+air-alarm-ui-mode-wide-filtering = Filtragem (wide)
+air-alarm-ui-mode-fill = Encher
+air-alarm-ui-mode-panic = Pânico
+air-alarm-ui-mode-none = Nenhum
 
 ## Widgets
 
 ### General
 
-air-alarm-ui-widget-enable = Enabled
-air-alarm-ui-widget-ignore = Ignore
-air-alarm-ui-atmos-net-device-label = Address: {$address}
+air-alarm-ui-widget-enable = Habilitado
+air-alarm-ui-widget-ignore = Ignorar
+air-alarm-ui-atmos-net-device-label = Endereço: {$address}
 
 ### Vent pumps
 
-air-alarm-ui-vent-pump-label = Vent direction
-air-alarm-ui-vent-pressure-label = Pressure bound
-air-alarm-ui-vent-external-bound-label = External bound
-air-alarm-ui-vent-internal-bound-label = Internal bound
+air-alarm-ui-vent-pump-label = Direção da Ventilação
+air-alarm-ui-vent-pressure-label = Limite de Pressão
+air-alarm-ui-vent-external-bound-label = Limite externo
+air-alarm-ui-vent-internal-bound-label = Limite interno
 
 ### Scrubbers
 
-air-alarm-ui-scrubber-pump-direction-label = Direction
-air-alarm-ui-scrubber-volume-rate-label = Rate (L)
-air-alarm-ui-scrubber-wide-net-label = WideNet
+air-alarm-ui-scrubber-pump-direction-label = Direção
+air-alarm-ui-scrubber-volume-rate-label = Taxa (L)
+air-alarm-ui-scrubber-wide-net-label = Rede Local
 
 ### Thresholds
 
 air-alarm-ui-sensor-gases = Gases
-air-alarm-ui-sensor-thresholds = Thresholds
-air-alarm-ui-thresholds-pressure-title = Pressure (kPa)
-air-alarm-ui-thresholds-temperature-title = Temperature (K)
+air-alarm-ui-sensor-thresholds = Limites
+air-alarm-ui-thresholds-pressure-title = Pressão (kPa)
+air-alarm-ui-thresholds-temperature-title = Temperatura (K)
 air-alarm-ui-thresholds-gas-title = {$gas} (%)
-air-alarm-ui-thresholds-upper-bound = Upper bound
-air-alarm-ui-thresholds-lower-bound = Lower bound
-air-alarm-ui-thresholds-upper-warning-bound = Upper warning bound
-air-alarm-ui-thresholds-lower-warning-bound = Lower warning bound
+air-alarm-ui-thresholds-upper-bound = Limite superior
+air-alarm-ui-thresholds-lower-bound = Limite inferior
+air-alarm-ui-thresholds-upper-warning-bound = Aviso do limite superior
+air-alarm-ui-thresholds-lower-warning-bound = Aviso do limite inferior

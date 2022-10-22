@@ -1,2 +1,2 @@
-objective-condition-other-traitor-alive-title = Ensure fellow traitor {$targetName}, {CAPITALIZE($job)} stays alive.
-objective-condition-other-traitor-alive-description = Identify yourself at your own risk. We just need them alive.
+objective-condition-other-traitor-alive-title = Certifique-se que {$targetName}, {CAPITALIZE($job)} fique vivo(a).
+objective-condition-other-traitor-alive-description = Identifique-se por sua conta e risco. Apenas precisamos dele(a) vivo(a).

@@ -1,16 +1,30 @@
 # InstrumentComponent
-instrument-component-finger-cramps-light-message = Your fingers are beginning to a cramp a little!
-instrument-component-finger-cramps-serious-message = Your fingers are seriously cramping up!
-instrument-component-finger-cramps-max-message = Your fingers cramp up from playing!
-instruments-component-menu-no-midi-support = MIDI support is currently not
-                                             available on your system.
-                                             If on Linux, you may need to install
-                                             FluidSynth or a development package
-                                             for FluidSynth.
-instruments-component-menu-input-button = MIDI Input
-instruments-component-menu-play-button = Play MIDI File
-instruments-component-menu-loop-button = Loop
-instruments-component-menu-stop-button = Stop
+instrument-component-finger-cramps-light-message = 
+instrument-component-finger-cramps-serious-message = 
+instrument-component-finger-cramps-max-message = 
+instruments-component-menu-no-midi-support = Suporte para MIDI não está
+                                             disponível em seu sistema.
+                                             Se estiver no linux, você pode precisar instalar
+                                             FluidSynth ou um pacote de desenvolvimento
+                                             para o FluidSynth.
 
 # SwappableInstrumentComponent
-swappable-instrument-component-style-set = Style set to "{$style}"
+swappable-instrument-component-style-set = Estilo trocado para "{$style}"
+
+
+# InstrumentComponent
+instrument-component-finger-cramps-light-message = Seus dedos estão um pouco machucados!
+instrument-component-finger-cramps-serious-message = Seus dedos estão ficando seriamente machucados!
+instrument-component-finger-cramps-max-message = Seus dedos estão muito machucados!
+instruments-component-menu-no-midi-support = Suporte para MIDI não está
+                                             disponível em seu sistema.
+                                             Se estiver no linux, você pode precisar instalar
+                                             FluidSynth ou um pacote de desenvolvimento
+                                             para o FluidSynth.
+instruments-component-menu-input-button = Entrada MIDI
+instruments-component-menu-play-button = Tocar arquivo MIDI
+instruments-component-menu-loop-button = Repetir
+instruments-component-menu-stop-button = Parar
+
+# SwappableInstrumentComponent
+swappable-instrument-component-style-set = Estilo trocado para "{$style}"

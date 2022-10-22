@@ -1,1 +1,1 @@
-gas-passive-gate-examined = The flow rate meter indicates [color=lightblue]{$flowRate} liters/sec[/color].
+gas-passive-gate-examined = O contador de quociente de vazão indica [color=lightblue]{$flowRate} litros/segundo[/color].

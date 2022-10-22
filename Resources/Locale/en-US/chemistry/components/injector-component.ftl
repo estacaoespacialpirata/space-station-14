@@ -1,24 +1,24 @@
 ## UI
 
-injector-draw-text = Draw
-injector-inject-text = Inject
-injector-invalid-injector-toggle-mode = Invalid
+injector-draw-text = Puxar
+injector-inject-text = Injetar
+injector-invalid-injector-toggle-mode = Inválido
 injector-volume-label = Volume: [color=white]{$currentVolume}/{$totalVolume}[/color] | [color=white]{$modeString}[/color]
 
 ## Entity
 
-injector-component-drawing-text = Now drawing
-injector-component-injecting-text = Now injecting
-injector-component-cannot-transfer-message = You aren't able to transfer to {$target}!
-injector-component-cannot-draw-message = You aren't able to draw from {$target}!
-injector-component-cannot-inject-message = You aren't able to inject to {$target}!
-injector-component-inject-success-message = You inject {$amount}u into {$target}!
-injector-component-transfer-success-message = You transfer {$amount}u into {$target}.
-injector-component-draw-success-message = You draw {$amount}u from {$target}.
-injector-component-target-already-full-message = {$target} is already full!
-injector-component-target-is-empty-message = {$target} is empty!
+injector-component-drawing-text = Agora puxando
+injector-component-injecting-text = Agora injetando
+injector-component-cannot-transfer-message = Você não consegue transferir para {$target}!
+injector-component-cannot-draw-message = Você não consegue puxar de {$target}!
+injector-component-cannot-inject-message = Você não consegue injetar em {$target}!
+injector-component-inject-success-message = Você injeta {$amount}u em {$target}!
+injector-component-transfer-success-message = Você transfere {$amount}u em {$target}.
+injector-component-draw-success-message = Você puxa {$amount}u de {$target}.
+injector-component-target-already-full-message = {$target} já está cheio!
+injector-component-target-is-empty-message = {$target} está vazio!
 
 ## mob-inject doafter messages
 
-injector-component-injecting-user = You start inserting the needle.
-injector-component-injecting-target = {CAPITALIZE(THE($user))} is trying to stick a needle into you!
+injector-component-injecting-user = Você começa a inserir a agulha.
+injector-component-injecting-target = {$user} está tentando te picar com uma agulha!

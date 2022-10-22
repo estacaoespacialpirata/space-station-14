@@ -1,1 +1,1 @@
-vehicle-use-key = You use {THE($keys)} to start {THE($vehicle)}.
+vehicle-use-key = Você usou {THE($keys)} para ligar {THE($vehicle)}.

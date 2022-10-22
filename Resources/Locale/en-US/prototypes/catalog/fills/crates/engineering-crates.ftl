@@ -1,26 +1,26 @@
-ent-CrateEngineeringGear = Engineering gear crate
+ent-CrateEngineeringGear = Caixa de equipamento de engenharia
     .desc = Various engineering gear parts.
 
-ent-CrateEngineeringToolbox = Toolbox crate
+ent-CrateEngineeringToolbox = Caixa de ferramentas
     .desc = Two mechanical and two electrical toolboxes.
 
-ent-CrateEngineeringPowercell = AME crate
+ent-CrateEngineeringPowercell = Caixe de AME
     .desc = Three microcreactor powercells.
 
-ent-CrateEngineeringCableLV = LV cable crate
+ent-CrateEngineeringCableLV = Caixa de cabos LV
     .desc = 3 coils of LV cables.
 
-ent-CrateEngineeringCableMV = MV cable crate
+ent-CrateEngineeringCableMV = Caixa de cabos MV
     .desc = 3 coils of MV cables.
 
-ent-CrateEngineeringCableHV = HV cable crate
+ent-CrateEngineeringCableHV = Caixa de cabos HV
     .desc = 3 coils of HV cables.
 
-ent-CrateEngineeringCableBulk = Bulk cable crate
+ent-CrateEngineeringCableBulk = Caixa de cabos gerais
     .desc = 2 coils each for every cable type.
 
-ent-CrateEngineeringElectricalSupplies = Electrical Supplies Crate
+ent-CrateEngineeringElectricalSupplies = Caixa de suprimentos elétricos
     .desc = NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
 
-ent-CrateEngineeringJetpack = Jetpack crate
+ent-CrateEngineeringJetpack = Caixa de Jetpack
     .desc = Two jetpacks for those who don't know how to use fire extinguishers.

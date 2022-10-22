@@ -1,16 +1,16 @@
-particle-accelerator-control-menu-on-button = On
-particle-accelerator-control-menu-off-button = Off
-particle-accelerator-control-menu-service-manual-reference = Refer to p.132 of service manual
-particle-accelerator-control-menu-device-version-label = Mark 2 Particle Accelerator
-particle-accelerator-control-menu-power-label = Power:
-particle-accelerator-control-menu-strength-label = Strength:
-particle-accelerator-control-menu-alarm-control = PARTICLE STRENGTH
-                                                  LIMITER FAILURE
-particle-accelerator-control-menu-scan-parts-button = Scan Parts
-particle-accelerator-control-menu-check-containment-field-warning = Ensure containment field is active before operation
+particle-accelerator-control-menu-on-button = Ligado
+particle-accelerator-control-menu-off-button = Desligado
+particle-accelerator-control-menu-service-manual-reference = Olhar na página 132 do manual de serviço
+particle-accelerator-control-menu-device-version-label = Acelerador de Partículas MK2
+particle-accelerator-control-menu-power-label = Energia:
+particle-accelerator-control-menu-strength-label = Força:
+particle-accelerator-control-menu-alarm-control = FORÇA DE PARTÌCULA
+                                                  FALHA DO LIMITADOR
+particle-accelerator-control-menu-scan-parts-button = Verificar Partes
+particle-accelerator-control-menu-check-containment-field-warning = Verifique que o campo de contenção está ativo antes de operar
 particle-accelerator-control-menu-foo-bar-baz = FOO-BAR-BAZ
-particle-accelerator-control-menu-status-label = Status: {$status}
-particle-accelerator-control-menu-status-operational = Operational
-particle-accelerator-control-menu-status-incomplete = Incomplete
-particle-accelerator-control-menu-draw-not-available = Draw: N/A
-particle-accelerator-control-menu-draw = Draw: {$watts}/{$lastReceive} 
+particle-accelerator-control-menu-status-label = Estado: {$status}
+particle-accelerator-control-menu-status-operational = Operacional
+particle-accelerator-control-menu-status-incomplete = Incompleto
+particle-accelerator-control-menu-draw-not-available = Puxar: N/d
+particle-accelerator-control-menu-draw = Puxar: {$watts}/{$lastReceive} 

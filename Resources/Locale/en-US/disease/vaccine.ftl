@@ -1,3 +1,3 @@
-vaxx-already-used = You already used this vaccine.
-vaxx-used = It's spent.
-vaxx-unused = It hasn't been spent.
+vaxx-already-used = Você já usou essa vacina.
+vaxx-used = Está usado.
+vaxx-unused = Isso ainda não foi usado.

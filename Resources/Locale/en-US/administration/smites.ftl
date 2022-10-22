@@ -1,17 +1,16 @@
-admin-smite-chess-self = You feel exceptionally small.
-admin-smite-chess-others = {CAPITALIZE($name)} shrinks into the chessboard!
-admin-smite-set-alight-self = You burst into flames!
-admin-smite-set-alight-others = {CAPITALIZE($name)} bursts into flames!
-admin-smite-remove-blood-self = You feel lighter, and chilly.
-admin-smite-remove-blood-others = {CAPITALIZE($name)} leaks blood all over the floor!
-admin-smite-vomit-organs-self = You puke, and feel rather hollow!
-admin-smite-vomit-organs-others = {CAPITALIZE($name)} vomits up their organs!
-admin-smite-remove-hands-self = Your hands fall off!
-admin-smite-remove-hands-other = {CAPITALIZE($name)}'s hands fall off!
-admin-smite-turned-ash-other = {CAPITALIZE($name)} turns into a pile of ash!
+admin-smite-chess-self = Você se sente expecionalmente pequeno.
+admin-smite-chess-others = {CAPITALIZE($name)} entrou no tabuleiro!
+admin-smite-set-alight-self = Você começa a pegar fogo!
+admin-smite-set-alight-others = {CAPITALIZE($name)} começou a pegar fogo!
+admin-smite-remove-blood-self = Você se sente mais leve, e frio.
+admin-smite-remove-blood-others = {CAPITALIZE($name)} soltou sangue por todo o chão!
+admin-smite-vomit-organs-self = Você vomita, e se sente oco!
+admin-smite-vomit-organs-others = {CAPITALIZE($name)} vomitou seus orgãos!
+admin-smite-remove-hands-self = Suas mãos caem!
+admin-smite-remove-hands-other = As mãos do(a) {CAPITALIZE($name)} caem!
+admin-smite-turned-ash-other = {CAPITALISE($name)} virou pó!
 admin-smite-stomach-removal-self = Your stomach feels hollow...
 admin-smite-run-walk-swap-prompt = You have to press shift to run!
-admin-smite-super-speed-prompt = You move at mach 0.8!
 admin-smite-lung-removal-self = You can't breath!
 
 
@@ -48,7 +47,6 @@ admin-smite-maid-description = Forcibly converts them into a janitorial cat maid
 admin-smite-zoom-in-description = Zooms in their view so that they can no longer see their surroundings.
 admin-smite-flip-eye-description = Flips their view, effectively reversing their controls and making the game annoying to play.
 admin-smite-run-walk-swap-description = Swaps running and walking, forcing them to hold shift to move fast.
-admin-smite-super-speed-description = Makes them really fast, causing them to turn into gibs when hitting a wall.
 admin-smite-stomach-removal-description = Removes their stomach, rendering them unable to eat.
 admin-smite-speak-backwards-description = Forces them to speak backwards, so they can't call for help.
 admin-smite-lung-removal-description = Removes their lungs, drowning them.

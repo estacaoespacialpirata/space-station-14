@@ -1,21 +1,21 @@
-﻿# Cat accent
-accent-words-cat-1 = Meow!
-accent-words-cat-2 = Mow.
-accent-words-cat-3 = Mrrrow!
+# Cat accent
+accent-words-cat-1 = Miau!
+accent-words-cat-2 = Miou.
+accent-words-cat-3 = Mrrrau!
 accent-words-cat-4 = Hhsss!
-accent-words-cat-5 = Brrow.
+accent-words-cat-5 = Brrou.
 
 # Dog accent
-accent-words-dog-1 = Bark!
-accent-words-dog-2 = Bork!
-accent-words-dog-3 = Woof!
+accent-words-dog-1 = Au!
+accent-words-dog-2 = Auau!
+accent-words-dog-3 = Uuf!
 accent-words-dog-4 = Arf.
 accent-words-dog-5 = Grrr.
 
 # Mouse
 accent-words-mouse-1 = Squeak!
 accent-words-mouse-2 = Piep!
-accent-words-mouse-3 = Chuu!
+accent-words-mouse-3 = Tchuu!
 accent-words-mouse-4 = Eeee!
 
 # Mumble
@@ -38,11 +38,11 @@ accent-words-xeno-4 = Hiss...!
 # Zombie
 accent-words-zombie-1 = Gruaahhhh...
 accent-words-zombie-2 = Mmuaaaa..
-accent-words-zombie-3 = Braainnssss...
+accent-words-zombie-3 = Céeeerebrossss...
 accent-words-zombie-4 = Grrrrr...
 accent-words-zombie-5 = Ouuaahhhhh...
 accent-words-zombie-6 = Graaaaaooohhlll...
-accent-words-zombie-7 = Brainsss... Braaaiiinnsss..
+accent-words-zombie-7 = Cérebross... Céeeeerebrosssss..
 
 # Generic Aggressive
 accent-words-generic-aggressive-1 = Grr!
@@ -57,7 +57,7 @@ accent-words-duck-3 = Quack?
 accent-words-duck-4 = Quack quack!
 
 # Chicken
-accent-words-chicken-1 = Cluck!
-accent-words-chicken-2 = Cluck.
-accent-words-chicken-3 = Cluck?
-accent-words-chicken-4 = Cluck cluck!
+accent-words-chicken-1 = Poooó!
+accent-words-chicken-2 = Pópô.
+accent-words-chicken-3 = Pópôpó?
+accent-words-chicken-4 = Pó Popopó Poooó!

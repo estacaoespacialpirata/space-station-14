@@ -1,2 +1,2 @@
-advertisement-engidrobe-1 = Guaranteed to protect your feet from industrial accidents!
-advertisement-engidrobe-2 = Afraid of radiation? Then wear yellow!
+advertisement-engidrobe-1 = Garantido em te salvar de acidentes no trabalho!
+advertisement-engidrobe-2 = Com medo da radiação? Então vista amarelo!

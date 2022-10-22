@@ -1,22 +1,18 @@
-forensic-scanner-interface-title = Forensic scanner
-forensic-scanner-interface-fingerprints = Fingerprints
-forensic-scanner-interface-fibers = Fibers
-forensic-scanner-interface-no-data = No scan data available
-forensic-scanner-interface-print = Print
-forensic-scanner-report-title = Forensics Report: {$entity}
-forensic-pad-unused = It hasn't been used.
-forensic-pad-sample = It has a sample: {$sample}
-forensic-pad-gloves = {CAPITALIZE($target)} is wearing gloves.
-forensic-pad-start-scan-target = {CAPITALIZE($user)} is trying to take a sample of your fingerprints.
-forensic-pad-start-scan-user = You start taking a sample of {CAPITALIZE($target)}'s fingerprints.
-forensic-pad-already-used = This pad has already been used.
-forensic-scanner-match-fiber = Match in fiber found!
-forensic-scanner-match-fingerprint = Match in fingerprint found!
-forensic-scanner-match-none = No matches found!
-forensic-scanner-verb-text = Scan
-forensic-scanner-verb-message = Perform a forensic scan
-
-
+forensic-scanner-interface-title = Scanner forense
+forensic-scanner-interface-fingerprints = Impressões digitais
+forensic-scanner-interface-fibers = Fibras
+forensic-scanner-interface-no-data = Não há dados no scanner disponíveis
+forensic-scanner-interface-print = Imprimir
+forensic-scanner-report-title = Relátorio forense
+forensic-pad-unused = Não foi usado.
+forensic-pad-sample = Há uma amostra: {$sample}
+forensic-pad-gloves = {CAPITALIZE($target)} está usando luvas.
+forensic-pad-start-scan-target = {CAPITALIZE($user)} está tentando pegar uma amostra de suas digitais.
+forensic-pad-start-scan-user = Você começa a pegar amostras das digitais de {CAPITALIZE($target)}.
+forensic-pad-already-used = Já foi usado.
+forensic-scanner-match-fiber = Correspondência entre as fibras encontrada!
+forensic-scanner-match-fingerprint = Correspondência entre as digitais encontrada!
+forensic-scanner-match-none = Não é possivel encontrar ligação!
 
 forensic-pad-fingerprint-name = {$entity}'s fingerprints
 forensic-pad-gloves-name = fibers from {$entity}

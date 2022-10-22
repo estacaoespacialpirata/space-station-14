@@ -1,5 +1,5 @@
-﻿advertisement-nutrimax-1 = We like plants!
-advertisement-nutrimax-2 = Don't you want some?
-advertisement-nutrimax-3 = The greenest thumbs ever.
-advertisement-nutrimax-4 = We like big plants.
-advertisement-nutrimax-5 = Soft soil...
+advertisement-nutrimax-1 = Nós amamos plantas!
+advertisement-nutrimax-2 = Quer um pouco?
+advertisement-nutrimax-3 = Os polegares mais verdes.
+advertisement-nutrimax-4 = Nós amamos plantas grandes.
+advertisement-nutrimax-5 = Óleo macio...

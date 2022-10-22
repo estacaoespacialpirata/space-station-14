@@ -1,6 +1,6 @@
-﻿## Species Names
+## Species Names
 
-species-name-human = Human
-species-name-dwarf = Dwarf
-species-name-reptilian = Reptilian
-species-name-slime = Slime Person
+species-name-human = Humano
+species-name-dwarf = Anão
+species-name-reptilian = Reptiliano
+species-name-slime = Pessoa Slime

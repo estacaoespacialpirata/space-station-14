@@ -1,6 +1,6 @@
-set-ooc-command-description = Allows you to enable or disable OOC.
-set-ooc-command-help = Usage: setooc OR setooc [value]
-set-ooc-command-too-many-arguments-error = Too many arguments.
-set-ooc-command-invalid-argument-error = Invalid argument.
-set-ooc-command-ooc-enabled = OOC chat has been enabled.
-set-ooc-command-ooc-disabled = OOC chat has been disabled.
+set-ooc-command-description = Te permite ativar ou desativar o chat OOC.
+set-ooc-command-help = Usar: setooc OU setooc [value]
+set-ooc-command-too-many-arguments-error = Muitos argumentos.
+set-ooc-command-invalid-argument-error = Argumento inválido.
+set-ooc-command-ooc-enabled = O chat OOC foi ativado.
+set-ooc-command-ooc-disabled = O chat OOC foi desativado.

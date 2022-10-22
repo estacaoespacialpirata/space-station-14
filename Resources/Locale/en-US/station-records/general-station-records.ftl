@@ -1,9 +1,9 @@
-general-station-record-console-window-title = Station Records Computer
-general-station-record-console-select-record-info = Select a record on the left.
-general-station-record-console-empty-state = No records found!
-general-station-record-console-no-record-found = No record was found for the selected person.
+general-station-record-console-window-title = Computador de Registros da Estação
+general-station-record-console-select-record-info = Selecione o registro na esquerda.
+general-station-record-console-empty-state = Nenhum registro encontrado!
+general-station-record-console-no-record-found = Nenhum registro encontrado para a pessoa selecionada.
 
-general-station-record-console-record-age = Age: {$age}
-general-station-record-console-record-title = Job: {$job}
-general-station-record-console-record-species = Species: {$species}
-general-station-record-console-record-gender = Gender: {$gender}
+general-station-record-console-record-age = Idade: {$age}
+general-station-record-console-record-title = Trabalho: {$job}
+general-station-record-console-record-species = Espécie: {$species}
+general-station-record-console-record-gender = Gênero: {$gender}
