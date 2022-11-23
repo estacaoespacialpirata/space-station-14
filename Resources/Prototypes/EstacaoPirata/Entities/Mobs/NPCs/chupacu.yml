@@ -1,0 +1,31 @@
+# Hacky for the stress test so don't even consider adding to this
+
+
+- type: entity
+  name: Chupacu
+  parent: MobXeno
+  id: MobPirataChupacu
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: EstacaoPirata\Mobs\Chupacu\chupacu.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: running
+  - type: MobState
+    thresholds:
+      0: Alive
+      300: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      250: 0.7
+  - type: Fixtures
+    fixtures:
+    - shape:
+        !type:PhysShapeCircle
+        radius: 0.45
+      density: 400
+      mask:
+      - MobMask
+      layer:
+      - MobLayer
