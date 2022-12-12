@@ -1,28 +1,28 @@
-ent-ClothingBackpackSatchel = Pochete
+ent-ClothingBackpackSatchel = pochete
     .desc = Uma Pochete muito elegante.
 
-ent-ClothingBackpackSatchelEngineering = Pochete de Engenheiro
+ent-ClothingBackpackSatchelEngineering = pochete de engenheiro
     .desc = Uma pochete resistente com alguns bolsos a mais.
 
-ent-ClothingBackpackSatchelMedical = Pochete de Médico
+ent-ClothingBackpackSatchelMedical = pochete de médico
     .desc = Uma pochete esterilizada, utilizada pelos departamentos médicos.
 
-ent-ClothingBackpackSatchelChemistry = Pochete de Químico
+ent-ClothingBackpackSatchelChemistry = pochete de químico
     .desc = Uma pochete esterilizada, customizada em cores que representam os Químicos.
 
-ent-ClothingBackpackSatchelScience = Pochete de Cientista
+ent-ClothingBackpackSatchelScience = pochete de cientista
     .desc = Uma pochete útil no armazenamento de substancias nocivas.
 
-ent-ClothingBackpackSatchelSecurity = Pochete de Segurança
+ent-ClothingBackpackSatchelSecurity = pochete de segurança
     .desc = Uma pochete robusta, tem cheiro de corrupção.
 
-ent-ClothingBackpackSatchelCaptain = Pochete do Capitão
+ent-ClothingBackpackSatchelCaptain = pochete do capitão
     .desc = Uma pochete feita exclusivamente para oficiais Nanotrasen.
 
-ent-ClothingBackpackSatchelHydroponics = Pochete Hidropônica
+ent-ClothingBackpackSatchelHydroponics = pochete hidropônica
     .desc = Uma pochete 100% vegana! Se é que isso é possível...
 
-ent-ClothingBackpackSatchelSalvage = Pochete de Salvagem
+ent-ClothingBackpackSatchelSalvage = pochete de salvagem
     .desc = Uma pochete surrada. Pode conter tesouros de outro mundo!
 
 ent-ClothingBackpackSatchelHolding = satchel of holding
