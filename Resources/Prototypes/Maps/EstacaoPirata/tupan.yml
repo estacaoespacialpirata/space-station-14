@@ -1,0 +1,16 @@
+- type: gameMap
+  id: tupan
+  mapName: "Tupan"
+  mapPath: /Maps/EstacaoPirata/tupan.yml
+  minPlayers: 0
+  maxPlayers: 35
+  votable: false
+  stations:
+    Tupan:
+      mapNameTemplate: "{0} Tupan {1}"
+      nameGenerator: !type:NanotrasenNameGenerator
+        prefixCreator: "R4" # R4407/Goon. GS isn't as cool sounding.
+      overflowJobs:
+        - Passenger
+      availableJobs:
+        Passenger: [-1, -1]

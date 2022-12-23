@@ -9,8 +9,8 @@
     allowMovement: true
     allowSpeech: true
     name: Remilia, the chaplain's familiar
-    description: Obey your master. Eat fruit.
-    rules: You are an intelligent fruit bat. Follow the chaplain around. Don't cause any trouble unless the chaplain tells you to.
+    description: Obey your master. Drink blood.
+    rules: You are an intelligent vampire bat. Follow the chaplain around. Don't cause any trouble unless the chaplain tells you to.
   - type: Grammar
     attributes:
       gender: female
@@ -25,6 +25,13 @@
     showExamineInfo: true
   - type: Alerts
   - type: Familiar
+  - type: Dispellable
+  - type: BloodSucker
+    unitsToSucc: 5
+  - type: Body
+    prototype: VampiricAnimal
+  - type: Psionic
+    removable: false
 
 - type: entity
   name: Cerberus
@@ -74,3 +81,6 @@
   - type: Mind
     showExamineInfo: true
   - type: Familiar
+  - type: Dispellable
+  - type: Psionic
+    removable: false

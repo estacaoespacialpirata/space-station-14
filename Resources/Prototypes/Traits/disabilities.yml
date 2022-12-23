@@ -22,3 +22,9 @@
   name: trait-pacifist-name
   components:
     - type: Pacifist
+
+- type: trait
+  id: Colorblindness
+  name: Colorblindness
+  components:
+    - type: DogVision

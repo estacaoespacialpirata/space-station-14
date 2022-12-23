@@ -1,11 +1,10 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Bagel
-  - Box
-  - Cluster
-  - Kettle
-  - Marathon
-  - Omega
-  - Pillar
-  - Moose
+  - Angle
+  - Arena
+  # - Glacier
+  - Lighthouse
+  - Ovni
+  - Pebble
+  - Tortuga

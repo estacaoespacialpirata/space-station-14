@@ -12,6 +12,29 @@
       effects:
       - !type:SatiateThirst
         factor: 1.5
+      - !type:SatiateHunger
+        factor: 0.5
+        conditions:
+        - !type:OrganType
+          type: Vampiric
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Vampiric
+        reagent: Water
+        amount: 0.15
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Vampiric
+        reagent: Protein
+        amount: 0.15
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Vampiric
+        reagent: Omnizine
+        amount: 0.2
   plantMetabolism:
   - !type:PlantAdjustWater
     amount: 0.5
@@ -36,7 +59,7 @@
   name: reagent-name-ichor
   group: Biological
   desc: reagent-desc-ichor
-  physicalDesc: reagent-physical-desc-roaring
+  physicalDesc: reagent-physical-desc-enigmatic
   flavor: metallic
   color: "#f4692e"
   metabolisms:

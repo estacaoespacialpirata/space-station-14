@@ -1,4 +1,4 @@
-# In order to make this list somewhat organized, please place 
+# In order to make this list somewhat organized, please place
 # new technologies underneath their overarching "base" technology.
 
 # Base Technology
@@ -11,6 +11,10 @@
     sprite: Structures/Machines/server.rsi
     state: server-on
   requiredPoints: 2500
+  unlockedRecipes:
+  - DrinkMug
+  - DrinkMugMetal
+  - DrinkGlass
 
 # Cleaning Technology Tree
 
@@ -27,8 +31,13 @@
   unlockedRecipes:
   - Bucket
   - MopItem
+  - MopAdvanced
+  - MopBucket
   - SprayBottle
   - BodyBag
+  - LightReplacer
+  - TrashBag
+  - WetFloorSign
 
 # Biological Technology Tree
 
@@ -49,6 +58,7 @@
   - ButchCleaver
   - KitchenKnife
   - MicrowaveMachineCircuitboard
+  - DeepFryerMachineCircuitboard
 
 - type: technology
   name: technologies-advanced-botany
@@ -181,27 +191,75 @@
   - SurveillanceWirelessCameraMonitorCircuitboard
   - ComputerTelevisionCircuitboard
 
-#- type: technology
-#   name: "ballistic technology"
-#   id: BallisticTechnology
-#   description: Just a fancy term for guns.
-#   icon:
-#     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
-#     state: icon
-#   requiredPoints: 15000
-#   requiredTechnologies:
-#     - SecurityTechnology
-#
-# - type: technology
-#   name: "direct energy technology"
-#   id: DirectEnergyTechnology
-#   description: Basically laser guns.
-#   icon:
-#     sprite: Objects/Weapons/Guns/Battery/taser.rsi
-#     state: icon
-#   requiredPoints: 15000
-#   requiredTechnologies:
-#     - SecurityTechnology
+- type: technology
+  name: technologies-security-technology
+  id: SecurityTechnology
+  description: technologies-security-technology-description
+  icon:
+    sprite: Objects/Weapons/Melee/stunbaton.rsi
+    state: stunbaton_off
+  requiredPoints: 10000
+  requiredTechnologies:
+    - BasicResearch
+  unlockedRecipes:
+    - Flash
+    - Handcuffs
+    - Stunbaton
+    - FlashPayload
+    - InsulativeHeadcage
+
+- type: technology
+  name: technologies-ballistic-technology
+  id: BallisticTechnology
+  description: technologies-ballistic-technology-description
+  icon:
+    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    state: icon
+  requiredPoints: 15000
+  requiredTechnologies:
+     - SecurityTechnology
+  unlockedRecipes:
+    - CartridgePistol
+    - ShellShotgun
+    - ShellShotgunFlare
+    - CartridgeLightRifle
+    - CartridgeMagnum
+
+- type: technology
+  name: technologies-non-lethal-technology
+  id: NonLethalTechnology
+  description: technologies-non-lethal-technology-description
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    state: beanbag
+  requiredPoints: 8000
+  requiredTechnologies:
+     - SecurityTechnology
+  unlockedRecipes:
+    - ShellShotgunBeanbag
+    - ShellTranquilizer
+    - ShellSoulbreaker
+    - CartridgePistolRubber
+    - CartridgeMagnumRubber
+    - CartridgeCaselessRifleRubber
+    - CartridgeLightRifleRubber
+    - CartridgeRifleRubber
+    - ShockCollar
+
+- type: technology
+  name: technologies-direct-energy-technology
+  id: DirectEnergyTechnology
+  description: technologies-direct-energy-technology-description
+  icon:
+    sprite: Nyanotrasen/Objects/Weapons/Guns/Battery/decloner.rsi
+    state: icon
+  requiredPoints: 15000
+  requiredTechnologies:
+    - SecurityTechnology
+    - CompactPowerTechnology
+  unlockedRecipes:
+    - Decloner
+
 #
 # - type: technology
 #   name: "explosives technology"
@@ -239,7 +297,7 @@
   - BasicResearch
   unlockedRecipes:
   - AppraisalTool
-#TODO- MiningDrill
+  - MiningDrill
   - OreProcessorMachineCircuitboard
 
 - type: technology
@@ -256,8 +314,8 @@
   unlockedRecipes:
   - ShuttleConsoleCircuitboard
   - RadarConsoleCircuitboard
-#TODO- Gyroscope
-#TODO- Thruster
+  - ThrusterMachineCircuitboard
+  - GyroscopeMachineCircuitboard
 
 # Industrial Engineering Technology Tree
 
@@ -272,6 +330,7 @@
   requiredTechnologies:
   - BasicResearch
   unlockedRecipes:
+  - IntercomElectronics
   - ConveyorBeltAssembly
   - FlashlightLantern
   - FireExtinguisher
@@ -294,10 +353,13 @@
   requiredTechnologies:
   - IndustrialEngineering
   unlockedRecipes:
-  - SheetSteel
-  - SheetPlastic
-  - SheetRGlass
-  - SheetGlass1
+    - SheetSteel
+    - SheetPlastic
+    - SheetPlasteel
+    - SheetPlasma
+    - SheetRGlass
+    - SheetGlass1
+    - BluespaceCrystal
 
 # Electromagnetic Theory Technology Tree
 
@@ -336,14 +398,15 @@
   - ElectromagneticTheory
   - IndustrialEngineering
   unlockedRecipes:
-  - RCD
   - RCDAmmo
+  - PowerDrill
   - SMESMachineCircuitboard
   - PowerComputerCircuitboard
   - GeneratorPlasmaMachineCircuitboard
   - GeneratorUraniumMachineCircuitboard
   - SolarControlComputerCircuitboard
   - EmitterCircuitboard
+  - Holoprojector
 
 - type: technology
   name: technologies-advanced-atmospherics-technology
@@ -365,7 +428,7 @@
   name: technologies-rapid-upgrade
   id: RapidUpgrade
   description: technologies-rapid-upgrade-description
-  icon: 
+  icon:
     sprite: Objects/Specific/Research/rped.rsi
     state: icon
   requiredPoints: 7500
@@ -512,3 +575,26 @@
   - HighPowerMicroLaserStockPart
   - NanoManipulatorStockPart
   - AdvancedScanningModuleStockPart
+
+# Spacetime - the end point...
+- type: technology
+  name: technologies-space-time-technology
+  id: SpaceTimeTechnology
+  description: technologies-space-time-technology-description
+  icon:
+    sprite: Nyanotrasen/Objects/Devices/QSI.rsi
+    state: icon
+  requiredPoints: 20000
+  requiredTechnologies:
+    - CompactPowerTechnology
+    - AdvancedPartsTechnology
+    - ArchaeologicalEquipment
+    - ChemistryTechnology
+  unlockedRecipes:
+    - QSI
+    - BluespaceBeaker
+    - BackpackOfHolding
+    - SatchelOfHolding
+    - DuffelbagOfHolding
+    - TrashBagOfHolding
+    - NormalityCrystal

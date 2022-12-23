@@ -1,0 +1,47 @@
+- type: job
+  id: Mystagogue
+  name: job-name-mystagogue
+  description: job-desc-mystagogue
+  weight: 10
+  startingGear: MystagogueGear
+  playTimeTracker: JobMystagogue
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Epistemics
+      time: 18000
+    - !type:OverallPlaytimeRequirement
+      time: 54000
+  icon: "ResearchDirector"
+  antagAdvantage: 6
+  requireAdminNotify: true
+  canBeAntag: false
+  whitelistRequired: true
+  supervisors: "the captain"
+  access:
+  - Research
+  - Command
+  - Maintenance
+  - ResearchDirector
+  - Detective
+  - Chapel
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: BibleUser #Lets them heal with bibles
+    - type: Psionic
+    - type: DispelPower
+
+- type: startingGear
+  id: MystagogueGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMystagogue
+    back: ClothingBackpackScienceFilled
+    shoes: ClothingShoesColorWhite
+    head: ClothingHeadHoodMystic
+    outerClothing: ClothingOuterRobeMystic
+    belt: BibleMystagogue
+    id: MystaPDA
+    ears: ClothingHeadsetMystagogue
+  innerclothingskirt: ClothingUniformJumpskirtColorWhite
+  satchel: ClothingBackpackSatchelScienceFilled
+  duffelbag: ClothingBackpackDuffelScienceFilled

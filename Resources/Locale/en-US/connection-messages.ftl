@@ -1,5 +1,5 @@
-﻿whitelist-not-whitelisted = You are not whitelisted.
-whitelist-not-whitelisted-rp = You are not whitelisted. To become whitelisted, visit our Discord (which can be found at https://spacestation14.io) and check the #rp-whitelist channel.
+﻿whitelist-not-whitelisted = Nyanotrasen requires whitelisting above {$num} players. Connect to the Discord at www.nyanotrasen.moe
+whitelist-end-round-kick = Non-whitelisted players are automatically kicked at round end. To apply for whitelisting, connect to the Discord at www.nyanotrasen.moe
 
 command-whitelistadd-description = Adds the player with the given username to the server whitelist.
 command-whitelistadd-help = whitelistadd <username>
@@ -22,7 +22,8 @@ ban-banned-1 = You, or another user of this computer or connection, are banned f
 ban-banned-2 = The ban reason is: "{$reason}"
 
 soft-player-cap-full = The server is full!
-panic-bunker-account-denied = This server is in panic bunker mode. New connections are not being accepted at this time. Try again later
-panic-bunker-account-denied-reason = This server is in panic bunker mode and you were rejected. Reason: "{$reason}"
-panic-bunker-account-reason-account = The account's age must be older than {$minutes} minutes
-panic-bunker-account-reason-overall = The account's overall playtime must be greater than {$hours} hours
+panic-bunker-account-denied = Due to Russian raiders recently, we are not accepting connections from new accounts right now.
+                              If you speak good English and are really interested, join the Discord at www.nyanotrasen.moe
+panic-bunker-no-admins = No admins are on, and your account is new to us.
+                         To ensure game quality, we unfortunately have to reject this connection.
+                         If you're interested in Nyanotrasen, please check out the website and Discord at www.nyanotrasen.moe

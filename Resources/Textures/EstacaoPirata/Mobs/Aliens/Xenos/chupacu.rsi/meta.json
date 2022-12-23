@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by @Corvo#8043, based on xeno praetorian",
+    "states": [
+        {
+            "name": "running",
+            "directions": 4
+        },
+        {
+            "name": "dead"
+        },
+        {
+            "name": "crit"
+        },
+        {
+            "name": "sleeping"
+        }
+    ]
+}

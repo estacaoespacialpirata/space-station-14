@@ -1,0 +1,128 @@
+- type: entity
+  name: Giant Tarantula
+  id: MobGiantTarantula
+  parent: SimpleMobBase
+  description: He's da Tarantula. He make da roolz.
+  components:
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.00
+    baseSprintSpeed : 5.00
+  - type: InputMover
+  - type: MobMover
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: Faction
+    factions:
+    - SimpleHostile
+  - type: Sprite
+    drawdepth: Mobs
+    scale: 1.4, 1.4
+    sprite: Mobs/Animals/spider.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: tarantula
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+    - shape:
+        !type:PhysShapeCircle
+        radius: 0.35
+      density: 65
+      mask:
+      - SmallMobMask
+      layer:
+      - SmallMobLayer
+  - type: MobState
+    thresholds:
+      0: Alive
+      350: Critical
+      400: Dead
+  - type: MeleeWeapon
+    hidden: true
+    range: 1
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 12
+        Piercing: 8
+  - type: Appearance
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: tarantula
+      Critical:
+        Base: tarantula_dead
+      Dead:
+        Base: tarantula_dead
+  - type: Puller
+    needsHands: false
+  - type: GhostTakeoverAvailable
+    makeSentient: true
+    name: Giant Tarantula
+    description: You are the Giant Tarantula, scavenge food in order to produce rat minions to do your bidding.
+    rules: You are an antagonist, scavenge, attack, and grow your hoard!
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+      - Spider
+  - type: NoSlip
+  - type: GiantTarantula
+    actionDomain:
+      useDelay: 2
+      icon: Interface/Actions/ratKingDomain.png
+      name: giant-tarantula-domain-name
+      description: giant-tarantula-domain-description
+      itemIconStyle: NoItem
+      event: !type:GiantTarantulaDomainActionEvent
+    hungerPerDomainUse: 1
+    actionRaiseArmy:
+      useDelay: 5
+      icon: Interface/Actions/ratKingArmy.png
+      name: giant-tarantula-raise-army-name
+      description: giant-tarantula-raise-army-description
+      itemIconStyle: NoItem
+      event: !type:GiantTarantulaRaiseArmyActionEvent
+    hungerPerArmyUse: 25
+  - type: ReplacementAccent
+    accent: xeno
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatSpider
+      amount: 4
+  - type: MobPrice
+    price: 2500
+  - type: RandomMetadata
+    nameSegments:
+    - GiantTarantulaNameKingdom
+    - GiantTarantulaNameTitle
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-tarantula
+    interactFailureString: petting-failure-generic
+
+- type: entity
+  name: tarantula
+  parent: MobGiantSpiderAngry
+  id: MobTarantulaServant
+  suffix: Angry
+  components:
+    - type: Fixtures
+      fixtures:
+      - shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+    - type: Puller
+      needsHands: false

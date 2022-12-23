@@ -1,0 +1,78 @@
+- type: entity
+  id: Web
+  name: web
+  description: The network of silken thread spun by a big spider.
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: MeleeSound
+      soundGroups:
+        Brute:
+          path:
+            "/Audio/Weapons/slash.ogg"
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Misc/web.rsi
+      state: web_1
+      drawdepth: Overdoors
+      netsync: false
+    - type: Appearance
+    - type: Clickable
+    - type: Transform
+      anchored: true
+    - type: Physics
+    - type: Fixtures
+      fixtures:
+      - hard: false
+        density: 7
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+        - MidImpassable
+    - type: Damageable
+      damageModifierSet: Wood
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 10
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - type: Temperature
+      heatDamage:
+        types:
+          Heat: 5
+      coldDamage: {}
+      ColdDamageThreshold: 0
+    - type: Flammable
+      fireSpread: true #If you walk into incredibly dense, flaming vines, you can expect to burn.
+      cold:
+        types: {}
+      damage:
+        types:
+          Heat: 1
+    - type: Reactive
+      groups:
+        Flammable: [Touch]
+        Extinguish: [Touch]
+    - type: SlowContacts
+      walkSpeedModifier: 0.03
+      sprintSpeedModifier: 0.03
+      ignoreWhitelist:
+        tags:
+          - Spider
+
+- type: entity
+  id: Web2
+  parent: Web
+  name: web
+  description: The network of silken thread spun by a big spider.
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Misc/web.rsi
+      state: web_2
+      drawdepth: Overdoors
+      netsync: false

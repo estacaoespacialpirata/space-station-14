@@ -1,0 +1,9 @@
+- type: soundCollection
+  id: Farts
+  files:
+    - /Audio/EstacaoPirata/Fart/fart_1.ogg
+    - /Audio/EstacaoPirata/Fart/fart_2.ogg
+    - /Audio/EstacaoPirata/Fart/fart_3.ogg
+    - /Audio/EstacaoPirata/Fart/fart_4.ogg
+    - /Audio/EstacaoPirata/Fart/fart_5.ogg
+    - /Audio/EstacaoPirata/Fart/fart_6.ogg

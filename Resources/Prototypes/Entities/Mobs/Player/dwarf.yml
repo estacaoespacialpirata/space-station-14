@@ -3,7 +3,6 @@
   name: Urist McHands The Dwarf
   parent: BaseMobDwarf
   id: MobDwarf
-  description: A miserable pile of secrets.
   components:
     - type: CombatMode
       disarm: null
@@ -27,3 +26,4 @@
     - type: Faction
       factions:
         - NanoTrasen
+    - type: MailReceiver

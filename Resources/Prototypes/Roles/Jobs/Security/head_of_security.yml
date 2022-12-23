@@ -10,13 +10,14 @@
       department: Security
       time: 18000
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 54000
   weight: 10
   startingGear: HoSGear
   icon: "HeadOfSecurity"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  whitelistRequired: true
   access:
   - HeadOfSecurity
   - Command
@@ -25,7 +26,13 @@
   - Armory
   - Maintenance
   - Service
+  - Detective
   - External
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      flatBonus: 0.025
 
 - type: startingGear
   id: HoSGear

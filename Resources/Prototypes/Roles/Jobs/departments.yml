@@ -1,31 +1,27 @@
 - type: department
-  id: Cargo
-  roles:
-  - CargoTechnician
-  - Quartermaster
-  - SalvageSpecialist
-
-- type: department
   id: Civilian
   roles:
   - Bartender
   - Botanist
-  - Chaplain
+  - Boxer
   - Chef
   - Clown
+  - Gladiator
   - HeadOfPersonnel
   - Janitor
   - Lawyer
   - Librarian
+  - MailCarrier
   - MedicalIntern
   - Mime
   - Musician
   - Passenger
   - Reporter
   - Zookeeper
-  - SecurityCadet
   - ServiceWorker
   - TechnicalAssistant
+  - Quartermaster
+  - Prisoner
 
 - type: department
   id: Command
@@ -34,10 +30,15 @@
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
+  - ERTEngineer
+  - ERTJanitor
+  - ERTLeader
+  - ERTMedical
+  - ERTSecurity
   - HeadOfPersonnel
   - HeadOfSecurity
   - ResearchDirector
-  - Quartermaster
+  - Mystagogue
 
 - type: department
   id: Engineering
@@ -46,6 +47,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - SalvageTechnician
 
 - type: department
   id: Medical
@@ -55,6 +57,8 @@
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
+  - MedicalCyborg
+  - Paramedic
 
 - type: department
   id: Security
@@ -66,7 +70,16 @@
   - Warden
 
 - type: department
-  id: Science
+  id: Epistemics
   roles:
-  - ResearchDirector
-  - Scientist
+  - Mystagogue
+  - ForensicMantis
+  - Epistemologist
+  - Chaplain
+  - Cataloguer
+
+- type: department
+  id: Silicon
+  roles:
+  - Cyborg
+  - MedicalCyborg

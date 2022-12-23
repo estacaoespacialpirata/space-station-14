@@ -19,6 +19,8 @@
 - type: randomHumanoidSettings
   id: ERTLeader
   randomizeName: false
+  speciesBlacklist:
+    - Arachne
   components:
     - type: GhostTakeoverAvailable
       name: ERT Leader
@@ -275,6 +277,8 @@
 
 - type: randomHumanoidSettings
   id: CBURNAgent
+  speciesBlacklist:
+    - Arachne
   components:
     - type: Loadout
       prototypes: [CBURNGear]
@@ -322,6 +326,8 @@
 
 - type: randomHumanoidSettings
   id: SyndicateAgent
+  speciesBlacklist:
+    - Arachne
   components:
     - type: Loadout
       prototypes: [SyndicateOperativeGearExtremelyBasic]
@@ -338,5 +344,10 @@
 
 - type: randomHumanoidSettings
   id: NukeOp
+  speciesBlacklist:
+    - Arachne
   components:
     - type: NukeOperative
+    - type: PsionicBonusChance
+      multiplier: 7
+      warn: false

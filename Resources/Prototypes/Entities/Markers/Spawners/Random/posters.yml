@@ -86,6 +86,8 @@
       - PosterContrabandNuclearDeviceInformational
       - PosterContrabandRevolt
       - PosterContrabandRise
+      - PosterContrabandSaucerNumberOne
+      - PosterContrabandBreadLies
     chance: 1
 
 - type: entity
@@ -139,5 +141,14 @@
       - PosterLegitDickGumshue
       - PosterLegitThereIsNoGasGiant
       - PosterLegitJustAWeekAway
+      - PosterLegitDejaVu
+      - PosterLegitDontPanic
       - PosterLegitSecWatch
+      - PosterLegitBarDrinks
+      - PosterLegitBotanyFood
+      - PosterLegitHotDonkExplosion
+      - PosterLegitEatMeat
+      - PosterLegitMoreBread
+      - PosterLegitPieSlice
+      - PosterLegitPizzaHope
     chance: 1

@@ -31,6 +31,7 @@
     ClothingUniformJumpskirtColorDarkBlue: 2
     ClothingUniformJumpsuitColorTeal: 2
     ClothingUniformJumpskirtColorTeal: 2
+    ClothingUniformJumpsuitTshirtJeans: 3
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3
@@ -54,6 +55,8 @@
     ClothingHeadHatCake: 2
     ClothingOuterWinterCoat: 3
     ClothingHeadFishCap: 2
+    ClothingOuterCoatHyenhSweater: 2
+    ClothingHeadTinfoil: 2
     ClothingHeadRastaHat: 2
     ClothingNeckScarfStripedRed: 3
     ClothingNeckScarfStripedBlue: 3

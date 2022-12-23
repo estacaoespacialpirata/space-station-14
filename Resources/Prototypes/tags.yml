@@ -16,13 +16,28 @@
   id: Baguette
 
 - type: Tag
-  id: Bee
-
-- type: Tag
   id: BikeHorn
 
 - type: Tag
+  id: Bee
+
+- type: Tag
+  id: BeltSlotNotBelt #not a 'belt'
+
+- type: Tag
+  id: BluespaceCrystal
+
+- type: Tag
+  id: BrassInstrument
+
+- type: Tag
+  id: Brutepack
+
+- type: Tag
   id: BodyBag
+
+- type: Tag
+  id: Book
 
 - type: Tag
   id: BorgArm
@@ -41,12 +56,6 @@
 
 - type: Tag
   id: BoxHug
-
-- type: Tag
-  id: BrassInstrument
-
-- type: Tag
-  id: Brutepack
 
 - type: Tag
   id: Bucket
@@ -226,6 +235,9 @@
   id: Flashlight
 
 - type: Tag
+  id: FloorTile
+
+- type: Tag
   id: Flower
 
 - type: Tag
@@ -239,6 +251,9 @@
 
 - type: Tag
   id: ForceNoFixRotations # fixrotations command WON'T target this
+
+- type: Tag
+  id: FullBodyOuter # this outerclothing wraps around the feet and legs
 
 - type: Tag
   id: GasScrubber
@@ -290,6 +305,9 @@
 
 - type: Tag
   id: Ingot
+
+- type: Tag
+  id: IntercomElectronics
 
 - type: Tag
   id: JawsOfLife
@@ -384,6 +402,12 @@
   id: Mop
 
 - type: Tag
+  id: NoAction
+
+- type: Tag
+  id: NormalityCrystal
+
+- type: Tag
   id: NoSpinOnThrow
 
 - type: Tag
@@ -394,6 +418,9 @@
 
 - type: Tag
   id: Ointment
+
+- type: Tag
+  id: Oneirophage
 
 - type: Tag
   id: Ore
@@ -485,6 +512,9 @@
 
 - type: Tag
   id: Sheet
+
+- type: Tag
+  id: SheetSteel
 
 - type: Tag
   id: ShellShotgun

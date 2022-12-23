@@ -216,6 +216,51 @@
     FoodDough: 1
 
 - type: microwaveMealRecipe
+  id: RecipeBigBread
+  name: big bread recipe
+  result: FoodBigBreadPlain
+  time: 20
+  solids:
+    FoodDough: 4
+
+# - type: microwaveMealRecipe
+#   id: RecipeSandwich
+#   name: sandwich recipe
+#   result: FoodSandwich
+#   time: 10
+#   solids:
+#     FoodBreadSlice: 2
+#     FoodMeatSteak: 1
+#     FoodCheeseSlice: 1
+
+# - type: microwaveMealRecipe
+#   id: RecipeToastedSandwich
+#   name: toasted sandwich recipe
+#   result: FoodToastedSandwich
+#   time: 5
+#   solids:
+#     FoodSandwich: 1
+
+# - type: microwaveMealRecipe
+#   id: RecipeGrilledCheese
+#   name: grilled cheese recipe
+#   result: FoodGrilledCheese
+#   time: 5
+#   solids:
+#     FoodBreadSlice: 2
+#     FoodCheeseSlice: 1
+
+#- type: microwaveMealRecipe
+#  id: RecipeBaguette
+#  name: baguette recipe
+#  result: FoodBaguette
+#  time: 10
+#  reagents:
+#    Flour: 15
+#    TableSalt: 1
+#    Blackpepper: 1
+
+- type: microwaveMealRecipe
   id: RecipeCreamCheeseBread
   name: cream cheese bread recipe
   result: FoodBreadCreamcheese

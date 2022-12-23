@@ -78,3 +78,18 @@ technologies-archaeology-description = Advanced equipment for uncovering the sec
 
 technologies-adv-parts-technology = Advanced parts technology
 technologies-adv-parts-technology-description = Like the previous ones, but better!
+
+technologies-security-technology = Security technology
+technologies-security-technology-descritpion =  Learn to replace and restock our current security equipment.
+
+technologies-ballistic-technology = Ballistic technology
+technologies-ballistic-technology-description = Firearm ammunition has always been well understood, but our lathes struggle with aspects of producing it.
+
+technologies-direct-energy-technology = Direct energy technology
+technologies-direct-energy-technology-description = Leverage our advances in power technology for offensive purposes.
+
+technologies-non-lethal-technology = Non-lethal technology
+technologies-non-lethal-technology-description = Less lethal options for security.
+
+technologies-space-time-technology = Spacetime technology
+technologies-space-time-technology-description = Pushing the limits of the universe.

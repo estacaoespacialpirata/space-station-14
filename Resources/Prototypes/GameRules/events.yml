@@ -40,25 +40,25 @@
     endAfter: 1
     earliestStart: 15
 
-- type: gameRule
-  id: Dragon
-  config:
-    !type:StationEventRuleConfiguration
-    id: Dragon
-    weight: 10
-    endAfter: 2
-    earliestStart: 15
-    minimumPlayers: 15
+# - type: gameRule
+#   id: Dragon
+#   config:
+#     !type:StationEventRuleConfiguration
+#     id: Dragon
+#     weight: 10
+#     endAfter: 2
+#     earliestStart: 15
+#     minimumPlayers: 15
 
-- type: gameRule
-  id: RevenantSpawn
-  config:
-    !type:StationEventRuleConfiguration
-    id: RevenantSpawn
-    weight: 5
-    endAfter: 1
-    earliestStart: 45
-    minimumPlayers: 20
+# - type: gameRule
+#   id: RevenantSpawn
+#   config:
+#     !type:StationEventRuleConfiguration
+#     id: RevenantSpawn
+#     weight: 5
+#     endAfter: 1
+#     earliestStart: 45
+#     minimumPlayers: 20
 
 - type: gameRule
   id: FalseAlarm
@@ -98,7 +98,7 @@
   config:
     !type:StationEventRuleConfiguration
     id: MeteorSwarm
-    earliestStart: 30
+    earliestStart: 60
     weight: 5
     minimumPlayers: 20
     startAnnouncement: station-event-meteor-swarm-start-announcement
@@ -133,15 +133,15 @@
        volume: -4
     startAfter: 12
 
-- type: gameRule
-  id: RandomSentience
-  config:
-    !type:StationEventRuleConfiguration
-    id: RandomSentience
-    weight: 10
-    endAfter: 1
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
+# - type: gameRule
+#   id: RandomSentience
+#   config:
+#     !type:StationEventRuleConfiguration
+#     id: RandomSentience
+#     weight: 10
+#     endAfter: 1
+#     startAudio:
+#       path: /Audio/Announcements/attention.ogg
 
 - type: gameRule
   id: VentClog
@@ -167,11 +167,11 @@
     weight: 5
     endAfter: 60
 
-- type: gameRule
-  id: ZombieOutbreak
-  config:
-    !type:StationEventRuleConfiguration
-    id: Zombie
-    earliestStart: 50
-    weight: 2.5
-    endAfter: 1
+# - type: gameRule
+#   id: ZombieOutbreak
+#   config:
+#     !type:StationEventRuleConfiguration
+#     id: Zombie
+#     earliestStart: 50
+#     weight: 2.5
+#     endAfter: 1

@@ -101,6 +101,12 @@
             "name": "MedicalDoctor"
         },
         {
+            "name": "MailCarrier"
+        },
+        {
+            "name": "Paramedic"
+        },
+        {
             "name": "Chef"
         },
         {

@@ -10,20 +10,27 @@
       department: Engineering
       time: 18000
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 54000
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "ChiefEngineer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  whitelistRequired: true
   access:
   - Maintenance
   - Engineering
   - Command
+  - Salvage
   - External
   - ChiefEngineer
   - Atmospherics
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      flatBonus: 0.025
 
 - type: startingGear
   id: ChiefEngineerGear

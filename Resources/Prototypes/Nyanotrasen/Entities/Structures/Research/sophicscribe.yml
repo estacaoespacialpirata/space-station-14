@@ -1,0 +1,23 @@
+- type: entity
+  parent: StatueVenusRed
+  id: SophicScribe
+  name: sophic grammateus
+  description: Latest reports on the Noösphere! Placeholder sprite.
+  components:
+  - type: SophicScribe
+  - type: Speech
+    speechSounds: Tenor
+  - type: IntrinsicRadioReceiver
+    channels:
+    - Common
+    - Science
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Common
+    - Science
+  - type: PotentialPsionic #this makes her easier to access for glimmer events, dw about it
+  - type: Psionic

@@ -36,8 +36,7 @@
     - sandbox
   name: sandbox-title
   description: sandbox-description
-  showInVote: true
-  maxPlayers: 5
+  showInVote: false
   rules:
     - Sandbox
 

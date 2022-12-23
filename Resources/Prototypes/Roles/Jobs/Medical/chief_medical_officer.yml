@@ -9,19 +9,25 @@
       department: Medical
       time: 18000
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 54000
   weight: 10
   startingGear: CMOGear
   icon: "ChiefMedicalOfficer"
+  antagAdvantage: 6
   requireAdminNotify: true
+  whitelistRequired: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
   access:
   - Medical
   - Command
   - Maintenance
   - Chemistry
   - ChiefMedicalOfficer
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      flatBonus: 0.025
 
 - type: startingGear
   id: CMOGear

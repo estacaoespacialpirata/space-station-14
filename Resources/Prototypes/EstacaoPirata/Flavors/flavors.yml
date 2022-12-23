@@ -1,0 +1,24 @@
+- type: flavor
+  id: caipirinha
+  flavorType: Complex
+  description: flavor-complex-caipirinha
+
+- type: flavor
+  id: cachaca
+  flavorType: Complex
+  description: flavor-complex-cachaca
+
+- type: flavor
+  id: guarana
+  flavorType: Complex
+  description: flavor-complex-guarana
+
+- type: flavor
+  id: pudim
+  flavorType: Complex
+  description: flavor-complex-pudim
+
+- type: flavor
+  id: pudimchocolate
+  flavorType: Complex
+  description: flavor-complex-pudimchocolate

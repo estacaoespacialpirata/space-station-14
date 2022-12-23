@@ -10,13 +10,13 @@
     ClothingHeadHatHoodChaplainHood: 1
     ClothingHeadHatHoodNunHood: 1
     ClothingOuterNunRobe: 1
-    ClothingHeadHatFez: 1
     ClothingHeadHatPlaguedoctor: 1
     ClothingHeadHatWitch: 1
     ClothingHeadHatWitch1: 1
     ClothingOuterPlagueSuit: 1
     ClothingMaskPlague: 1
-    ClothingHeadsetService: 2
+    ClothingHeadTechPriest: 1
+    ClothingOuterRobeTechPriest: 1
   emaggedInventory:
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
@@ -24,5 +24,3 @@
     ClothingHeadHatHoodCulthood: 3
     ClothingShoesCult: 4
     BedsheetCult: 4
-    BibleNecronomicon: 1
-

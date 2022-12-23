@@ -10,6 +10,8 @@
   icon: "AtmosphericTechnician"
   supervisors: job-supervisors-ce
   canBeAntag: false
+  whitelistRequired: true
+  antagAdvantage: 5 # Fire axe, air alarms
   access:
   - Maintenance
   - Engineering

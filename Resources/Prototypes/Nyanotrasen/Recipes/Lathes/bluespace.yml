@@ -1,0 +1,94 @@
+- type: latheRecipe
+  id: QSI
+  icon:
+    sprite: Nyanotrasen/Objects/Devices/QSI.rsi
+    state: icon
+  result: QSI
+  completetime: 5
+  materials:
+    Bluespace: 25
+    Glass: 250
+    Plastic: 250
+
+- type: latheRecipe
+  id: BluespaceBeaker
+  icon:
+    sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
+    state: beakerbluespace
+  result: BluespaceBeaker
+  completetime: 5
+  materials:
+    Bluespace: 100
+    Glass: 500
+    Plastic: 500
+
+- type: latheRecipe
+  id: BackpackOfHolding
+  icon:
+    sprite: Clothing/Back/Backpacks/holding.rsi
+    state: holding
+  result: ClothingBackpackHolding
+  completetime: 4
+  materials:
+    Bluespace: 400
+    Durathread: 1500
+    Plastic: 400
+
+- type: latheRecipe
+  id: SatchelOfHolding
+  icon:
+    sprite: Clothing/Back/Satchels/holding.rsi
+    state: icon
+  result: ClothingBackpackSatchelHolding
+  completetime: 4
+  materials:
+    Bluespace: 400
+    Durathread: 1500
+    Plastic: 400
+
+- type: latheRecipe
+  id: DuffelbagOfHolding
+  icon:
+    sprite: Clothing/Back/Duffels/holding.rsi
+    state: icon
+  result: ClothingBackpackDuffelHolding
+  completetime: 4
+  materials:
+    Bluespace: 400
+    Durathread: 1500
+    Plastic: 400
+
+- type: latheRecipe
+  id: TrashBagOfHolding
+  icon:
+    sprite: Objects/Specific/Janitorial/trashbag.rsi
+    state: blue-icon-0
+  result: TrashBagOfHolding
+  completetime: 4
+  materials:
+    Bluespace: 200
+    Durathread: 750
+    Plastic: 200
+
+- type: latheRecipe
+  id: BluespaceCrystal
+  icon:
+    sprite: Nyanotrasen/Objects/Materials/materials.rsi
+    state: bluespace
+  result: MaterialBluespace
+  applyMaterialDiscount: false
+  completetime: 4
+  materials:
+    Bluespace: 100
+
+- type: latheRecipe
+  id: NormalityCrystal
+  icon:
+    sprite: Nyanotrasen/Objects/Materials/materials.rsi
+    state: bluespace
+  result: CrystalNormality
+  completetime: 4
+  materials:
+    Bluespace: 100
+    Plasma: 100
+    Gold: 25

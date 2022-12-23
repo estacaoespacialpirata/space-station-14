@@ -7,11 +7,11 @@
   supervisors: job-supervisors-hop
   access:
   - Service
-  - Maintenance
   - Hydroponics
   extendedAccess:
   - Kitchen
   - Bar
+  - Maintenance
 
 - type: startingGear
   id: BotanistGear

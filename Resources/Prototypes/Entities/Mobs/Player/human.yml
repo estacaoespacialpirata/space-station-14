@@ -33,6 +33,8 @@
   - type: Faction
     factions:
     - NanoTrasen
+  - type: MailReceiver
+  - type: PotentialPsionic
 
 #Syndie
 - type: entity
@@ -55,3 +57,6 @@
   components:
     - type: NukeOperative
     - type: RandomHumanoidAppearance
+    - type: PsionicBonusChance
+      multiplier: 7
+      warn: false

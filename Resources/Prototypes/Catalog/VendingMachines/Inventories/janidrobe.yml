@@ -3,12 +3,10 @@
   startingInventory:
     ClothingUniformJumpsuitJanitor: 2
     ClothingUniformJumpskirtJanitor: 2
+    ClothingUniformJumpskirtJanimaid: 2
     ClothingShoesColorBlack: 2
     ClothingHeadHatPurplesoft: 2
     ClothingShoesGaloshes: 2
     ClothingBeltJanitor: 2
     ClothingHeadsetService: 2
     ClothingOuterWinterJani: 2
-
-  emaggedInventory:
-    ClothingUniformJumpskirtJanimaid: 2

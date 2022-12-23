@@ -1,0 +1,17 @@
+- type: soundCollection
+  id: MaleLaughs
+  files:
+    - /Audio/EstacaoPirata/Voice/Human/malelaugh_1.ogg
+    - /Audio/EstacaoPirata/Voice/Human/malelaugh_2.ogg
+    - /Audio/EstacaoPirata/Voice/Human/malelaugh_3.ogg
+    - /Audio/EstacaoPirata/Voice/Human/malelaugh_4.ogg
+    - /Audio/EstacaoPirata/Voice/Human/malelaugh_5.ogg
+
+- type: soundCollection
+  id: FemaleLaughs
+  files:
+    - /Audio/EstacaoPirata/Voice/Human/femalelaugh_1.ogg
+    - /Audio/EstacaoPirata/Voice/Human/femalelaugh_2.ogg
+    - /Audio/EstacaoPirata/Voice/Human/femalelaugh_3.ogg
+    - /Audio/EstacaoPirata/Voice/Human/femalelaugh_4.ogg
+    - /Audio/EstacaoPirata/Voice/Human/femalelaugh_5.ogg

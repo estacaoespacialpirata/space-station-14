@@ -1,0 +1,16 @@
+- type: entity
+  id: SpawnPointGhostGiantTaratula
+  name: ghost role spawn point
+  suffix: giant tarantula
+  parent: MarkerBase
+  components:
+  - type: GhostRoleMobSpawner
+    prototype: MobGiantTarantula
+    name: Giant Tarantula
+    description: You are the Giant Tarantula, scavenge food in order to produce tarantula minions to do your bidding.
+    rules: You are an antagonist, scavenge, attack, and grow your hoard!
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - texture: EstacaoPirata/Mobs/Animals/spider.rsi/icon.png

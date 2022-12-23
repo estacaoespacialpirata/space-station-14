@@ -9,6 +9,10 @@
     Telecrystal: 6
   categories:
   - UplinkWeapons
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 - type: listing
   id: UplinkRevolverPython
@@ -19,6 +23,10 @@
     Telecrystal: 8
   categories:
   - UplinkWeapons
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 # Inbuilt suppressor so it's sneaky + more expensive.
 - type: listing
@@ -30,6 +38,10 @@
     Telecrystal: 8
   categories:
   - UplinkWeapons
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 # Poor accuracy, slow to fire, cheap option
 - type: listing
@@ -41,6 +53,10 @@
     Telecrystal: 2
   categories:
   - UplinkWeapons
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 - type: listing
   id: UplinkEsword
@@ -140,6 +156,10 @@
     Telecrystal: 2
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 # For the Mandella
 - type: listing
@@ -149,6 +169,10 @@
     Telecrystal: 2
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 # For the Inspector
 - type: listing
@@ -159,6 +183,10 @@
     Telecrystal: 2
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 # For the mosin
 - type: listing
@@ -169,24 +197,28 @@
     Telecrystal: 2
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 #Utility
 
-- type: listing
-  id: UplinkHoloparaKit
-  name: Holoparasite Kit
-  description: The pride and joy of Cybersun. Contains an injector that hosts a sentient metaphysical guardian made of hard light which resides in the user's body when not active. The guardian can punch rapidly and is immune to hazardous environments and bullets, but shares any damage it takes with the user.
-  icon: { sprite: /Textures/Objects/Misc/guardian_info.rsi, state: icon }
-  productEntity: BoxHoloparasite
-  cost:
-    Telecrystal: 14
-  categories:
-  - UplinkUtility
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
+# - type: listing
+#   id: UplinkHoloparaKit
+#   name: Holoparasite Kit
+#   description: The pride and joy of Cybersun. Contains an injector that hosts a sentient metaphysical guardian made of hard light which resides in the user's body when not active. The guardian can punch rapidly and is immune to hazardous environments and bullets, but shares any damage it takes with the user.
+#   icon: /Textures/Objects/Misc/guardian_info.rsi/icon.png
+#   productEntity: BoxHoloparasite
+#   cost:
+#     Telecrystal: 14
+#   categories:
+#   - UplinkUtility
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     blacklist:
+#       tags:
+#       - NukeOpsUplink
 
 - type: listing
   id: UplinkHolster
@@ -197,6 +229,10 @@
     Telecrystal: 1
   categories:
   - UplinkUtility
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 - type: listing
   id: UplinkEmag
@@ -524,6 +560,10 @@
     Telecrystal: 2
   categories:
   - UplinkArmor
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Arachne
 
 - type: listing
   id: UplinkgClothingThievingGloves
@@ -551,6 +591,10 @@
     Telecrystal: 8
   categories:
   - UplinkArmor
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Arachne
 
 - type: listing
   id: UplinkClothingShoesBootsMagSyndie
@@ -560,6 +604,10 @@
     Telecrystal: 2
   categories:
   - UplinkArmor
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Arachne
 
 - type: listing
   id: UplinkEVASyndie
@@ -578,6 +626,10 @@
     Telecrystal: 12
   categories:
   - UplinkArmor
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Arachne
 
 # Misc
 
@@ -667,6 +719,10 @@
     Telecrystal: 4
   categories:
   - UplinkPointless
+  conditions:
+  - !type:BuyerSpeciesCondition
+    blacklist:
+    - Oni
 
 - type: listing
   id: UplinkSyndicateStamp

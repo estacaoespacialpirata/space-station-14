@@ -1,18 +1,18 @@
 - type: vendingMachineInventory
   id: RobotechDeluxeInventory
   startingInventory:
-    #TO DO: add missing prototypes
-    ClothingOuterCoatLab: 4
-    #roboticist under
-    CableStack: 4
+    CableApcStack: 4
     Flash: 4
-    #proximity sensor
-    #signaller
-    #health anaylzer
+    PowerCellHigh: 12
+    ProximitySensor: 4
+    RemoteSignaller: 4
+    HandheldHealthAnalyzer: 2
     Scalpel: 2
     Saw: 1
+    LeftArmBorg: 4
+    RightArmBorg: 4
     #bonesetter
     #anaesthetic
-    #medical mask
+    ClothingMaskSterile: 4
     Screwdriver: 5
     Crowbar: 5

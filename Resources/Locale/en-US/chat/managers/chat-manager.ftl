@@ -30,3 +30,7 @@ chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {$message}
 
 chat-manager-dead-channel-name = DEAD
 chat-manager-admin-channel-name = ADMIN
+
+chat-manager-send-telepathic-chat-wrap-message = {$telepathicChannelName}: {$message}
+chat-manager-send-telepathic-chat-wrap-message-admin = {$source} (Ψ): {$message}
+chat-manager-telepathic-channel-name = TELEPATHIC

@@ -9,6 +9,8 @@
         - DieCondition
     - !type:NotRoleRequirement
       roleId: Captain
+    - !type:NotRoleRequirement
+      roleId: Captain
   conditions:
     - !type:StealCondition
       prototype: CaptainIDCard
@@ -39,16 +41,40 @@
   canBeDuplicate: true
 
 - type: objective
-  id: DieObjective
+  id: BecomePsionicObjective
   issuer: syndicate
+  difficultyOverride: 2.5
   requirements:
     - !type:TraitorRequirement {}
     - !type:IncompatibleConditionsRequirement
       conditions:
-        - StealCondition
-        - EscapeShuttleCondition
+        - DieCondition
+        - BecomeGolemCondition
+    - !type:NotRoleRequirement
+      roleId: ForensicMantis
+    - !type:NotRoleRequirement
+      roleId: Mystagogue
   conditions:
-    - !type:DieCondition {}
+    - !type:BecomePsionicCondition
+
+- type: objective
+  id: BecomeGolemObjective
+  issuer: syndicate
+  difficultyOverride: 3.5
+  requirements:
+    - !type:TraitorRequirement {}
+    - !type:IncompatibleConditionsRequirement
+      conditions:
+        - DieCondition
+        - BecomePsionicCondition
+    - !type:NotRoleRequirement
+      roleId: Chaplain
+    - !type:NotRoleRequirement
+      roleId: ForensicMantis
+    - !type:NotRoleRequirement
+      roleId: Mystagogue
+  conditions:
+    - !type:BecomeGolemCondition
 
 - type: objective
   id: CMOHyposprayStealObjective
@@ -77,10 +103,12 @@
         - DieCondition
     - !type:NotRoleRequirement
       roleId: ResearchDirector
+    - !type:NotRoleRequirement
+      roleId: Mystagogue
   conditions:
     - !type:StealCondition
       prototype: ClothingOuterHardsuitRd
-      owner: job-name-rd
+      owner: job-name-mystagogue
 
 - type: objective
   id: NukeDiskStealObjective
@@ -102,11 +130,12 @@
       roleId: ChiefMedicalOfficer
     - !type:NotRoleRequirement
       roleId: ResearchDirector
+    - !type:NotRoleRequirement
+      roleId: Mystagogue
   conditions:
     - !type:StealCondition
       prototype: NukeDisk
       owner: objective-condition-steal-station
-
 
 - type: objective
   id: IDComputerBoardStealObjective
@@ -155,21 +184,6 @@
       owner: job-name-qm
 
 - type: objective
-  id: CorgiMeatStealObjective
-  issuer: syndicate
-  requirements:
-    - !type:TraitorRequirement {}
-    - !type:IncompatibleConditionsRequirement
-      conditions:
-        - DieCondition
-    - !type:NotRoleRequirement
-      roleId: HeadOfPersonnel
-  conditions:
-    - !type:StealCondition
-      prototype: FoodMeatCorgi
-      owner: objective-condition-steal-Ian
-
-- type: objective
   id: CaptainGunStealObjective
   issuer: syndicate
   difficultyOverride: 2.75
@@ -201,6 +215,36 @@
       prototype: JetpackCaptainFilled
 
 - type: objective
+  id: MantisKnifeStealObjective
+  issuer: syndicate
+  requirements:
+    - !type:TraitorRequirement {}
+    - !type:IncompatibleConditionsRequirement
+      conditions:
+        - DieCondition
+    - !type:NotRoleRequirement
+      roleId: ForensicMantis
+  conditions:
+    - !type:StealCondition
+      prototype: AntiPsychicKnife
+      owner: job-name-mantis
+
+- type: objective
+  id: PonderingOrbTelepathicHOSStealObjective
+  issuer: syndicate
+  requirements:
+    - !type:TraitorRequirement {}
+    - !type:IncompatibleConditionsRequirement
+      conditions:
+        - DieCondition
+    - !type:NotRoleRequirement
+      roleId: HeadOfSecurity
+  conditions:
+    - !type:StealCondition
+      prototype: PonderingOrbTelepathicHOS
+      owner: job-name-hos
+
+- type: objective
   id: EscapeShuttleObjective
   issuer: syndicate
   requirements:
@@ -220,3 +264,11 @@
   conditions:
     - !type:RandomTraitorProgressCondition {}
   canBeDuplicate: true
+
+- type: objective
+  id: RaiseGlimmerObjective
+  issuer: syndicate
+  requirements:
+    - !type:TraitorRequirement {}
+  conditions:
+    - !type:RaiseGlimmerCondition {}

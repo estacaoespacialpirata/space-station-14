@@ -1,0 +1,94 @@
+- type: entity
+  parent: BasePDA
+  id: MailCarrierPDA
+  name: mail carrier PDA
+  description: Hope this doesn't have any... JUNK MAIL.
+  components:
+  - type: PDA
+    id: MailCarrierIDCard
+  - type: Appearance
+    visuals:
+      - type: PDAVisualizer
+        state: pda-mailcarrier
+  - type: Icon
+    state: pda-mailcarrier
+
+- type: entity
+  parent: SalvagePDA
+  id: SalvageTechPDA
+  components:
+  - type: PDA
+    id: SalvageTechIDCard
+
+- type: entity
+  parent: BasePDA
+  id: ForensicMantisPDA
+  name: forensic mantis PDA
+  description: Smells like tobacco, and justice.
+  components:
+  - type: PDA
+    id: ForensicMantisIDCard
+  - type: Appearance
+    visuals:
+      - type: PDAVisualizer
+        state: pda-detective
+  - type: Icon
+    state: pda-detective
+
+- type: entity
+  parent: SciencePDA
+  id: EpistemicsPDA
+  name: epistemologist PDA
+  description: Preinstalled with plenty of brain teasers and religious conversion booklets.
+  components:
+  - type: PDA
+    id: EpistemicsIDCard
+
+- type: entity
+  parent: RnDPDA
+  id: MystaPDA
+  name: mystagogue PDA
+  description: Practically radiating psychic energies... They actually have the Pope on speed dial!
+  components:
+  - type: PDA
+    id: MystaIDCard
+
+- type: entity
+  parent: BasePDA
+  id: ParamedicPDA
+  name: paramedic PDA
+  description: Sweaty. Whoever uses this must be noided. Has a built-in health analyzer.
+  components:
+  - type: PDA
+    id: ParamedicIDCard
+  - type: Appearance
+    visuals:
+      - type: PDAVisualizer
+        state: pda-genetics
+  - type: Icon
+    state: pda-genetics
+  - type: HealthAnalyzer
+    scanDelay: 1.2
+
+- type: entity
+  parent: BasePDA
+  id: PrisonerPDA
+  name: prisoner PDA
+  description: Clear, so you can make sure there's nothing being smuggled inside.
+  components:
+  - type: Appearance
+    visuals:
+      - type: PDAVisualizer
+        state: pda-clear
+  - type: Icon
+    state: pda-clear
+  - type: PDA
+    id: PrisonerIDCard
+
+- type: entity
+  parent: PrisonerPDA
+  id: GladiatorPDA
+  name: gladiator PDA
+  components:
+  - type: PDA
+    id: GladiatorIDCard

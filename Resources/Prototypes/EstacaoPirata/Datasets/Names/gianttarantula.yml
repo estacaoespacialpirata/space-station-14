@@ -1,0 +1,26 @@
+- type: dataset
+  id: GiantTarantulaNameKingdom
+  values:
+  - Rainha
+  - Lady
+  - Princesa
+  - Imperadora
+  - Suprema
+  - Soberana
+  - Mestra
+  - Apreciadora
+  - Presidenta
+  - Prefeita
+  - Chefa
+  - Profeta
+
+- type: dataset
+  id: GiantTarantulaNameTitle
+  values:
+  - Teia
+  - Peluda
+  - Caranguejeira
+  - Aracnídeo
+  - Venenosa
+  - Aranha
+  - Tarantula

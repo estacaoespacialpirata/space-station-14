@@ -11,7 +11,7 @@
   - type: Damageable
     damageContainer: Inorganic
   - type: Bloodstream
-    bloodReagent: Oil
+    bloodReagent: MotorOil
     bloodlossDamage:
       types:
         Bloodloss:
@@ -62,8 +62,6 @@
     - SlowedDown
     - Stutter
     - Electrocution
-  - type: NameIdentifier
-    group: GenericNumber
   - type: Repairable
     fuelcost: 15
     doAfterDelay: 8
@@ -132,6 +130,7 @@
     node: bot
   - type: GhostTakeoverAvailable
     makeSentient: true
+    whitelistRequired: false
     name: honkbot
     description: An artificial being of pure evil.
   - type: InteractionPopup
@@ -156,8 +155,6 @@
   - type: Construction
     graph: CleanBot
     node: bot
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-mechanical
   - type: SolutionContainerManager
     solutions:
       drainBuffer:

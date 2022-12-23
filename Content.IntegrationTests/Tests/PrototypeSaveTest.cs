@@ -63,14 +63,21 @@ public sealed class PrototypeSaveTest
         "BaseGeneratorWallmountFrame",
         "GeneratorWallmountBasic",
         "GeneratorWallmountAPU",
+        "MobGolemCult",
+        "MobGolemWood",
         "Lightning",
+        "LightningNoospheric", // mhm...
         "LightningRevenant",
         "ChargedLightning",
         "SuperchargedLightning",
         "HyperchargedLightning",
         "BaseSubstationWall",
         "SubstationWallBasic",
-        "BaseSubstationWallFrame"
+        "BaseSubstationWallFrame",
+        "EngineeringTechFab",
+        "MobObserverTelegnostic", // call me back when ghosts are fixed
+        "PoweredlightBlueInterior",
+        "SpawnPointGhostVampSpider",
     };
 
     [Test]

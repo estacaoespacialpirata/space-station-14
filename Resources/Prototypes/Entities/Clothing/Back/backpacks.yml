@@ -200,4 +200,6 @@
   - type: Clothing
     equippedPrefix: holding
   - type: Storage
-    capacity: 9999
+    capacity: 5000
+    popup: false
+  - type: OfHolding

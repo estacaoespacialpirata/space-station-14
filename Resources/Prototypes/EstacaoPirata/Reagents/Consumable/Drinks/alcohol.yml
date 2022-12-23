@@ -1,0 +1,35 @@
+- type: reagent
+  id: Cachaca
+  name: reagent-name-cachaca
+  parent: BaseAlcohol
+  desc: reagent-desc-cachaca
+  physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: cachaca
+  color: "#d1d1d155"
+  spritePath: ginvodkaglass.rsi
+  metabolisms:
+    Drink:
+      effects:
+        - !type:SatiateThirst
+          factor: 2
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.2
+
+- type: reagent
+  id: Caipirinha
+  name: reagent-name-caipirinha
+  parent: BaseAlcohol
+  desc: reagent-desc-caipirinha
+  physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: caipirinha
+  color: "#87ffa9"
+  spritePath: caipirinhaglass.rsi
+  metabolisms:
+    Drink:
+      effects:
+        - !type:SatiateThirst
+          factor: 2
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.15

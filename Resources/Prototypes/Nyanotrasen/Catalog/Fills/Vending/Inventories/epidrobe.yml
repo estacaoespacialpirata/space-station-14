@@ -1,0 +1,14 @@
+- type: vendingMachineInventory
+  id: EpiDrobeInventory
+  startingInventory:
+    ClothingBackpackScience: 3
+    ClothingBackpackSatchelScience: 3
+    ClothingBackpackDuffelScience: 3
+    ClothingUniformJumpsuitColorWhite: 3
+    ClothingUniformJumpskirtColorWhite: 3
+    ClothingOuterRobeWhite: 3
+    ClothingShoesColorWhite: 3
+    ClothingHeadsetScience: 3
+    ClothingMaskGas: 3
+    ClothingOuterWinterSci: 2
+    ClothingHeadTinfoil: 2

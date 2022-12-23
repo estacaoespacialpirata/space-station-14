@@ -1,0 +1,43 @@
+- type: job
+  id: ForensicMantis
+  name: job-name-mantis
+  description: job-desc-mantis
+  playTimeTracker: JobForensicMantis
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 18000
+    - !type:DepartmentTimeRequirement
+      department: Epistemics
+      time: 3600
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 3600
+  startingGear: ForensicMantisGear
+  icon: "Detective"
+  supervisors: "the mystagogue"
+  antagAdvantage: 4
+  canBeAntag: false
+  whitelistRequired: true
+  access:
+  - Research
+  - Brig
+  - Detective
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Psionic
+    - type: MetapsionicPower
+
+- type: startingGear
+  id: ForensicMantisGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBlue
+    back: ClothingBackpackMantisFilled
+    shoes: ClothingShoesColorBlue
+    head: ClothingHeadHatFez
+    id: ForensicMantisPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetMantis
+    pocket2: ForensicScanner
+  innerclothingskirt: ClothingUniformJumpskirtColorBlue

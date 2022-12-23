@@ -1,0 +1,8 @@
+- type: reagent
+  id: Guarana
+  name: reagent-name-guarana
+  parent: BaseSoda
+  desc: reagent-desc-guarana
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: guarana
+  color: "#634801"

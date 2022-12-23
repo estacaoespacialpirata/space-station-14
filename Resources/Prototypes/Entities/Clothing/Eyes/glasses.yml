@@ -73,6 +73,7 @@
     sprite: Clothing/Eyes/Glasses/meson.rsi
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/meson.rsi
+  - type: FlashImmunity
   - type: EyeProtection
 
 - type: entity

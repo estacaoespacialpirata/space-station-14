@@ -1,7 +1,7 @@
 ﻿- type: artifactEffect
   id: EffectBadFeeling
   targetDepth: 0
-  effectHint: artifact-effect-hint-mental
+  effectHint: artifact-effect-hint-psionic
   components:
   - type: TelepathicArtifact
     messages:
@@ -31,7 +31,7 @@
 - type: artifactEffect
   id: EffectGoodFeeling
   targetDepth: 0
-  effectHint: artifact-effect-hint-mental
+  effectHint: artifact-effect-hint-psionic
   components:
   - type: TelepathicArtifact
     messages:

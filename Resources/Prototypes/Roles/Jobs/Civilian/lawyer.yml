@@ -4,10 +4,12 @@
   playTimeTracker: JobLawyer
   startingGear: LawyerGear
   icon: "Lawyer"
+  antagAdvantage: 2 #Starting sec access and radio
   supervisors: job-supervisors-hop
   access:
   - Service
   - Brig
+  extendedAccess:
   - Maintenance
 
 - type: startingGear

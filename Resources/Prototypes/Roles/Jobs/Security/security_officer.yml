@@ -3,13 +3,13 @@
   name: job-name-security
   playTimeTracker: JobSecurityOfficer
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 1800
+    - !type:OverallPlaytimeRequirement
+      time: 18000
   startingGear: SecurityOfficerGear
   icon: "SecurityOfficer"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  whitelistRequired: true
   access:
   - Security
   - Brig

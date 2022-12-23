@@ -1,0 +1,38 @@
+#Burgers
+- type: microwaveMealRecipe
+  id: RecipeRatBurger
+  name: rat burger recipe
+  result: FoodBurgerRat
+  time: 5
+  solids:
+    FoodBreadBun: 1
+    FoodMeatRat: 1
+    FoodCheeseSlice: 1
+
+#Pudims
+- type: microwaveMealRecipe
+  id: RecipePudim
+  name: pudim recipe
+  result: FoodPuddingNormal
+  time: 15
+  reagents:
+    Cream: 10
+    Egg: 6
+    Sugar: 5
+    Water: 5
+  solids:
+    FoodPlate: 1
+
+- type: microwaveMealRecipe
+  id: RecipePudimChocolate
+  name: pudim de chocolate recipe
+  result: FoodPuddingChocolate
+  time: 15
+  reagents:
+    Cream: 10
+    Egg: 6
+    Sugar: 5
+    Water: 5
+  solids:
+    FoodPlate: 1
+    FoodSnackChocolate: 1

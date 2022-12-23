@@ -6,7 +6,8 @@
     torso:
       part: TorsoAnimal
       connections:
-      - hands
+      - right hand
+      - left hand
       - legs
       organs:
         lungs: OrganAnimalLungs
@@ -14,8 +15,10 @@
         liver: OrganAnimalLiver
         heart: OrganAnimalHeart
         kidneys: OrganAnimalKidneys
-    hands:
-      part: HandsAnimal
+    right hand:
+      part: RightHandHuman
+    left hand:
+      part: LeftHandHuman
     legs:
       part: LegsAnimal
       connections:

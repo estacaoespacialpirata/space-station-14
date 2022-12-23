@@ -508,6 +508,14 @@
     interactFailureString: petting-failure-goat
     interactSuccessSound:
       path: /Audio/Animals/goat_bah.ogg
+  - type: Hunger
+  - type: MeleeWeapon
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 5
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
@@ -672,6 +680,28 @@
     - SimpleHostile
 
 - type: entity
+  name: judge kangaroo
+  parent: MobKangaroo
+  id: MobKangarooJudge
+  description: This case is in the bag... or, pouch...
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+      - map: ["enum.DamageStateVisualLayers.Base"]
+        state: kangaroo-judge
+        sprite: Mobs/Animals/kangaroo.rsi
+  - type: Appearance
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: kangaroo-judge
+      Critical:
+        Base: kangaroo-dead
+      Dead:
+        Base: kangaroo-dead
+
+- type: entity
   name: monkey
   id: MobMonkey
   parent: SimpleMobBase
@@ -679,8 +709,6 @@
   components:
   - type: CombatMode
     disarm: null
-  - type: NameIdentifier
-    group: Monkey
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-primate
   - type: Inventory
@@ -711,6 +739,7 @@
     speechSounds: Monkey
   - type: Body
     prototype: Primate
+    requiredLegs: 1 # TODO: More than 1 leg
   - type: DamageStateVisuals
     states:
       Alive:
@@ -731,6 +760,10 @@
   - type: MonkeyAccent
   - type: Puller
   - type: CanHostGuardian
+  - type: DiseaseCarrier
+  - type: Tag
+    tags:
+    - GunsDisabled
 
 - type: entity
   name: mouse
@@ -742,6 +775,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
+    whitelistRequired: false
     name: ghost-role-information-mouse-name
     description: ghost-role-information-mouse-description
   - type: Speech
@@ -847,6 +881,7 @@
   - type: CanEscapeInventory
   - type: MobPrice
     price: 50
+  - type: FelinidFood
 
 - type: entity
   parent: MobMouse
@@ -872,7 +907,6 @@
   - type: Bloodstream
     bloodMaxVolume: 50
   - type: DiseaseCarrier #Why doesn't this save if it's only on the parent wtf
-
 
 - type: entity
   parent: MobMouse
@@ -1301,6 +1335,14 @@
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-generic
   - type: Puller
+  - type: Arachne
+  - type: MeleeWeapon
+    hidden: true
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Piercing: 10
 
 - type: entity
   name: tarantula
@@ -1317,6 +1359,7 @@
       rootTask: SimpleHostileCompound
     - type: GhostTakeoverAvailable
       makeSentient: true
+      whitelistRequired: false
       name: ghost-role-information-giant-spider-name
       description: ghost-role-information-giant-spider-description
 
@@ -1543,6 +1586,7 @@
   - type: Puller
   - type: MobPrice
     price: 200
+  - type: DogVision
 
 - type: entity
   name: corrupted corgi
@@ -1901,6 +1945,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
+    whitelistRequired: false
     name: ghost-role-information-hamster-name
     description: ghost-role-information-hamster-description
   - type: Speech

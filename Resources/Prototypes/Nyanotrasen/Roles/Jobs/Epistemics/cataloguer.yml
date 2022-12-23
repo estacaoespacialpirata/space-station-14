@@ -1,0 +1,31 @@
+- type: job
+  id: Cataloguer
+  name: job-name-cataloguer
+  description: job-desc-cataloguer
+  setPreference: false
+  startingGear: CataloguerGear
+  playTimeTracker: JobCataloguer
+  icon: "Librarian"
+  supervisors: "the mystagogue"
+  access:
+  - Research
+  extendedAccess:
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      multiplier: 3
+
+- type: startingGear
+  id: CataloguerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBrown
+    back: ClothingBackpackScienceFilled
+    shoes: ClothingShoesColorBlack
+    id: LibrarianPDA
+    outerClothing: ClothingOuterRobeBrown
+    head: ClothingHeadHoodBrown
+    ears: ClothingHeadsetEpistemics
+    pocket1: d10Dice
+  innerclothingskirt: ClothingUniformJumpskirtColorBrown

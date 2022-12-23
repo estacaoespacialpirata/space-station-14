@@ -4,6 +4,7 @@
   - !type:PowerWireAction
   - !type:PowerWireAction
     pulseTimeout: 15
+  - !type:AccessWireAction
   - !type:DoorBoltWireAction
   - !type:DoorBoltLightWireAction
   - !type:DoorTimingWireAction
@@ -26,12 +27,12 @@
   wires:
   - !type:PowerWireAction
     pulseTimeout: 10
+  - !type:AccessWireAction
   - !type:DoorBoltWireAction
   - !type:DoorBoltLightWireAction
   - !type:DoorTimingWireAction
   - !type:DoorSafetyWireAction
   dummyWires: 5
-
 - type: wireLayout
   id: Vending
   wires:
@@ -52,6 +53,7 @@
   id: FireAlarm
   wires:
   - !type:PowerWireAction
+  - !type:AccessWireAction
   - !type:AtmosMonitorDeviceNetWire
     alarmOnPulse: true
 

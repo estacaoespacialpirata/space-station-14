@@ -1,0 +1,10 @@
+- type: entity
+  parent: SeedBase
+  name: pacote de sementes de cacau
+  description: Sementes de cacau sem chocolate, reservadas para plantio.
+  id: CacaoSeeds
+  components:
+    - type: Seed
+      seedId: cacao
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Specific/Hydroponics/cacao.rsi

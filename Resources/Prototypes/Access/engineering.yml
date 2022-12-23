@@ -3,6 +3,9 @@
   name: id-card-access-level-chief-engineer
 
 - type: accessLevel
+  id: Salvage
+
+- type: accessLevel
   id: Engineering
   name: id-card-access-level-engineering
 
@@ -16,3 +19,4 @@
   - ChiefEngineer
   - Engineering
   - Atmospherics
+  - Salvage

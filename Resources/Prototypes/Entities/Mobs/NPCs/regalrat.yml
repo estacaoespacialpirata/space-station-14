@@ -50,6 +50,7 @@
         Piercing: 8
   - type: Body
     prototype: Rat
+    requiredLegs: 1 # TODO: More than 1 leg
   - type: Hunger # probably should be prototyped
     thresholds:
       Overfed: 200
@@ -106,6 +107,15 @@
       itemIconStyle: NoItem
       event: !type:RatKingDomainActionEvent
     hungerPerDomainUse: 50
+    actionToggleFaction:
+      checkCanInteract: false
+      icon: Interface/Actions/ratHarmOff.png
+      iconOn: Interface/Actions/ratHarm.png
+      userPopup: rat-king-toggle-action-popup
+      popupToggleSuffix: -enabled
+      name: rat-king-toggle-faction-name
+      description: rat-king-toggle-faction-description
+      event: !type:RatKingToggleFactionActionEvent
   - type: MobsterAccent
   - type: Butcherable
     spawned:
@@ -128,6 +138,7 @@
     nameSegments:
     - RegalRatNameKingdom
     - RegalRatNameTitle
+  - type: PotentialPsionic
 
 - type: entity
   id: MobRatKingBuff
@@ -182,14 +193,12 @@
   - type: InputMover
   - type: MobMover
   - type: HTN
-    rootTask: SimpleHostileCompound
+    rootTask: RatServantCompound
   - type: Reactive
     groups:
       Flammable: [Touch]
       Extinguish: [Touch]
   - type: Faction
-    factions:
-    - SimpleHostile
   - type: Sprite
     drawdepth: SmallMobs
     sprite: Mobs/Animals/mouse.rsi
@@ -225,6 +234,7 @@
         Piercing: 3
   - type: Body
     prototype: Rat
+    requiredLegs: 1 # TODO: More than 1 leg
   - type: Hunger # probably should be prototyped
     thresholds:
       Overfed: 200

@@ -1,0 +1,21 @@
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkGuaranaCan
+  name: guarana lata
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Guarana
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
+  - type: Item
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi

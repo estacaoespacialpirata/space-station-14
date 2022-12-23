@@ -1,0 +1,57 @@
+# Base
+
+- type: entity
+  parent: FoodInjectableBase
+  id: FoodPuddingBase
+  abstract: true
+  description: Pudim feito com carinho pelo seu chef local!
+  components:
+  - type: Food
+    trash: FoodPlate
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Food/pudding.rsi
+    netsync: false
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 40
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 20
+        - ReagentId: Cream
+          Quantity: 5
+
+#pudding
+
+- type: entity
+  name: pudim
+  parent: FoodPuddingBase
+  id: FoodPuddingNormal
+  description: Pudim feito com carinho pelo seu chef local!
+  components:
+  - type: FlavorProfile
+    flavors:
+      - pudim
+  - type: Sprite
+    layers:
+    - state: plate-tart
+    - state: pudding
+# Tastes like pudim e leite condensado.
+
+- type: entity
+  name: pudim de chocolate
+  parent: FoodPuddingBase
+  id: FoodPuddingChocolate
+  description: Cremoso, molhadinho e com um leve gosto de doce de leite e chocolate.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - pudimchocolate
+  - type: Sprite
+    layers:
+    - state: plate-tart
+    - state: puddingchoco
+# Tastes like pudim, leite condensado e chocolate.
+
+
+

@@ -1,0 +1,5 @@
+marking-MothAntennasDefault = Antenas (Default)
+marking-MothWingsDefault = Asas (Default)
+marking-MothWingsLook1 = Asas (Pontiagudas)
+marking-MothWingsLook2 = Asas (Curva)
+marking-MothWingsLook3 = Wings (Malhada)

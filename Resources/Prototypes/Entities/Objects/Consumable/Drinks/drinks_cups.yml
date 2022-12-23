@@ -104,7 +104,7 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkMugMetal
-  name: mug metal
+  name: metal mug
   description: A metal mug. You're not sure which metal.
   components:
   - type: Sprite
@@ -216,14 +216,14 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkLean
-  name: Grape Juice
-  description: Damn, no fun allowed.
+  name: Lean
+  description: Damn, fun only allowed on forks.
   components:
   - type: SolutionContainerManager
     solutions:
       drink:
         reagents:
-        - ReagentId: Water
+        - ReagentId: Lean
           Quantity: 20
         maxVol: 20
   - type: Sprite

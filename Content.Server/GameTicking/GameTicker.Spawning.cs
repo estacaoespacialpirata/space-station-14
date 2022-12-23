@@ -105,6 +105,7 @@ namespace Content.Server.GameTicking
 
             if (jobId != null && !_playTimeTrackings.IsAllowed(player, jobId))
                 return;
+
             SpawnPlayer(player, character, station, jobId, lateJoin);
         }
 
@@ -150,6 +151,9 @@ namespace Content.Server.GameTicking
             var jobBans = _roleBanManager.GetJobBans(player.UserId);
             if(jobBans != null) restrictedRoles.UnionWith(jobBans);
 
+            if (jobId != null && !_playTimeTrackings.IsAllowed(player, jobId))
+                return;
+
             // Pick best job best on prefs.
             jobId ??= _stationJobs.PickBestAvailableJobWithPriority(station, character.JobPriorities, true,
                 restrictedRoles);
@@ -183,8 +187,10 @@ namespace Content.Server.GameTicking
 
             _playTimeTrackings.PlayerRolesChanged(player);
 
+            if (jobPrototype.AlwaysUseSpawner)
+                lateJoin = false;
 
-            var mobMaybe = _stationSpawning.SpawnPlayerCharacterOnStation(station, job, character);
+            var mobMaybe = _stationSpawning.SpawnPlayerCharacterOnStation(station, job, character, lateJoin: lateJoin);
             DebugTools.AssertNotNull(mobMaybe);
             var mob = mobMaybe!.Value;
 
@@ -312,13 +318,13 @@ namespace Content.Server.GameTicking
             {
                 foreach (var grid in _mapManager.GetAllGrids())
                 {
-                    if (!metaQuery.TryGetComponent(grid.GridEntityId, out var meta) ||
+                    if (!metaQuery.TryGetComponent(grid.Owner, out var meta) ||
                         meta.EntityPaused)
                     {
                         continue;
                     }
 
-                    _possiblePositions.Add(new EntityCoordinates(grid.GridEntityId, Vector2.Zero));
+                    _possiblePositions.Add(new EntityCoordinates(grid.Owner, Vector2.Zero));
                 }
             }
 
@@ -332,9 +338,9 @@ namespace Content.Server.GameTicking
 
                 if (_mapManager.TryFindGridAt(toMap, out var foundGrid))
                 {
-                    var gridXform = Transform(foundGrid.GridEntityId);
+                    var gridXform = Transform(foundGrid.Owner);
 
-                    return new EntityCoordinates(foundGrid.GridEntityId,
+                    return new EntityCoordinates(foundGrid.Owner,
                         gridXform.InvWorldMatrix.Transform(toMap.Position));
                 }
 

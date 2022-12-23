@@ -243,6 +243,7 @@
     attributes:
       proper: true
       gender: male
+  - type: DogVision
 
 - type: entity
   name: Paperwork
@@ -334,6 +335,7 @@
     attributes:
       proper: true
       gender: male
+  - type: DogVision
 
 - type: entity
   name: Morty
@@ -390,6 +392,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
+    whitelistRequired: false
     name: ghost-role-information-hamlet-name
     description: ghost-role-information-hamlet-description
   - type: InteractionPopup

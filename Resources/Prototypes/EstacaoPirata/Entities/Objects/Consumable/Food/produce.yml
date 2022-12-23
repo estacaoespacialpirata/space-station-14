@@ -1,0 +1,24 @@
+- type: entity
+  name: cacau
+  parent: FoodProduceBase
+  id: FoodCacao
+  description: A fruta do chocolate.
+  components:
+    - type: FlavorProfile
+      flavors:
+        - bitter
+    - type: SolutionContainerManager
+      solutions:
+        food:
+          maxVol: 13
+          reagents:
+            - ReagentId: Nutriment
+              Quantity: 4
+            - ReagentId: Theobromine
+              Quantity: 5
+            - ReagentId: Vitamin
+              Quantity: 4
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Specific/Hydroponics/cacao.rsi
+    - type: Produce
+      seedId: cacao

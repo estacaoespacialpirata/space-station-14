@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ShockCollar
+  name: shock collar
+  description: Shocking. Placeholder sprite.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Clothing/Neck/Misc/shock.rsi
+  - type: Clothing
+    sprite: Nyanotrasen/Clothing/Neck/Misc/shock.rsi
+  - type: ShockCollar
+  - type: TriggerOnSignal
+  - type: SignalReceiver
+    inputs:
+      Trigger: []

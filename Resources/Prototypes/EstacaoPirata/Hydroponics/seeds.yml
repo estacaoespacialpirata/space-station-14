@@ -1,0 +1,28 @@
+- type: seed
+  id: cacao
+  name: cacau
+  displayName: árvore de cacau
+  plantRsi: EstacaoPirata/Objects/Specific/Hydroponics/cacao.rsi
+  productPrototypes:
+    - FoodCacao
+  harvestRepeat: Repeat
+  lifespan: 50
+  maturation: 6
+  production: 6
+  yield: 3
+  idealLight: 8
+  waterConsumption: 6
+  idealHeat: 298
+  chemicals:
+    Vitamin:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
+    Nutriment:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
+    Theobromine:
+      Min: 1
+      Max: 5
+      PotencyDivisor: 20 

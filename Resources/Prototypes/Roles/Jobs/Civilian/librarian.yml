@@ -1,6 +1,7 @@
 - type: job
   id: Librarian
   name: job-name-librarian
+  setPreference: false
   playTimeTracker: JobLibrarian
   startingGear: LibrarianGear
   icon: "Librarian"

@@ -1,0 +1,30 @@
+- type: job
+  id: Epistemologist
+  name: job-name-epistemologist
+  description: job-desc-epistemologist
+  startingGear: EpistemologistGear
+  playTimeTracker: JobEpistemologist
+  icon: "Scientist"
+  supervisors: "the mystagogue"
+  access:
+  - Research
+  extendedAccess:
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      multiplier: 3
+
+- type: startingGear
+  id: EpistemologistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorWhite
+    back: ClothingBackpackScienceFilled
+    shoes: ClothingShoesColorWhite
+    outerClothing: ClothingOuterRobeWhite
+    id: EpistemicsPDA
+    ears: ClothingHeadsetEpistemics
+  innerclothingskirt: ClothingUniformJumpskirtColorWhite
+  satchel: ClothingBackpackSatchelScienceFilled
+  duffelbag: ClothingBackpackDuffelScienceFilled

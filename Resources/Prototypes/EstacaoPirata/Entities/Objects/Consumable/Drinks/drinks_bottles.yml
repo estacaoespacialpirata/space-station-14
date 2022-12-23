@@ -1,0 +1,57 @@
+# Base para garrafa plastica (nao quebra no impacto, nem da dano)
+- type: entity
+  parent: DrinkBase
+  id: DrinkPlasticBottleBaseFull
+  abstract: true
+  components:
+  - type: Drink
+    openSounds:
+      collection: bottleOpenSounds
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+  - type: Sprite
+    state: icon
+  - type: TrashOnEmpty
+    solution: drink
+
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkCachacaBottleFull
+  name: cachaça bottle
+  description: Aah, cachaça.
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Cachaca
+              Quantity: 100
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Consumable/Drinks/cachacabottle.rsi
+
+- type: entity
+  parent: DrinkPlasticBottleBaseFull
+  id: DrinkGuaranaBottleFull
+  name: guaraná bottle
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Guarana
+              Quantity: 100
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranabottle.rsi
+      #state: icon-1
+      layers:
+        - state: icon-0
+        - map: ["enum.SolutionContainerLayers.Fill"]
+          state: icon-1
+    - type: Appearance
+    - type: SolutionContainerVisuals
+      changeColor: false
+      maxFillLevels: 1
+      fillBaseName: icon-

@@ -10,6 +10,7 @@ artifact-effect-hint-consumption = Energy consumption
 artifact-effect-hint-release = Energy release
 artifact-effect-hint-biochemical = Biochemical disruption
 artifact-effect-hint-destruction = Station-wide destruction
+artifact-effect-hint-psionic = Noöspheric disturbance
 artifact-effect-hint-gun = Small entity accelerator
 artifact-effect-hint-multitool = Utility conglomerate
 artifact-effect-hint-storage = Internal chamber

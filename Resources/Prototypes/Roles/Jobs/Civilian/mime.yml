@@ -7,10 +7,13 @@
   supervisors: job-supervisors-hop
   access:
   - Theatre
+  - Service
+  extendedAccess:
   - Maintenance
   special:
   - !type:AddComponentSpecial
     components:
+    - type: Psionic
     - type: MimePowers
 
 - type: startingGear

@@ -172,8 +172,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSci
-  name: science sign
-  description: A direction sign, pointing out which way the Science department is.
+  name: epistemics sign
+  description: A direction sign, pointing out which way the Epistemics department is.
   components:
   - type: Sprite
     state: direction_sci
@@ -615,8 +615,8 @@
 - type: entity
   parent: BaseSign
   id: SignScience
-  name: science sign
-  description: A sign indicating the science area.
+  name: epistemics sign
+  description: A sign indicating the epistemics area.
   components:
   - type: Sprite
     state: sci
@@ -624,8 +624,8 @@
 - type: entity
   parent: BaseSign
   id: SignScience1
-  name: science sign
-  description: A sign indicating the science area.
+  name: epistemics sign
+  description: A sign indicating the epistemics area.
   components:
   - type: Sprite
     state: science1
@@ -633,8 +633,8 @@
 - type: entity
   parent: BaseSign
   id: SignScience2
-  name: science sign
-  description: A sign indicating the science area.
+  name: epistemics sign
+  description: A sign indicating the epistemics area.
   components:
   - type: Sprite
     state: science2

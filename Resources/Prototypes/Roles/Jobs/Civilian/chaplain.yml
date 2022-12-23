@@ -1,17 +1,28 @@
 - type: job
   id: Chaplain
   name: job-name-chaplain
-  playTimeTracker: JobChaplain
   startingGear: ChaplainGear
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Epistemics
+      time: 3600
+  playTimeTracker: JobChaplain
+  whitelistRequired: true
   icon: "Chaplain"
-  supervisors: job-supervisors-hop
+  supervisors: "the mystagogue"
   access:
   - Chapel
+  - Research
+  extendedAccess:
   - Maintenance
   special:
   - !type:AddComponentSpecial
     components:
     - type: BibleUser #Lets them heal with bibles
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      multiplier: 3
 
 - type: startingGear
   id: ChaplainGear
@@ -20,7 +31,7 @@
     back: ClothingBackpackChaplainFilled
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetEpistemics
   innerclothingskirt: ClothingUniformJumpskirtChaplain
   satchel: ClothingBackpackSatchelChaplainFilled
   duffelbag: ClothingBackpackDuffelChaplainFilled

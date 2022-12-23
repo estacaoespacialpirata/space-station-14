@@ -67,6 +67,7 @@
   id: SpawnPointSalvageSpecialist
   parent: SpawnPointJobBase
   name: salvagespecialist
+  noSpawn: true
   components:
   - type: SpawnPoint
     job_id: SalvageSpecialist
@@ -240,7 +241,6 @@
       layers:
         - state: green
         - state: musician
-
 # Command
 
 - type: entity

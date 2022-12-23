@@ -10,7 +10,7 @@ roles-antag-zombie-objective = Turn as many humans as possible into zombies.
 roles-antag-suspicion-innocent-name = Innocent
 roles-antag-suspicion-innocent-objective = Discover and eliminate all traitors.
 
-roles-antag-suspicion-suspect-name = Suspect
+roles-antag-suspicion-suspect-name = Suspect (unused)
 roles-antag-suspicion-suspect-objective = Kill the innocents.
 
 roles-antag-nuclear-operative-commander-name = Nuclear operative commander
@@ -18,3 +18,8 @@ roles-antag-nuclear-operative-commander-objective = Lead your team to the destru
 
 roles-antag-nuclear-operative-name = Nuclear operative
 roles-antag-nuclear-operative-objective = Find the nuke disk and blow up the station.
+
+roles-antag-fugitive-name = Fugitive
+roles-antag-fugitive-description = Survive. Escape.
+
+roles-antag-not-whitelisted = You need to be whitelisted to play antagonists.

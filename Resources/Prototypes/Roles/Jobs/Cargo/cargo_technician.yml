@@ -1,10 +1,11 @@
 - type: job
   id: CargoTechnician
   name: job-name-cargotech
+  setPreference: false
   playTimeTracker: JobCargoTechnician
   startingGear: CargoTechGear
   icon: "CargoTechnician"
-  supervisors: job-supervisors-hop-qm
+  supervisors: job-supervisors-hop
   access:
   - Cargo
   - Maintenance
