@@ -1,0 +1,133 @@
+- type: entity
+  id: MobSaci
+  name: Saci
+  parent: SimpleMobBase
+  components:
+  - type: Hands
+  - type: InputMover
+  - type: MobMover
+  - type: Sprite
+    netsync: false
+    drawdepth: Mobs
+    sprite: EstacaoPirata\Mobs\Humans\saci.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: saci
+  - type: Hunger
+  - type: Thirst
+  - type: MobPrice
+    price: 300000
+  - type: MovementSpeedModifier
+  - type: MovedByPressure
+  - type: Temperature
+    heatDamageThreshold: 400
+    coldDamageThreshold: 0
+    currentTemperature: 310.15
+  - type: MobState
+    thresholds:
+      0: Alive
+      100: Critical
+      200: Dead
+  - type: SaciPowers
+    worldTargetActions:
+    - Blink
+    selfTargetActions:
+    - Furacao
+  - type: Fixtures
+    fixtures:
+      - shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        restitution: 0.0
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+  - type: Flammable
+    fireSpread: true
+    canResistFire: true
+    damage:
+      types:
+        Heat: 1
+  - type: Climbing
+  - type: Cuffable
+  - type: Buckle
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      collection: Punch
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 5
+  - type: Pullable
+  - type: DoAfter
+  - type: CreamPied
+  - type: Stripping
+  - type: Strippable
+  - type: Puller
+  - type: Butcherable
+    butcheringType: Spike # TODO human.
+    spawned:
+      - id: FoodMeat
+        amount: 5
+  - type: Speech
+    speechSounds: Bass
+  - type: Vocal
+  - type: Emoting
+  - type: Grammar
+    attributes:
+      proper: true
+  - type: StandingState
+  - type: Fingerprint
+  - type: Perishable
+  - type: InjectableSolution
+    solution: chemicals
+  - type: IdExaminable
+  - type: HealthExaminable
+    examinableTypes:
+      - Blunt
+      - Slash
+      - Piercing
+      - Heat
+      - Shock
+  - type: Bloodstream
+    bloodlossDamage:
+      types:
+        Bloodloss:
+          1
+    bloodlossHealDamage:
+      types:
+        Bloodloss:
+          -0.25
+  - type: Stamina
+  - type: StatusEffects
+    allowed:
+      - Stun
+      - KnockedDown
+      - SlowedDown
+      - Stutter
+      - SeeingRainbows
+      - Electrocution
+      - Drunk
+      - SlurredSpeech
+      - PressureImmunity
+      - Muted
+      - ForcedSleep
+      - TemporaryBlindness
+      - Pacified
+  - type: DiseaseCarrier
+  - type: Blindable
+  - type: InteractionOutline
+  - type: ThermalRegulator
+    metabolismHeat: 800
+    radiatedHeat: 100
+    implicitHeatRegulation: 500
+    sweatHeatRegulation: 2000
+    shiveringHeatRegulation: 2000
+    normalBodyTemperature: 310.15
+    thermalRegulationTemperatureThreshold: 25
+  - type: HeatResistance
