@@ -1,6 +1,7 @@
 - type: entity
   id: MobSaci
-  name: Saci
+  name: saci-pererê
+  description: Wow, uma entidade dos mitos vira uma realidade!
   parent: SimpleMobBase
   components:
   - type: Hands

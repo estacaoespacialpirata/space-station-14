@@ -19,7 +19,9 @@ namespace Content.Server.EstacaoPirata.Saci;
 
         [ViewVariables]
         public readonly List<ActionType> Actions = new();
-
+        ///<summary>
+        ///cria DataFields dos tipos de ações em que você pode informar qualquer tipo de ação aqui veja Saci.yml para ver como é declarado.
+        ///</summary>
         [DataField("worldTargetActions", customTypeSerializer: typeof(PrototypeIdHashSetSerializer<WorldTargetActionPrototype>))] public HashSet<string> WorldTargetActions  = new();
         [DataField("entityTargetActions", customTypeSerializer: typeof(PrototypeIdHashSetSerializer<EntityTargetActionPrototype>))] public HashSet<string> EntityTargetActions  = new();
         [DataField("selfTargetActions", customTypeSerializer:typeof(PrototypeIdHashSetSerializer<InstantActionPrototype>))] public HashSet<string> SelfTargetActions  = new();

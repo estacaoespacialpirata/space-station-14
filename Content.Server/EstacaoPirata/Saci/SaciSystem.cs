@@ -61,8 +61,15 @@ public sealed class SaciSystem : EntitySystem
             SubscribeLocalEvent<SaciPowersComponent, ComponentStartup>(SaciPowersStartup);
             SubscribeLocalEvent<SaciPowersComponent, ComponentShutdown>(SaciPowersShutdown);
 
+            /*SubrscripeLocalEvent basicamente junta os argumentos (SaciPowersComponent e RevenantDefileActionEvent)
+              ao Handler OnFuracão Action, mas por quê? Porque pensa como RevenantDefileActionEvent como um trigger
+              que ativa OnFuracãoAction que é o efeito que faz os tiles serem jogados em várias direções in-game.
+              usamos SaciPowersComponent pelo motivo que a que vai ser usada aqui está lá, como DefileTilePryAmount
+            */
             SubscribeLocalEvent<SaciPowersComponent, RevenantDefileActionEvent>(OnFuracaoAction);
     }
+
+        //adiciona todas as ações informadas no yaml do saci nele quando ele é iniciado, como spawnado
         private void SaciPowersStartup (EntityUid uid, SaciPowersComponent component, ComponentStartup args)
         {
             foreach (var id in component.WorldTargetActions)
@@ -84,6 +91,7 @@ public sealed class SaciSystem : EntitySystem
             }
         }
 
+        //remove todas as ações informadas no yaml do saci nele quando ele é deletado
         private void SaciPowersShutdown(EntityUid uid, SaciPowersComponent component, ComponentShutdown args)
         {
             foreach (var id in component.WorldTargetActions)
@@ -104,6 +112,8 @@ public sealed class SaciSystem : EntitySystem
                 _actionsSystem.RemoveAction(uid, action, null);
             }
         }
+
+        //lógica do poderzinho do furaação
         private void OnFuracaoAction(EntityUid uid, SaciPowersComponent component, RevenantDefileActionEvent args)
     {
         if (args.Handled)
