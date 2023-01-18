@@ -23,6 +23,6 @@
     - Furacao
   - type: Inventory
     templateId: saci
-
+  - type: MobsterAccent
 
 
