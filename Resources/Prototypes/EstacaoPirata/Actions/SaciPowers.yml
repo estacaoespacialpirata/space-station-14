@@ -1,0 +1,7 @@
+- type: instantAction
+  id: Furacao
+  icon: Interface/Actions/defile.png
+  name: Furacão
+  description: Estraga tiles ao redor da sua localização
+  serverEvent: !type:RevenantDefileActionEvent
+  useDelay: 15
