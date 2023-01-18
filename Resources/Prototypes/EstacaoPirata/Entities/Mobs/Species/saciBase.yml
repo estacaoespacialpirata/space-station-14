@@ -1,0 +1,28 @@
+- type: entity
+  id: BaseMobSaci
+  name: saci-pererê
+  description: Wow, uma entidade dos mitos vira uma realidade!
+  parent: BaseMobOrganic
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Thirst
+  - type: Damageable
+    damageContainer: Biological
+  - type: Sprite
+    netsync: false
+    drawdepth: Mobs
+    sprite: EstacaoPirata\Mobs\Humans\saci.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: saci
+  - type: SaciPowers
+    worldTargetActions:
+    - Blink
+    selfTargetActions:
+    - Furacao
+  - type: Inventory
+    templateId: saci
+
+
+
