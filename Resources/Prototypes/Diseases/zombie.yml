@@ -15,7 +15,9 @@
       amount: 1
     - !type:DiseaseSnough
       probability: 0.01
-      emote: Cough
+      snoughMessage: disease-cough
+      snoughSound:
+        collection: Coughs
     - !type:DiseaseAddComponent
       comp: ZombifyOnDeath
   cures:

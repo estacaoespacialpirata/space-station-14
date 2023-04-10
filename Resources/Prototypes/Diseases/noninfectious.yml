@@ -31,7 +31,9 @@
       type: Add
     - !type:DiseaseSnough
       probability: 0.025
-      emote: Yawn
+      snoughMessage: disease-yawn
+      snoughSound:
+        collection: Yawns
     - !type:DiseaseHealthChange
       probability: 0.02
       damage:
@@ -58,7 +60,9 @@
       probability: 0.01
     - !type:DiseaseSnough
       probability: 0.10
-      emote: Cough
+      snoughMessage: disease-cough
+      snoughSound:
+        collection: Coughs
     - !type:DiseasePopUp
       probability: 0.03
 

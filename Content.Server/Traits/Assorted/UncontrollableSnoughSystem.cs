@@ -27,8 +27,7 @@ public sealed class UncontrollableSnoughSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        var query = EntityQueryEnumerator<UncontrollableSnoughComponent>();
-        while (query.MoveNext(out var ent, out var snough))
+        foreach (var snough in EntityQuery<UncontrollableSnoughComponent>())
         {
             snough.NextIncidentTime -= frameTime;
 
@@ -39,7 +38,7 @@ public sealed class UncontrollableSnoughSystem : EntitySystem
             snough.NextIncidentTime +=
                 _random.NextFloat(snough.TimeBetweenIncidents.X, snough.TimeBetweenIncidents.Y);
 
-            _diseaseSystem.SneezeCough(ent, null, snough.EmoteId, false);
+            _diseaseSystem.SneezeCough(snough.Owner, null, snough.SnoughMessage, snough.SnoughSound, false);
         }
     }
 }

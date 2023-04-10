@@ -1,3 +1,5 @@
+using Robust.Shared.Audio;
+
 namespace Content.Shared.Disease.Events;
 
 /// <summary>
@@ -5,4 +7,4 @@ namespace Content.Shared.Disease.Events;
 ///     Set Cancelled to true on event handling to suppress the sneeze
 /// </summary>
 [ByRefEvent]
-public record struct AttemptSneezeCoughEvent(EntityUid Uid, string? EmoteId, bool Cancelled = false);
+public record struct AttemptSneezeCoughEvent(EntityUid uid, string SnoughMessage, SoundSpecifier? SnoughSound, bool Cancelled = false);

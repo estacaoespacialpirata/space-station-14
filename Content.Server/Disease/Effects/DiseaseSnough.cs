@@ -1,7 +1,6 @@
-using Content.Shared.Chat.Prototypes;
 using Content.Shared.Disease;
 using JetBrains.Annotations;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+using Robust.Shared.Audio;
 
 namespace Content.Server.Disease
 {
@@ -13,10 +12,16 @@ namespace Content.Server.Disease
     public sealed class DiseaseSnough : DiseaseEffect
     {
         /// <summary>
-        /// Emote to play when snoughing
+        /// Message to play when snoughing
         /// </summary>
-        [DataField("emote", required: true, customTypeSerializer: typeof(PrototypeIdSerializer<EmotePrototype>))]
-        public string EmoteId = String.Empty;
+        [DataField("snoughMessage")]
+        public string SnoughMessage = "disease-sneeze";
+
+        /// <summary>
+        /// Sound to play when snoughing
+        /// </summary>
+        [DataField("snoughSound")]
+        public SoundSpecifier? SnoughSound;
 
         /// <summary>
         /// Whether to spread the disease through the air
@@ -26,7 +31,7 @@ namespace Content.Server.Disease
 
         public override void Effect(DiseaseEffectArgs args)
         {
-            EntitySystem.Get<DiseaseSystem>().SneezeCough(args.DiseasedEntity, args.Disease, EmoteId, AirTransmit);
+            EntitySystem.Get<DiseaseSystem>().SneezeCough(args.DiseasedEntity, args.Disease, SnoughMessage, SnoughSound, AirTransmit);
         }
     }
 }

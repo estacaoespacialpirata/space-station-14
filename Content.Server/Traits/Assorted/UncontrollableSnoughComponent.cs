@@ -1,5 +1,4 @@
-﻿using Content.Shared.Chat.Prototypes;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+﻿using Robust.Shared.Audio;
 
 namespace Content.Server.Traits.Assorted;
 
@@ -10,10 +9,14 @@ namespace Content.Server.Traits.Assorted;
 public sealed class UncontrollableSnoughComponent : Component
 {
     /// <summary>
-    /// Emote to play when snoughing
+    /// Message to play when snoughing.
     /// </summary>
-    [DataField("emote", required: true, customTypeSerializer: typeof(PrototypeIdSerializer<EmotePrototype>))]
-    public string EmoteId = String.Empty;
+    [DataField("snoughMessage")] public string SnoughMessage = "disease-sneeze";
+
+    /// <summary>
+    /// Sound to play when snoughing.
+    /// </summary>
+    [DataField("snoughSound")] public SoundSpecifier? SnoughSound;
 
     /// <summary>
     /// The random time between incidents, (min, max).
